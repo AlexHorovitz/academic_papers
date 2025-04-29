@@ -16,5 +16,268 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{blattner2007}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5abfa855e811d8403bf0cb8c6e0b84bc}{%
+           family={Blattner},
+           familyi={B\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=e59386cfa3273b049f85d5e655743b2b}{%
+           family={Dreyfus},
+           familyi={D\bibinitperiod},
+           given={Hubert\bibnamedelima L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=51bcec697fa9333fde8785d60ed5f504}{%
+           family={Wrathall},
+           familyi={W\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Blackwell Publishing}%
+      }
+      \strng{namehash}{5abfa855e811d8403bf0cb8c6e0b84bc}
+      \strng{fullhash}{5abfa855e811d8403bf0cb8c6e0b84bc}
+      \strng{fullhashraw}{5abfa855e811d8403bf0cb8c6e0b84bc}
+      \strng{bibnamehash}{5abfa855e811d8403bf0cb8c6e0b84bc}
+      \strng{authorbibnamehash}{5abfa855e811d8403bf0cb8c6e0b84bc}
+      \strng{authornamehash}{5abfa855e811d8403bf0cb8c6e0b84bc}
+      \strng{authorfullhash}{5abfa855e811d8403bf0cb8c6e0b84bc}
+      \strng{authorfullhashraw}{5abfa855e811d8403bf0cb8c6e0b84bc}
+      \strng{editorbibnamehash}{a8d029ea8eafd055a5f5eaa1b2155ce7}
+      \strng{editornamehash}{a8d029ea8eafd055a5f5eaa1b2155ce7}
+      \strng{editorfullhash}{a8d029ea8eafd055a5f5eaa1b2155ce7}
+      \strng{editorfullhashraw}{a8d029ea8eafd055a5f5eaa1b2155ce7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{A Companion to Heidegger}
+      \field{title}{Temporality}
+      \field{year}{2007}
+      \field{pages}{311\bibrangedash 324}
+      \range{pages}{14}
+    \endentry
+    \entry{dahlstrom1994}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=498798dd3dbc18255511549bcf9756c3}{%
+           family={Dahlstrom},
+           familyi={D\bibinitperiod},
+           given={Daniel\bibnamedelima O.},
+           giveni={D\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{498798dd3dbc18255511549bcf9756c3}
+      \strng{fullhash}{498798dd3dbc18255511549bcf9756c3}
+      \strng{fullhashraw}{498798dd3dbc18255511549bcf9756c3}
+      \strng{bibnamehash}{498798dd3dbc18255511549bcf9756c3}
+      \strng{authorbibnamehash}{498798dd3dbc18255511549bcf9756c3}
+      \strng{authornamehash}{498798dd3dbc18255511549bcf9756c3}
+      \strng{authorfullhash}{498798dd3dbc18255511549bcf9756c3}
+      \strng{authorfullhashraw}{498798dd3dbc18255511549bcf9756c3}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Review of Metaphysics}
+      \field{number}{4}
+      \field{title}{Heidegger's Method: Philosophical Concepts as Formal Indications}
+      \field{volume}{47}
+      \field{year}{1994}
+      \field{pages}{775\bibrangedash 795}
+      \range{pages}{21}
+    \endentry
+    \entry{heidegger1962}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=79b1e6f4199aeb3f853ca7cba607bfdc}{%
+           family={Heidegger},
+           familyi={H\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{2}{}{%
+        {{hash=c049344fee49846c5dfae43516b5bdec}{%
+           family={Macquarrie},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=92a3ea0c62723c7c38c5598e8f1ccb75}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Harper \& Row}%
+      }
+      \strng{namehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{fullhash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{fullhashraw}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{bibnamehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{authorbibnamehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{authornamehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{authorfullhash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{authorfullhashraw}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{translatorbibnamehash}{a925a43c0b7f949af0e494f45d525498}
+      \strng{translatornamehash}{a925a43c0b7f949af0e494f45d525498}
+      \strng{translatorfullhash}{a925a43c0b7f949af0e494f45d525498}
+      \strng{translatorfullhashraw}{a925a43c0b7f949af0e494f45d525498}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1927}
+      \field{title}{Being and Time}
+      \field{year}{1962}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{blattner2007}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5abfa855e811d8403bf0cb8c6e0b84bc}{%
+           family={Blattner},
+           familyi={B\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=e59386cfa3273b049f85d5e655743b2b}{%
+           family={Dreyfus},
+           familyi={D\bibinitperiod},
+           given={Hubert\bibnamedelima L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=51bcec697fa9333fde8785d60ed5f504}{%
+           family={Wrathall},
+           familyi={W\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Blackwell Publishing}%
+      }
+      \strng{namehash}{5abfa855e811d8403bf0cb8c6e0b84bc}
+      \strng{fullhash}{5abfa855e811d8403bf0cb8c6e0b84bc}
+      \strng{fullhashraw}{5abfa855e811d8403bf0cb8c6e0b84bc}
+      \strng{bibnamehash}{5abfa855e811d8403bf0cb8c6e0b84bc}
+      \strng{authorbibnamehash}{5abfa855e811d8403bf0cb8c6e0b84bc}
+      \strng{authornamehash}{5abfa855e811d8403bf0cb8c6e0b84bc}
+      \strng{authorfullhash}{5abfa855e811d8403bf0cb8c6e0b84bc}
+      \strng{authorfullhashraw}{5abfa855e811d8403bf0cb8c6e0b84bc}
+      \strng{editorbibnamehash}{a8d029ea8eafd055a5f5eaa1b2155ce7}
+      \strng{editornamehash}{a8d029ea8eafd055a5f5eaa1b2155ce7}
+      \strng{editorfullhash}{a8d029ea8eafd055a5f5eaa1b2155ce7}
+      \strng{editorfullhashraw}{a8d029ea8eafd055a5f5eaa1b2155ce7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{A Companion to Heidegger}
+      \field{title}{Temporality}
+      \field{year}{2007}
+      \field{pages}{311\bibrangedash 324}
+      \range{pages}{14}
+    \endentry
+    \entry{dahlstrom1994}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=498798dd3dbc18255511549bcf9756c3}{%
+           family={Dahlstrom},
+           familyi={D\bibinitperiod},
+           given={Daniel\bibnamedelima O.},
+           giveni={D\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{498798dd3dbc18255511549bcf9756c3}
+      \strng{fullhash}{498798dd3dbc18255511549bcf9756c3}
+      \strng{fullhashraw}{498798dd3dbc18255511549bcf9756c3}
+      \strng{bibnamehash}{498798dd3dbc18255511549bcf9756c3}
+      \strng{authorbibnamehash}{498798dd3dbc18255511549bcf9756c3}
+      \strng{authornamehash}{498798dd3dbc18255511549bcf9756c3}
+      \strng{authorfullhash}{498798dd3dbc18255511549bcf9756c3}
+      \strng{authorfullhashraw}{498798dd3dbc18255511549bcf9756c3}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Review of Metaphysics}
+      \field{number}{4}
+      \field{title}{Heidegger's Method: Philosophical Concepts as Formal Indications}
+      \field{volume}{47}
+      \field{year}{1994}
+      \field{pages}{775\bibrangedash 795}
+      \range{pages}{21}
+    \endentry
+    \entry{heidegger1962}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=79b1e6f4199aeb3f853ca7cba607bfdc}{%
+           family={Heidegger},
+           familyi={H\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{2}{}{%
+        {{hash=c049344fee49846c5dfae43516b5bdec}{%
+           family={Macquarrie},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=92a3ea0c62723c7c38c5598e8f1ccb75}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Harper \& Row}%
+      }
+      \strng{namehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{fullhash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{fullhashraw}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{bibnamehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{authorbibnamehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{authornamehash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{authorfullhash}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{authorfullhashraw}{79b1e6f4199aeb3f853ca7cba607bfdc}
+      \strng{translatorbibnamehash}{a925a43c0b7f949af0e494f45d525498}
+      \strng{translatornamehash}{a925a43c0b7f949af0e494f45d525498}
+      \strng{translatorfullhash}{a925a43c0b7f949af0e494f45d525498}
+      \strng{translatorfullhashraw}{a925a43c0b7f949af0e494f45d525498}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1927}
+      \field{title}{Being and Time}
+      \field{year}{1962}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
