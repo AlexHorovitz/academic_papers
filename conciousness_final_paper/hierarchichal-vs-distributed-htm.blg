@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: hierarchichal-vs-distributed-htm.aux
+The style file: apalike.bst
+Database file #1: references.bib
+You've used 24 entries,
+            1935 wiz_defined-function locations,
+            626 strings with 7367 characters,
+and the built_in function-call counts, 8684 in all, are:
+= -- 864
+> -- 278
+< -- 21
++ -- 98
+- -- 86
+* -- 711
+:= -- 1532
+add.period$ -- 73
+call.type$ -- 24
+change.case$ -- 158
+chr.to.int$ -- 24
+cite$ -- 24
+duplicate$ -- 343
+empty$ -- 651
+format.name$ -- 126
+if$ -- 1688
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 28
+newline$ -- 123
+num.names$ -- 74
+pop$ -- 114
+preamble$ -- 1
+purify$ -- 162
+quote$ -- 0
+skip$ -- 265
+stack$ -- 0
+substring$ -- 652
+swap$ -- 29
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 136
+warning$ -- 0
+while$ -- 81
+width$ -- 0
+write$ -- 316
