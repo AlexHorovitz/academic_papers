@@ -100,6 +100,96 @@
       \field{pages}{775\bibrangedash 795}
       \range{pages}{21}
     \endentry
+    \entry{dennett1991}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f4a7ef5757f8b8a262657ec68653e531}{%
+           family={Dennett},
+           familyi={D\bibinitperiod},
+           given={Daniel\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Little, Brown}%
+      }
+      \strng{namehash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{fullhash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{fullhashraw}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{bibnamehash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{authorbibnamehash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{authornamehash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{authorfullhash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{authorfullhashraw}{f4a7ef5757f8b8a262657ec68653e531}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Consciousness Explained}
+      \field{year}{1991}
+    \endentry
+    \entry{dreyfus1991}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e59386cfa3273b049f85d5e655743b2b}{%
+           family={Dreyfus},
+           familyi={D\bibinitperiod},
+           given={Hubert\bibnamedelima L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{e59386cfa3273b049f85d5e655743b2b}
+      \strng{fullhash}{e59386cfa3273b049f85d5e655743b2b}
+      \strng{fullhashraw}{e59386cfa3273b049f85d5e655743b2b}
+      \strng{bibnamehash}{e59386cfa3273b049f85d5e655743b2b}
+      \strng{authorbibnamehash}{e59386cfa3273b049f85d5e655743b2b}
+      \strng{authornamehash}{e59386cfa3273b049f85d5e655743b2b}
+      \strng{authorfullhash}{e59386cfa3273b049f85d5e655743b2b}
+      \strng{authorfullhashraw}{e59386cfa3273b049f85d5e655743b2b}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Being-in-the-World: A Commentary on Heidegger's Being and Time, Division I}
+      \field{year}{1991}
+    \endentry
+    \entry{hatley2000}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bc9c16896e4ffdd8b373553e5d471ad4}{%
+           family={Hatley},
+           familyi={H\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SUNY Press}%
+      }
+      \strng{namehash}{bc9c16896e4ffdd8b373553e5d471ad4}
+      \strng{fullhash}{bc9c16896e4ffdd8b373553e5d471ad4}
+      \strng{fullhashraw}{bc9c16896e4ffdd8b373553e5d471ad4}
+      \strng{bibnamehash}{bc9c16896e4ffdd8b373553e5d471ad4}
+      \strng{authorbibnamehash}{bc9c16896e4ffdd8b373553e5d471ad4}
+      \strng{authornamehash}{bc9c16896e4ffdd8b373553e5d471ad4}
+      \strng{authorfullhash}{bc9c16896e4ffdd8b373553e5d471ad4}
+      \strng{authorfullhashraw}{bc9c16896e4ffdd8b373553e5d471ad4}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Suffering Witness: The Quandary of Responsibility after the Irreparable}
+      \field{year}{2000}
+    \endentry
     \entry{heidegger1962}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=79b1e6f4199aeb3f853ca7cba607bfdc}{%
@@ -146,6 +236,200 @@
       \field{note}{Original work published 1927}
       \field{title}{Being and Time}
       \field{year}{1962}
+    \endentry
+    \entry{kuhn1996}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d0261ae5373d7a2ba373aa72a2ddac43}{%
+           family={Kuhn},
+           familyi={K\bibinitperiod},
+           given={Thomas\bibnamedelima S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{d0261ae5373d7a2ba373aa72a2ddac43}
+      \strng{fullhash}{d0261ae5373d7a2ba373aa72a2ddac43}
+      \strng{fullhashraw}{d0261ae5373d7a2ba373aa72a2ddac43}
+      \strng{bibnamehash}{d0261ae5373d7a2ba373aa72a2ddac43}
+      \strng{authorbibnamehash}{d0261ae5373d7a2ba373aa72a2ddac43}
+      \strng{authornamehash}{d0261ae5373d7a2ba373aa72a2ddac43}
+      \strng{authorfullhash}{d0261ae5373d7a2ba373aa72a2ddac43}
+      \strng{authorfullhashraw}{d0261ae5373d7a2ba373aa72a2ddac43}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd}
+      \field{title}{The Structure of Scientific Revolutions}
+      \field{year}{1996}
+    \endentry
+    \entry{merleauponty1962}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=83d062f99d033839537243075d75bad2}{%
+           family={Merleau-Ponty},
+           familyi={M\bibinithyphendelim P\bibinitperiod},
+           given={Maurice},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=6ad41c8b92469fc6e84206303d27f42f}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Colin},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge \& Kegan Paul}%
+      }
+      \strng{namehash}{83d062f99d033839537243075d75bad2}
+      \strng{fullhash}{83d062f99d033839537243075d75bad2}
+      \strng{fullhashraw}{83d062f99d033839537243075d75bad2}
+      \strng{bibnamehash}{83d062f99d033839537243075d75bad2}
+      \strng{authorbibnamehash}{83d062f99d033839537243075d75bad2}
+      \strng{authornamehash}{83d062f99d033839537243075d75bad2}
+      \strng{authorfullhash}{83d062f99d033839537243075d75bad2}
+      \strng{authorfullhashraw}{83d062f99d033839537243075d75bad2}
+      \strng{translatorbibnamehash}{6ad41c8b92469fc6e84206303d27f42f}
+      \strng{translatornamehash}{6ad41c8b92469fc6e84206303d27f42f}
+      \strng{translatorfullhash}{6ad41c8b92469fc6e84206303d27f42f}
+      \strng{translatorfullhashraw}{6ad41c8b92469fc6e84206303d27f42f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1945}
+      \field{title}{Phenomenology of Perception}
+      \field{year}{1962}
+    \endentry
+    \entry{popper2002}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af678ce291c200fd37cd78a346556e99}{%
+           family={Popper},
+           familyi={P\bibinitperiod},
+           given={Karl\bibnamedelima R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{af678ce291c200fd37cd78a346556e99}
+      \strng{fullhash}{af678ce291c200fd37cd78a346556e99}
+      \strng{fullhashraw}{af678ce291c200fd37cd78a346556e99}
+      \strng{bibnamehash}{af678ce291c200fd37cd78a346556e99}
+      \strng{authorbibnamehash}{af678ce291c200fd37cd78a346556e99}
+      \strng{authornamehash}{af678ce291c200fd37cd78a346556e99}
+      \strng{authorfullhash}{af678ce291c200fd37cd78a346556e99}
+      \strng{authorfullhashraw}{af678ce291c200fd37cd78a346556e99}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1935}
+      \field{title}{The Logic of Scientific Discovery}
+      \field{year}{2002}
+    \endentry
+    \entry{ricoeur1976}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3d20e6df30e34dcca4760bb31bddaa90}{%
+           family={Ricoeur},
+           familyi={R\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Texas Christian University Press}%
+      }
+      \strng{namehash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{fullhash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{fullhashraw}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{bibnamehash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{authorbibnamehash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{authornamehash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{authorfullhash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{authorfullhashraw}{3d20e6df30e34dcca4760bb31bddaa90}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Interpretation Theory: Discourse and the Surplus of Meaning}
+      \field{year}{1976}
+    \endentry
+    \entry{rorty1991}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=97010d3037910fbfdb9d9c2eb5bd7d33}{%
+           family={Rorty},
+           familyi={R\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{97010d3037910fbfdb9d9c2eb5bd7d33}
+      \strng{fullhash}{97010d3037910fbfdb9d9c2eb5bd7d33}
+      \strng{fullhashraw}{97010d3037910fbfdb9d9c2eb5bd7d33}
+      \strng{bibnamehash}{97010d3037910fbfdb9d9c2eb5bd7d33}
+      \strng{authorbibnamehash}{97010d3037910fbfdb9d9c2eb5bd7d33}
+      \strng{authornamehash}{97010d3037910fbfdb9d9c2eb5bd7d33}
+      \strng{authorfullhash}{97010d3037910fbfdb9d9c2eb5bd7d33}
+      \strng{authorfullhashraw}{97010d3037910fbfdb9d9c2eb5bd7d33}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Essays on Heidegger and Others: Philosophical Papers, Volume 2}
+      \field{year}{1991}
+    \endentry
+    \entry{taylor1985}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b0a71f7880e9a2621581cb2a2dd5c36f}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{b0a71f7880e9a2621581cb2a2dd5c36f}
+      \strng{fullhash}{b0a71f7880e9a2621581cb2a2dd5c36f}
+      \strng{fullhashraw}{b0a71f7880e9a2621581cb2a2dd5c36f}
+      \strng{bibnamehash}{b0a71f7880e9a2621581cb2a2dd5c36f}
+      \strng{authorbibnamehash}{b0a71f7880e9a2621581cb2a2dd5c36f}
+      \strng{authornamehash}{b0a71f7880e9a2621581cb2a2dd5c36f}
+      \strng{authorfullhash}{b0a71f7880e9a2621581cb2a2dd5c36f}
+      \strng{authorfullhashraw}{b0a71f7880e9a2621581cb2a2dd5c36f}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Philosophy and the Human Sciences: Philosophical Papers Volume 2}
+      \field{year}{1985}
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
@@ -230,6 +514,96 @@
       \field{pages}{775\bibrangedash 795}
       \range{pages}{21}
     \endentry
+    \entry{dennett1991}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f4a7ef5757f8b8a262657ec68653e531}{%
+           family={Dennett},
+           familyi={D\bibinitperiod},
+           given={Daniel\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Little, Brown}%
+      }
+      \strng{namehash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{fullhash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{fullhashraw}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{bibnamehash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{authorbibnamehash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{authornamehash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{authorfullhash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{authorfullhashraw}{f4a7ef5757f8b8a262657ec68653e531}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Consciousness Explained}
+      \field{year}{1991}
+    \endentry
+    \entry{dreyfus1991}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e59386cfa3273b049f85d5e655743b2b}{%
+           family={Dreyfus},
+           familyi={D\bibinitperiod},
+           given={Hubert\bibnamedelima L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{e59386cfa3273b049f85d5e655743b2b}
+      \strng{fullhash}{e59386cfa3273b049f85d5e655743b2b}
+      \strng{fullhashraw}{e59386cfa3273b049f85d5e655743b2b}
+      \strng{bibnamehash}{e59386cfa3273b049f85d5e655743b2b}
+      \strng{authorbibnamehash}{e59386cfa3273b049f85d5e655743b2b}
+      \strng{authornamehash}{e59386cfa3273b049f85d5e655743b2b}
+      \strng{authorfullhash}{e59386cfa3273b049f85d5e655743b2b}
+      \strng{authorfullhashraw}{e59386cfa3273b049f85d5e655743b2b}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Being-in-the-World: A Commentary on Heidegger's Being and Time, Division I}
+      \field{year}{1991}
+    \endentry
+    \entry{hatley2000}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bc9c16896e4ffdd8b373553e5d471ad4}{%
+           family={Hatley},
+           familyi={H\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SUNY Press}%
+      }
+      \strng{namehash}{bc9c16896e4ffdd8b373553e5d471ad4}
+      \strng{fullhash}{bc9c16896e4ffdd8b373553e5d471ad4}
+      \strng{fullhashraw}{bc9c16896e4ffdd8b373553e5d471ad4}
+      \strng{bibnamehash}{bc9c16896e4ffdd8b373553e5d471ad4}
+      \strng{authorbibnamehash}{bc9c16896e4ffdd8b373553e5d471ad4}
+      \strng{authornamehash}{bc9c16896e4ffdd8b373553e5d471ad4}
+      \strng{authorfullhash}{bc9c16896e4ffdd8b373553e5d471ad4}
+      \strng{authorfullhashraw}{bc9c16896e4ffdd8b373553e5d471ad4}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Suffering Witness: The Quandary of Responsibility after the Irreparable}
+      \field{year}{2000}
+    \endentry
     \entry{heidegger1962}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=79b1e6f4199aeb3f853ca7cba607bfdc}{%
@@ -276,6 +650,200 @@
       \field{note}{Original work published 1927}
       \field{title}{Being and Time}
       \field{year}{1962}
+    \endentry
+    \entry{kuhn1996}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d0261ae5373d7a2ba373aa72a2ddac43}{%
+           family={Kuhn},
+           familyi={K\bibinitperiod},
+           given={Thomas\bibnamedelima S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{d0261ae5373d7a2ba373aa72a2ddac43}
+      \strng{fullhash}{d0261ae5373d7a2ba373aa72a2ddac43}
+      \strng{fullhashraw}{d0261ae5373d7a2ba373aa72a2ddac43}
+      \strng{bibnamehash}{d0261ae5373d7a2ba373aa72a2ddac43}
+      \strng{authorbibnamehash}{d0261ae5373d7a2ba373aa72a2ddac43}
+      \strng{authornamehash}{d0261ae5373d7a2ba373aa72a2ddac43}
+      \strng{authorfullhash}{d0261ae5373d7a2ba373aa72a2ddac43}
+      \strng{authorfullhashraw}{d0261ae5373d7a2ba373aa72a2ddac43}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd}
+      \field{title}{The Structure of Scientific Revolutions}
+      \field{year}{1996}
+    \endentry
+    \entry{merleauponty1962}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=83d062f99d033839537243075d75bad2}{%
+           family={Merleau-Ponty},
+           familyi={M\bibinithyphendelim P\bibinitperiod},
+           given={Maurice},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=6ad41c8b92469fc6e84206303d27f42f}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Colin},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge \& Kegan Paul}%
+      }
+      \strng{namehash}{83d062f99d033839537243075d75bad2}
+      \strng{fullhash}{83d062f99d033839537243075d75bad2}
+      \strng{fullhashraw}{83d062f99d033839537243075d75bad2}
+      \strng{bibnamehash}{83d062f99d033839537243075d75bad2}
+      \strng{authorbibnamehash}{83d062f99d033839537243075d75bad2}
+      \strng{authornamehash}{83d062f99d033839537243075d75bad2}
+      \strng{authorfullhash}{83d062f99d033839537243075d75bad2}
+      \strng{authorfullhashraw}{83d062f99d033839537243075d75bad2}
+      \strng{translatorbibnamehash}{6ad41c8b92469fc6e84206303d27f42f}
+      \strng{translatornamehash}{6ad41c8b92469fc6e84206303d27f42f}
+      \strng{translatorfullhash}{6ad41c8b92469fc6e84206303d27f42f}
+      \strng{translatorfullhashraw}{6ad41c8b92469fc6e84206303d27f42f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1945}
+      \field{title}{Phenomenology of Perception}
+      \field{year}{1962}
+    \endentry
+    \entry{popper2002}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af678ce291c200fd37cd78a346556e99}{%
+           family={Popper},
+           familyi={P\bibinitperiod},
+           given={Karl\bibnamedelima R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{af678ce291c200fd37cd78a346556e99}
+      \strng{fullhash}{af678ce291c200fd37cd78a346556e99}
+      \strng{fullhashraw}{af678ce291c200fd37cd78a346556e99}
+      \strng{bibnamehash}{af678ce291c200fd37cd78a346556e99}
+      \strng{authorbibnamehash}{af678ce291c200fd37cd78a346556e99}
+      \strng{authornamehash}{af678ce291c200fd37cd78a346556e99}
+      \strng{authorfullhash}{af678ce291c200fd37cd78a346556e99}
+      \strng{authorfullhashraw}{af678ce291c200fd37cd78a346556e99}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Original work published 1935}
+      \field{title}{The Logic of Scientific Discovery}
+      \field{year}{2002}
+    \endentry
+    \entry{ricoeur1976}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3d20e6df30e34dcca4760bb31bddaa90}{%
+           family={Ricoeur},
+           familyi={R\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Texas Christian University Press}%
+      }
+      \strng{namehash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{fullhash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{fullhashraw}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{bibnamehash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{authorbibnamehash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{authornamehash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{authorfullhash}{3d20e6df30e34dcca4760bb31bddaa90}
+      \strng{authorfullhashraw}{3d20e6df30e34dcca4760bb31bddaa90}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Interpretation Theory: Discourse and the Surplus of Meaning}
+      \field{year}{1976}
+    \endentry
+    \entry{rorty1991}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=97010d3037910fbfdb9d9c2eb5bd7d33}{%
+           family={Rorty},
+           familyi={R\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{97010d3037910fbfdb9d9c2eb5bd7d33}
+      \strng{fullhash}{97010d3037910fbfdb9d9c2eb5bd7d33}
+      \strng{fullhashraw}{97010d3037910fbfdb9d9c2eb5bd7d33}
+      \strng{bibnamehash}{97010d3037910fbfdb9d9c2eb5bd7d33}
+      \strng{authorbibnamehash}{97010d3037910fbfdb9d9c2eb5bd7d33}
+      \strng{authornamehash}{97010d3037910fbfdb9d9c2eb5bd7d33}
+      \strng{authorfullhash}{97010d3037910fbfdb9d9c2eb5bd7d33}
+      \strng{authorfullhashraw}{97010d3037910fbfdb9d9c2eb5bd7d33}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Essays on Heidegger and Others: Philosophical Papers, Volume 2}
+      \field{year}{1991}
+    \endentry
+    \entry{taylor1985}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b0a71f7880e9a2621581cb2a2dd5c36f}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{b0a71f7880e9a2621581cb2a2dd5c36f}
+      \strng{fullhash}{b0a71f7880e9a2621581cb2a2dd5c36f}
+      \strng{fullhashraw}{b0a71f7880e9a2621581cb2a2dd5c36f}
+      \strng{bibnamehash}{b0a71f7880e9a2621581cb2a2dd5c36f}
+      \strng{authorbibnamehash}{b0a71f7880e9a2621581cb2a2dd5c36f}
+      \strng{authornamehash}{b0a71f7880e9a2621581cb2a2dd5c36f}
+      \strng{authorfullhash}{b0a71f7880e9a2621581cb2a2dd5c36f}
+      \strng{authorfullhashraw}{b0a71f7880e9a2621581cb2a2dd5c36f}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Philosophy and the Human Sciences: Philosophical Papers Volume 2}
+      \field{year}{1985}
     \endentry
   \enddatalist
 \endrefsection
