@@ -1,134 +1,887 @@
-\begin{thebibliography}{}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem[Ahmad and Hawkins, 2015]{ahmad2015properties}
-Ahmad, S. and Hawkins, J. (2015).
-\newblock Properties of sparse distributed representations and their
-  application to hierarchical temporal memory.
-\newblock {\em arXiv preprint}, arXiv:1503.07469.
 
-\bibitem[Apps and Tsakiris, 2015]{apps2015prediction}
-Apps, M. A.~J. and Tsakiris, M. (2015).
-\newblock Prediction and the brain: How predictive coding explains attention,
-  social cognition, and the self.
-\newblock {\em Brain Research}, 1626:158--176.
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{ahmad2015properties}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a01da48611238f2d1508928a8b87f5bf}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Subutai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae942e35d736eab568a4727899116694}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{fullhash}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{fullhashraw}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{bibnamehash}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{authorbibnamehash}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{authornamehash}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{authorfullhash}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{authorfullhashraw}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Technical Report, Numenta}
+      \field{title}{Properties of Sparse Distributed Representations and their Application to Hierarchical Temporal Memory}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://numenta.com/resources/white-papers/
+      \endverb
+      \verb{url}
+      \verb https://numenta.com/resources/white-papers/
+      \endverb
+    \endentry
+    \entry{carls2022where}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9b18469a4621d8611d2cfb195138c83}{%
+           family={Carls-Diamante},
+           familyi={C\bibinithyphendelim D\bibinitperiod},
+           given={Sidney},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b9b18469a4621d8611d2cfb195138c83}
+      \strng{fullhash}{b9b18469a4621d8611d2cfb195138c83}
+      \strng{fullhashraw}{b9b18469a4621d8611d2cfb195138c83}
+      \strng{bibnamehash}{b9b18469a4621d8611d2cfb195138c83}
+      \strng{authorbibnamehash}{b9b18469a4621d8611d2cfb195138c83}
+      \strng{authornamehash}{b9b18469a4621d8611d2cfb195138c83}
+      \strng{authorfullhash}{b9b18469a4621d8611d2cfb195138c83}
+      \strng{authorfullhashraw}{b9b18469a4621d8611d2cfb195138c83}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Systems Neuroscience}
+      \field{title}{Where is it like to be an octopus?}
+      \field{volume}{16}
+      \field{year}{2022}
+      \field{pages}{840022}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fnsys.2022.840022
+      \endverb
+    \endentry
+    \entry{clark2016surfing}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f9dc85571871980f95346c5af4ceb5b3}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{fullhash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{fullhashraw}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{bibnamehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authorbibnamehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authornamehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authorfullhash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authorfullhashraw}{f9dc85571871980f95346c5af4ceb5b3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Surfing Uncertainty: Prediction, Action, and the Embodied Mind}
+      \field{year}{2016}
+    \endentry
+    \entry{cui2017spatial}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5d97832974ff2ef946e57431a946adfe}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Yuwei},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a01da48611238f2d1508928a8b87f5bf}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Subutai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae942e35d736eab568a4727899116694}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e96d34cbf148e18d086a44ab9152b6e6}
+      \strng{fullhash}{ba34e2efd8f7eeb637ed8a2384fa0861}
+      \strng{fullhashraw}{ba34e2efd8f7eeb637ed8a2384fa0861}
+      \strng{bibnamehash}{ba34e2efd8f7eeb637ed8a2384fa0861}
+      \strng{authorbibnamehash}{ba34e2efd8f7eeb637ed8a2384fa0861}
+      \strng{authornamehash}{e96d34cbf148e18d086a44ab9152b6e6}
+      \strng{authorfullhash}{ba34e2efd8f7eeb637ed8a2384fa0861}
+      \strng{authorfullhashraw}{ba34e2efd8f7eeb637ed8a2384fa0861}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Computational Neuroscience}
+      \field{title}{The HTM Spatial Pooler—A neocortical algorithm for online sparse distributed coding}
+      \field{volume}{11}
+      \field{year}{2017}
+      \field{pages}{111}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fncom.2017.00111
+      \endverb
+    \endentry
+    \entry{friston2010free}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f452a84796a900973333b32a5f8bc61}{%
+           family={Friston},
+           familyi={F\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{fullhash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{fullhashraw}{9f452a84796a900973333b32a5f8bc61}
+      \strng{bibnamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorbibnamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authornamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorfullhash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorfullhashraw}{9f452a84796a900973333b32a5f8bc61}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Reviews Neuroscience}
+      \field{number}{2}
+      \field{title}{The free-energy principle: a unified brain theory?}
+      \field{volume}{11}
+      \field{year}{2010}
+      \field{pages}{127\bibrangedash 138}
+      \range{pages}{12}
+    \endentry
+    \entry{hawkins2016why}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ae942e35d736eab568a4727899116694}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a01da48611238f2d1508928a8b87f5bf}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Subutai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{50f537ebd8b3c10284387a3caeb0ac06}
+      \strng{fullhash}{50f537ebd8b3c10284387a3caeb0ac06}
+      \strng{fullhashraw}{50f537ebd8b3c10284387a3caeb0ac06}
+      \strng{bibnamehash}{50f537ebd8b3c10284387a3caeb0ac06}
+      \strng{authorbibnamehash}{50f537ebd8b3c10284387a3caeb0ac06}
+      \strng{authornamehash}{50f537ebd8b3c10284387a3caeb0ac06}
+      \strng{authorfullhash}{50f537ebd8b3c10284387a3caeb0ac06}
+      \strng{authorfullhashraw}{50f537ebd8b3c10284387a3caeb0ac06}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Neural Circuits}
+      \field{title}{Why neurons have thousands of synapses, a theory of sequence memory in neocortex}
+      \field{volume}{10}
+      \field{year}{2016}
+      \field{pages}{23}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fncir.2016.00023
+      \endverb
+    \endentry
+    \entry{hawkins2009sequence}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ae942e35d736eab568a4727899116694}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ec5c9b1115d5d7eef6ee95a1d257e46}{%
+           family={George},
+           familyi={G\bibinitperiod},
+           given={Dileep},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a04ad91594b2ae2c7c232c139c2822e5}{%
+           family={Niemasik},
+           familyi={N\bibinitperiod},
+           given={Jamie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society}%
+      }
+      \strng{namehash}{f68230db8116f80acde830cfa26745f2}
+      \strng{fullhash}{aaa532ec9307a76d6319e846e47bdd15}
+      \strng{fullhashraw}{aaa532ec9307a76d6319e846e47bdd15}
+      \strng{bibnamehash}{aaa532ec9307a76d6319e846e47bdd15}
+      \strng{authorbibnamehash}{aaa532ec9307a76d6319e846e47bdd15}
+      \strng{authornamehash}{f68230db8116f80acde830cfa26745f2}
+      \strng{authorfullhash}{aaa532ec9307a76d6319e846e47bdd15}
+      \strng{authorfullhashraw}{aaa532ec9307a76d6319e846e47bdd15}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society B: Biological Sciences}
+      \field{number}{1521}
+      \field{title}{Sequence memory for prediction, inference and behaviour}
+      \field{volume}{364}
+      \field{year}{2009}
+      \field{pages}{1203\bibrangedash 1209}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1098/rstb.2008.0322
+      \endverb
+    \endentry
+    \entry{hawkins2017theory}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ae942e35d736eab568a4727899116694}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a01da48611238f2d1508928a8b87f5bf}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Subutai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d97832974ff2ef946e57431a946adfe}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Yuwei},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f68230db8116f80acde830cfa26745f2}
+      \strng{fullhash}{4805d97e72d5022e0ea6270655cd63bc}
+      \strng{fullhashraw}{4805d97e72d5022e0ea6270655cd63bc}
+      \strng{bibnamehash}{4805d97e72d5022e0ea6270655cd63bc}
+      \strng{authorbibnamehash}{4805d97e72d5022e0ea6270655cd63bc}
+      \strng{authornamehash}{f68230db8116f80acde830cfa26745f2}
+      \strng{authorfullhash}{4805d97e72d5022e0ea6270655cd63bc}
+      \strng{authorfullhashraw}{4805d97e72d5022e0ea6270655cd63bc}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Neural Circuits}
+      \field{title}{A theory of how columns in the neocortex enable learning the structure of the world}
+      \field{volume}{11}
+      \field{year}{2017}
+      \field{pages}{81}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fncir.2017.00081
+      \endverb
+    \endentry
+    \entry{huffard2013cephalopod}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87c1a8781bdae98ac83046ccac19572f}{%
+           family={Huffard},
+           familyi={H\bibinitperiod},
+           given={Christine\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{87c1a8781bdae98ac83046ccac19572f}
+      \strng{fullhash}{87c1a8781bdae98ac83046ccac19572f}
+      \strng{fullhashraw}{87c1a8781bdae98ac83046ccac19572f}
+      \strng{bibnamehash}{87c1a8781bdae98ac83046ccac19572f}
+      \strng{authorbibnamehash}{87c1a8781bdae98ac83046ccac19572f}
+      \strng{authornamehash}{87c1a8781bdae98ac83046ccac19572f}
+      \strng{authorfullhash}{87c1a8781bdae98ac83046ccac19572f}
+      \strng{authorfullhashraw}{87c1a8781bdae98ac83046ccac19572f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Invertebrate Neuroscience}
+      \field{title}{Cephalopod neurobiology: An introduction for biologists working in other model systems}
+      \field{volume}{13}
+      \field{year}{2013}
+      \field{pages}{11\bibrangedash 18}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/s10158-013-0147-z
+      \endverb
+    \endentry
+    \entry{mather2021octopus}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b849cd341c6bb4beecaae39305d8490e}{%
+           family={Mather},
+           familyi={M\bibinitperiod},
+           given={Jennifer\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b849cd341c6bb4beecaae39305d8490e}
+      \strng{fullhash}{b849cd341c6bb4beecaae39305d8490e}
+      \strng{fullhashraw}{b849cd341c6bb4beecaae39305d8490e}
+      \strng{bibnamehash}{b849cd341c6bb4beecaae39305d8490e}
+      \strng{authorbibnamehash}{b849cd341c6bb4beecaae39305d8490e}
+      \strng{authornamehash}{b849cd341c6bb4beecaae39305d8490e}
+      \strng{authorfullhash}{b849cd341c6bb4beecaae39305d8490e}
+      \strng{authorfullhashraw}{b849cd341c6bb4beecaae39305d8490e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NeuroSci}
+      \field{number}{3}
+      \field{title}{Octopus consciousness: The role of perceptual richness}
+      \field{volume}{2}
+      \field{year}{2021}
+      \field{pages}{276\bibrangedash 290}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.3390/neurosci2030020
+      \endverb
+    \endentry
+    \entry{mountcastle1997columnar}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9242a97176b3047c6097b83266963cf}{%
+           family={Mountcastle},
+           familyi={M\bibinitperiod},
+           given={Vernon\bibnamedelima B.},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{b9242a97176b3047c6097b83266963cf}
+      \strng{fullhash}{b9242a97176b3047c6097b83266963cf}
+      \strng{fullhashraw}{b9242a97176b3047c6097b83266963cf}
+      \strng{bibnamehash}{b9242a97176b3047c6097b83266963cf}
+      \strng{authorbibnamehash}{b9242a97176b3047c6097b83266963cf}
+      \strng{authornamehash}{b9242a97176b3047c6097b83266963cf}
+      \strng{authorfullhash}{b9242a97176b3047c6097b83266963cf}
+      \strng{authorfullhashraw}{b9242a97176b3047c6097b83266963cf}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Brain}
+      \field{number}{4}
+      \field{title}{The columnar organization of the neocortex}
+      \field{volume}{120}
+      \field{year}{1997}
+      \field{pages}{701\bibrangedash 722}
+      \range{pages}{22}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{ahmad2015properties}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a01da48611238f2d1508928a8b87f5bf}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Subutai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae942e35d736eab568a4727899116694}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{fullhash}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{fullhashraw}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{bibnamehash}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{authorbibnamehash}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{authornamehash}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{authorfullhash}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{authorfullhashraw}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Technical Report, Numenta}
+      \field{title}{Properties of Sparse Distributed Representations and their Application to Hierarchical Temporal Memory}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://numenta.com/resources/white-papers/
+      \endverb
+      \verb{url}
+      \verb https://numenta.com/resources/white-papers/
+      \endverb
+    \endentry
+    \entry{carls2022where}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9b18469a4621d8611d2cfb195138c83}{%
+           family={Carls-Diamante},
+           familyi={C\bibinithyphendelim D\bibinitperiod},
+           given={Sidney},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b9b18469a4621d8611d2cfb195138c83}
+      \strng{fullhash}{b9b18469a4621d8611d2cfb195138c83}
+      \strng{fullhashraw}{b9b18469a4621d8611d2cfb195138c83}
+      \strng{bibnamehash}{b9b18469a4621d8611d2cfb195138c83}
+      \strng{authorbibnamehash}{b9b18469a4621d8611d2cfb195138c83}
+      \strng{authornamehash}{b9b18469a4621d8611d2cfb195138c83}
+      \strng{authorfullhash}{b9b18469a4621d8611d2cfb195138c83}
+      \strng{authorfullhashraw}{b9b18469a4621d8611d2cfb195138c83}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Systems Neuroscience}
+      \field{title}{Where is it like to be an octopus?}
+      \field{volume}{16}
+      \field{year}{2022}
+      \field{pages}{840022}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fnsys.2022.840022
+      \endverb
+    \endentry
+    \entry{clark2016surfing}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f9dc85571871980f95346c5af4ceb5b3}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{fullhash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{fullhashraw}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{bibnamehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authorbibnamehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authornamehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authorfullhash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authorfullhashraw}{f9dc85571871980f95346c5af4ceb5b3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Surfing Uncertainty: Prediction, Action, and the Embodied Mind}
+      \field{year}{2016}
+    \endentry
+    \entry{cui2017spatial}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5d97832974ff2ef946e57431a946adfe}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Yuwei},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a01da48611238f2d1508928a8b87f5bf}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Subutai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae942e35d736eab568a4727899116694}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e96d34cbf148e18d086a44ab9152b6e6}
+      \strng{fullhash}{ba34e2efd8f7eeb637ed8a2384fa0861}
+      \strng{fullhashraw}{ba34e2efd8f7eeb637ed8a2384fa0861}
+      \strng{bibnamehash}{ba34e2efd8f7eeb637ed8a2384fa0861}
+      \strng{authorbibnamehash}{ba34e2efd8f7eeb637ed8a2384fa0861}
+      \strng{authornamehash}{e96d34cbf148e18d086a44ab9152b6e6}
+      \strng{authorfullhash}{ba34e2efd8f7eeb637ed8a2384fa0861}
+      \strng{authorfullhashraw}{ba34e2efd8f7eeb637ed8a2384fa0861}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Computational Neuroscience}
+      \field{title}{The HTM Spatial Pooler—A neocortical algorithm for online sparse distributed coding}
+      \field{volume}{11}
+      \field{year}{2017}
+      \field{pages}{111}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fncom.2017.00111
+      \endverb
+    \endentry
+    \entry{friston2010free}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f452a84796a900973333b32a5f8bc61}{%
+           family={Friston},
+           familyi={F\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{fullhash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{fullhashraw}{9f452a84796a900973333b32a5f8bc61}
+      \strng{bibnamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorbibnamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authornamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorfullhash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorfullhashraw}{9f452a84796a900973333b32a5f8bc61}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Reviews Neuroscience}
+      \field{number}{2}
+      \field{title}{The free-energy principle: a unified brain theory?}
+      \field{volume}{11}
+      \field{year}{2010}
+      \field{pages}{127\bibrangedash 138}
+      \range{pages}{12}
+    \endentry
+    \entry{hawkins2016why}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ae942e35d736eab568a4727899116694}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a01da48611238f2d1508928a8b87f5bf}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Subutai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{50f537ebd8b3c10284387a3caeb0ac06}
+      \strng{fullhash}{50f537ebd8b3c10284387a3caeb0ac06}
+      \strng{fullhashraw}{50f537ebd8b3c10284387a3caeb0ac06}
+      \strng{bibnamehash}{50f537ebd8b3c10284387a3caeb0ac06}
+      \strng{authorbibnamehash}{50f537ebd8b3c10284387a3caeb0ac06}
+      \strng{authornamehash}{50f537ebd8b3c10284387a3caeb0ac06}
+      \strng{authorfullhash}{50f537ebd8b3c10284387a3caeb0ac06}
+      \strng{authorfullhashraw}{50f537ebd8b3c10284387a3caeb0ac06}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Neural Circuits}
+      \field{title}{Why neurons have thousands of synapses, a theory of sequence memory in neocortex}
+      \field{volume}{10}
+      \field{year}{2016}
+      \field{pages}{23}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fncir.2016.00023
+      \endverb
+    \endentry
+    \entry{hawkins2017theory}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ae942e35d736eab568a4727899116694}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a01da48611238f2d1508928a8b87f5bf}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Subutai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d97832974ff2ef946e57431a946adfe}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Yuwei},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f68230db8116f80acde830cfa26745f2}
+      \strng{fullhash}{4805d97e72d5022e0ea6270655cd63bc}
+      \strng{fullhashraw}{4805d97e72d5022e0ea6270655cd63bc}
+      \strng{bibnamehash}{4805d97e72d5022e0ea6270655cd63bc}
+      \strng{authorbibnamehash}{4805d97e72d5022e0ea6270655cd63bc}
+      \strng{authornamehash}{f68230db8116f80acde830cfa26745f2}
+      \strng{authorfullhash}{4805d97e72d5022e0ea6270655cd63bc}
+      \strng{authorfullhashraw}{4805d97e72d5022e0ea6270655cd63bc}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Neural Circuits}
+      \field{title}{A theory of how columns in the neocortex enable learning the structure of the world}
+      \field{volume}{11}
+      \field{year}{2017}
+      \field{pages}{81}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fncir.2017.00081
+      \endverb
+    \endentry
+    \entry{hawkins2009sequence}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ae942e35d736eab568a4727899116694}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ec5c9b1115d5d7eef6ee95a1d257e46}{%
+           family={George},
+           familyi={G\bibinitperiod},
+           given={Dileep},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a04ad91594b2ae2c7c232c139c2822e5}{%
+           family={Niemasik},
+           familyi={N\bibinitperiod},
+           given={Jamie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society}%
+      }
+      \strng{namehash}{f68230db8116f80acde830cfa26745f2}
+      \strng{fullhash}{aaa532ec9307a76d6319e846e47bdd15}
+      \strng{fullhashraw}{aaa532ec9307a76d6319e846e47bdd15}
+      \strng{bibnamehash}{aaa532ec9307a76d6319e846e47bdd15}
+      \strng{authorbibnamehash}{aaa532ec9307a76d6319e846e47bdd15}
+      \strng{authornamehash}{f68230db8116f80acde830cfa26745f2}
+      \strng{authorfullhash}{aaa532ec9307a76d6319e846e47bdd15}
+      \strng{authorfullhashraw}{aaa532ec9307a76d6319e846e47bdd15}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society B: Biological Sciences}
+      \field{number}{1521}
+      \field{title}{Sequence memory for prediction, inference and behaviour}
+      \field{volume}{364}
+      \field{year}{2009}
+      \field{pages}{1203\bibrangedash 1209}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1098/rstb.2008.0322
+      \endverb
+    \endentry
+    \entry{huffard2013cephalopod}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87c1a8781bdae98ac83046ccac19572f}{%
+           family={Huffard},
+           familyi={H\bibinitperiod},
+           given={Christine\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{87c1a8781bdae98ac83046ccac19572f}
+      \strng{fullhash}{87c1a8781bdae98ac83046ccac19572f}
+      \strng{fullhashraw}{87c1a8781bdae98ac83046ccac19572f}
+      \strng{bibnamehash}{87c1a8781bdae98ac83046ccac19572f}
+      \strng{authorbibnamehash}{87c1a8781bdae98ac83046ccac19572f}
+      \strng{authornamehash}{87c1a8781bdae98ac83046ccac19572f}
+      \strng{authorfullhash}{87c1a8781bdae98ac83046ccac19572f}
+      \strng{authorfullhashraw}{87c1a8781bdae98ac83046ccac19572f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Invertebrate Neuroscience}
+      \field{title}{Cephalopod neurobiology: An introduction for biologists working in other model systems}
+      \field{volume}{13}
+      \field{year}{2013}
+      \field{pages}{11\bibrangedash 18}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/s10158-013-0147-z
+      \endverb
+    \endentry
+    \entry{mather2021octopus}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b849cd341c6bb4beecaae39305d8490e}{%
+           family={Mather},
+           familyi={M\bibinitperiod},
+           given={Jennifer\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b849cd341c6bb4beecaae39305d8490e}
+      \strng{fullhash}{b849cd341c6bb4beecaae39305d8490e}
+      \strng{fullhashraw}{b849cd341c6bb4beecaae39305d8490e}
+      \strng{bibnamehash}{b849cd341c6bb4beecaae39305d8490e}
+      \strng{authorbibnamehash}{b849cd341c6bb4beecaae39305d8490e}
+      \strng{authornamehash}{b849cd341c6bb4beecaae39305d8490e}
+      \strng{authorfullhash}{b849cd341c6bb4beecaae39305d8490e}
+      \strng{authorfullhashraw}{b849cd341c6bb4beecaae39305d8490e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NeuroSci}
+      \field{number}{3}
+      \field{title}{Octopus consciousness: The role of perceptual richness}
+      \field{volume}{2}
+      \field{year}{2021}
+      \field{pages}{276\bibrangedash 290}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.3390/neurosci2030020
+      \endverb
+    \endentry
+    \entry{mountcastle1997columnar}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9242a97176b3047c6097b83266963cf}{%
+           family={Mountcastle},
+           familyi={M\bibinitperiod},
+           given={Vernon\bibnamedelima B.},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{b9242a97176b3047c6097b83266963cf}
+      \strng{fullhash}{b9242a97176b3047c6097b83266963cf}
+      \strng{fullhashraw}{b9242a97176b3047c6097b83266963cf}
+      \strng{bibnamehash}{b9242a97176b3047c6097b83266963cf}
+      \strng{authorbibnamehash}{b9242a97176b3047c6097b83266963cf}
+      \strng{authornamehash}{b9242a97176b3047c6097b83266963cf}
+      \strng{authorfullhash}{b9242a97176b3047c6097b83266963cf}
+      \strng{authorfullhashraw}{b9242a97176b3047c6097b83266963cf}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Brain}
+      \field{number}{4}
+      \field{title}{The columnar organization of the neocortex}
+      \field{volume}{120}
+      \field{year}{1997}
+      \field{pages}{701\bibrangedash 722}
+      \range{pages}{22}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
 
-\bibitem[Carls-Diamante, 2022]{carls-diamante2022octopusconsciousness}
-Carls-Diamante, S. (2022).
-\newblock Where is it like to be an octopus?
-\newblock {\em Frontiers in Systems Neuroscience}, 16:840022.
-
-\bibitem[Chalmers, 1996]{chalmers1996consciousmind}
-Chalmers, D.~J. (1996).
-\newblock {\em The Conscious Mind: In Search of a Fundamental Theory}.
-\newblock Oxford University Press, New York.
-
-\bibitem[Clark, 2016]{clark2016surfinguncertainty}
-Clark, A. (2016).
-\newblock {\em Surfing Uncertainty: Prediction, Action, and the Embodied Mind}.
-\newblock Oxford University Press, Oxford.
-
-\bibitem[Feldman and Friston, 2010]{feldman2010attention}
-Feldman, H. and Friston, K. (2010).
-\newblock Attention, uncertainty, and free-energy.
-\newblock {\em Frontiers in Human Neuroscience}, 4:215.
-
-\bibitem[Fidalgo-Mathies and Sumbre, 2021]{fidalgomathis2021octopus}
-Fidalgo-Mathies, J. and Sumbre, G. (2021).
-\newblock Octopus episodic-like memory: Behavioral evidence and the
-  implications for consciousness.
-\newblock {\em Frontiers in Systems Neuroscience}, 15:682487.
-
-\bibitem[Friston, 2005]{friston2005theory}
-Friston, K. (2005).
-\newblock A theory of cortical responses.
-\newblock {\em Philosophical Transactions of the Royal Society B: Biological
-  Sciences}, 360(1456):815--836.
-
-\bibitem[Friston, 2010]{friston2010freeenergy}
-Friston, K. (2010).
-\newblock The free-energy principle: a unified brain theory?
-\newblock {\em Nature Reviews Neuroscience}, 11(2):127--138.
-
-\bibitem[Godfrey-Smith, 2016]{godfrey-smith2016octopus}
-Godfrey-Smith, P. (2016).
-\newblock {\em Other Minds: The Octopus, the Sea, and the Deep Origins of
-  Consciousness}.
-\newblock Farrar, Straus and Giroux, New York.
-
-\bibitem[Gutnick et~al., 2011]{gutnick2011octopus}
-Gutnick, T., Byrne, R.~A., Hochner, B., and Kuba, M.~J. (2011).
-\newblock Tactile discrimination in the octopus: Fine control of octopus arm
-  movements.
-\newblock {\em Journal of Comparative Physiology A}, 197:903--912.
-
-\bibitem[Hawkins, 2017]{hawkins2017thousand}
-Hawkins, J. (2017).
-\newblock A thousand brains: A new theory of intelligence.
-\newblock {\em arXiv preprint}, arXiv:1707.06208.
-
-\bibitem[Hawkins and Ahmad, 2016]{hawkins2016neurons}
-Hawkins, J. and Ahmad, S. (2016).
-\newblock Why neurons have thousands of synapses, a theory of sequence memory
-  in neocortex.
-\newblock {\em Frontiers in Neural Circuits}, 10:23.
-
-\bibitem[Hawkins and Blakeslee, 2004]{hawkins2004onintelligence}
-Hawkins, J. and Blakeslee, S. (2004).
-\newblock {\em On Intelligence}.
-\newblock St. Martin's Press, New York.
-
-\bibitem[Hochner, 2012]{hochner2012octopus}
-Hochner, B. (2012).
-\newblock An embodied view of octopus neurobiology.
-\newblock {\em Current Biology}, 22(20):R887--R892.
-
-\bibitem[Kelman et~al., 2006]{kelman2006polarization}
-Kelman, E.~J., Osorio, D., and Baddeley, R.~J. (2006).
-\newblock Polarization signals and the response of marine organisms.
-\newblock {\em Marine and Freshwater Behaviour and Physiology}, 39(1):1--14.
-
-\bibitem[Kuba et~al., 2006]{kuba2006playful}
-Kuba, M.~J., Byrne, R.~A., Meisel, D.~V., and Mather, J.~A. (2006).
-\newblock Do octopuses play?
-\newblock {\em Journal of Comparative Psychology}, 120(3):184--190.
-
-\bibitem[Mather, 2008]{mather2008octopus}
-Mather, J.~A. (2008).
-\newblock Cephalopod consciousness: behavioural evidence.
-\newblock {\em Consciousness and Cognition}, 17(1):37--48.
-
-\bibitem[Mather, 2021]{mather2021octopusperception}
-Mather, J.~A. (2021).
-\newblock Octopus consciousness: The role of perceptual richness.
-\newblock {\em NeuroSci}, 2(3):276--290.
-
-\bibitem[Mountcastle, 1978]{mountcastle1978mindfulbrain}
-Mountcastle, V.~B. (1978).
-\newblock An organizing principle for cerebral function: The unit model and the
-  distributed system.
-\newblock In Edelman, G.~M. and Mountcastle, V.~B., editors, {\em The Mindful
-  Brain}, pages 7--50. MIT Press, Cambridge, MA.
-
-\bibitem[Olshausen and Field, 1996]{olshausen1996emergence}
-Olshausen, B.~A. and Field, D.~J. (1996).
-\newblock Emergence of simple-cell receptive field properties by learning a
-  sparse code for natural images.
-\newblock {\em Nature}, 381(6583):607--609.
-
-\bibitem[Rao and Ballard, 1999]{rao1999predictive}
-Rao, R.~P. and Ballard, D.~H. (1999).
-\newblock Predictive coding in the visual cortex: a functional interpretation
-  of some extra-classical receptive-field effects.
-\newblock {\em Nature Neuroscience}, 2(1):79--87.
-
-\bibitem[Seth, 2015]{seth2015prediction}
-Seth, A.~K. (2015).
-\newblock Prediction, inference, and consciousness.
-\newblock {\em Consciousness and Cognition}, 36:1--12.
-
-\bibitem[Zylinski et~al., 2013]{zylinski2013arm}
-Zylinski, S., Osorio, D., and Shohet, A.~J. (2013).
-\newblock Visual control of arm movement in the octopus.
-\newblock {\em Frontiers in Physiology}, 4:97.
-
-\end{thebibliography}
