@@ -3092,6 +3092,13 @@
     <bcf:citekey order="13" intorder="1">clark2016surfing</bcf:citekey>
     <bcf:citekey order="14" intorder="1">friston2010free</bcf:citekey>
     <bcf:citekey order="15" intorder="1">cui2017spatial</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">huffard2013cephalopod</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">carls2022where</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">mather2021octopus</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">carls2022where</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">mountcastle1997columnar</bcf:citekey>
+    <bcf:citekey order="20" intorder="2">clark2016surfing</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">carls2022where</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

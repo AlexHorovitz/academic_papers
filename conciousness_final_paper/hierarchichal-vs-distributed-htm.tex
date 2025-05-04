@@ -1,7 +1,10 @@
 \documentclass{article}
 \usepackage{amsmath}
 \usepackage{amssymb}
-\usepackage[style=apa, backend=biber]{biblatex}
+\usepackage{array}
+\usepackage[hyphens]{url} 
+\usepackage{hyperref}
+\usepackage[style=apa, backend=biber, doi=true, url=true]{biblatex}
 \setlength{\bibitemsep}{1.5\baselineskip}
 \DeclareLanguageMapping{american}{american-apa}
 \addbibresource{hierarchichal-vs-distributed-htm.bib}
@@ -14,8 +17,10 @@
 
 \begin{document}
 \setlength{\parskip}{0.75em}
-
 \maketitle
+\begin{abstract}
+This paper explores the emergence of consciousness through the lens of predictive processing, focusing on Hierarchical Temporal Memory (HTM) as a biologically inspired model of temporally structured inference. Drawing from Mountcastle’s theory of the neocortex and Jeff Hawkins’ implementation of HTM, I examine how centralized cortical architectures generate coherent, unified conscious experiences via sparse distributed representations and sequence memory. I then extend this framework to the radically different neuroanatomy of the octopus, whose decentralized nervous system distributes cognition across its limbs. I argue that octopus cognition may implement a form of distributed temporal memory, functionally analogous to HTM but realized without a central integrator. This cross-species comparison challenges the assumption that consciousness requires anatomical centralization and instead suggests that predictive coherence—whether globally unified or locally emergent—is sufficient for conscious-like behavior. The resulting framework has implications for the study of animal cognition, artificial intelligence, and the philosophy of mind, offering a generalized model of consciousness as the dynamic coordination of temporally grounded predictions across modular systems.
+\end{abstract}
 
 
 \section{Introduction}
@@ -76,8 +81,82 @@ Ultimately, HTM presents a computational metaphor for the unity of consciousness
 
 When considering non-human architectures in subsequent sections (particularly the decentralized nervous system of the octopus) this distributed-but-unified model offers a crucial theoretical tool. It allows for the possibility that systems with distinct structural organizations might still exhibit conscious unity, provided they implement mechanisms for temporal prediction and inter-module coordination. HTM thus serves not only as a model of cortical computation but also as a bridge between neurobiology and the phenomenology of conscious experience.
 
+\section{Octopus Neuroanatomy and Distributed Cognition}
 
+The octopus presents a fascinating divergence from the centralized nervous architectures commonly associated with conscious cognition. Unlike the human brain, which is characterized by tightly integrated cortical hierarchies and central hubs such as the thalamus and corpus callosum, the octopus nervous system is radically decentralized. Of its approximately 500 million neurons, more than two-thirds reside not in the central brain but in its eight arms \parencite{huffard2013cephalopod}. Each arm contains an axial nerve cord and a complex brachial plexus capable of independent sensorimotor control. This anatomical autonomy raises profound questions about the nature of information integration, perception, and perhaps consciousness in distributed systems.
 
+From a functional standpoint, octopus arms exhibit substantial independence. Severed arms continue to respond to tactile stimuli and can perform coordinated movements such as reaching, grasping, and withdrawal reflexes \parencite{carls2022where}. These behaviors are not mere reflexes; they involve complex sensorimotor transformations typically attributed to higher-order processing in vertebrates. The arms can initiate movement sequences, modulate motor output based on context, and even adjust their stiffness and compliance dynamically. These capabilities suggest that each limb acts as a semi-autonomous controller, akin to a computational module with access to local sensors, effectors, and memory.
+
+In the HTM framework, this architecture invites comparison to independent columns learning sequences within their own localized receptive fields. Just as HTM columns process temporal patterns in parallel and communicate via lateral connections, octopus arms appear to encode, store, and predict sensorimotor contingencies independently. However, unlike the tightly interconnected cortical columns of the human brain, the communication between octopus arms and the central brain is limited, asymmetrical, and in some cases bypassed entirely. This leads to the intriguing possibility that the octopus supports a form of distributed temporal memory implemented not within a single neural hierarchy, but across physically separate neural loci.
+
+Moreover, octopus arms possess a high density of sensory modalities—tactile, proprioceptive, and chemical—all of which are processed locally. Each arm integrates these inputs to generate motor outputs in real time, without the need for global oversight. As Mather \parencite{mather2021octopus} notes, the richness of these sensory experiences does not automatically entail conscious access; however, the octopus's problem-solving behaviors, tool use, and exploratory learning suggest that such perceptual richness is cognitively accessible and behaviorally exploited.
+
+The central brain, while less neuronally dense than the arms, appears to coordinate higher-order tasks such as spatial navigation, decision-making, and contextual modulation. For example, octopuses can learn mazes, remember object locations, and even engage in observational learning—all behaviors that imply integrative cognitive functions. However, rather than imposing top-down control, the brain may act more as a negotiator among autonomous limbs, facilitating coordination when necessary but otherwise permitting decentralized execution \parencite{carls2022where}.
+
+To better understand this architecture, Carls-Diamante introduces the metaphor of the “octo-munculus,” a conceptual inversion of the cortical homunculus. Instead of a centralized map of the body in the brain, the octopus possesses local maps of the world distributed throughout the body. This model suggests that each arm maintains its own somatotopic and sensorimotor representations, possibly with its own subjective point of view. While speculative, this view challenges conventional assumptions that conscious experience must be centralized or singular.
+
+The distributed nature of the octopus nervous system thus prompts a re-evaluation of unity in cognition. If each arm functions as an independent predictive system with memory and learning capacity, can it be said to possess a fragment of the octopus’s consciousness? Or does the animal maintain a unified conscious field by integrating these distributed outputs in a higher-order, perhaps transient, workspace? The answer may depend on whether unity is understood as structural (requiring anatomical convergence) or functional (requiring coordinated prediction and behavior).
+
+Within the HTM paradigm, functional unity is achievable without structural centralization. Predictive coherence can arise from multiple columns operating in parallel, provided they align through shared context and lateral modulation. If similar principles apply to the octopus, it is conceivable that conscious coherence could emerge from interactions among the arms themselves, mediated by proprioceptive feedback, behavioral coordination, or environmental scaffolding. In this view, consciousness would not reside in any one place but would “bubble up” from the sensorimotor synchrony of the system as a whole.
+
+As well, the octopus challenges the anthropocentric bias in consciousness research that equates complexity with centralization. Its behavioral sophistication suggests that distributed networks, even those with minimal interconnectivity, can support flexible, adaptive, and possibly phenomenally rich cognition. This has implications not only for comparative neurobiology but also for artificial intelligence. If cognition and consciousness can emerge from distributed predictors without centralized integration, then architectures inspired by HTM might be applied to decentralized robotic systems or synthetic organisms.
+
+The octopus nervous system provides us a clear case of embodied distributed cognition. It reveals that predictive learning and temporal memory can be implemented outside of canonical cortical architectures, and it raises the possibility that consciousness need not be unified in the traditional sense to be functionally coherent. In the next section, I will use the HTM framework to formalize this idea and propose a model of distributed temporal memory that bridges the gap between octopus cognition and neocortical prediction architectures.
+
+\section{Comparative Analysis: Centralized vs. Distributed Consciousness}
+
+Having explored the human neocortex through the lens of Hierarchical Temporal Memory (HTM) and contrasted it with the octopus's distributed nervous system, I now turn to the deeper theoretical implications of these architectures for understanding consciousness. Specifically, I assess whether the unified, integrated nature of human experience is an essential feature of consciousness, or whether consciousness can instead emerge from systems with no centralized control—provided they possess predictive capacity and temporal coherence.
+
+The HTM framework, grounded in the canonical cortical column model, clearly supports a centralized architecture. It postulates that hierarchical layers of predictive modules—organized topographically and functionally—interact through both bottom-up and top-down signals to generate stable, context-sensitive predictions. This architecture aligns well with global workspace theories, which emphasize a central, integrative mechanism that broadcasts information across functionally specialized subsystems. The brain’s ability to bind visual, auditory, proprioceptive, and affective content into a unified stream of experience appears to depend on such wide-reaching integration \parencite{mountcastle1997columnar, clark2016surfing}.
+
+However, the octopus challenges this picture. With no anatomical equivalent of the corpus callosum or thalamic relay systems, the octopus operates with minimal central oversight. Its arms process sensory input, initiate motor output, and learn from environmental interaction with relative independence. Yet octopuses exhibit behaviors that appear intentional, exploratory, and adaptive—hallmarks of intelligent agency. This observation suggests that centralized integration may not be necessary for complex cognition, and by extension, may not be necessary for consciousness.
+
+To adjudicate between these models, I compare them along several theoretical dimensions: integration, temporal continuity, flexibility, and embodiment.
+
+\vspace{1em}
+\begin{table}[ht]
+\centering
+\small
+\caption{Comparison of Centralized and Distributed Cognitive Architectures}
+\vspace{0.75em}
+\begin{tabular}{|m{2.25cm}|m{4.25cm}|m{4.25cm}|}
+\hline
+\textbf{Feature} & \textbf{Centralized Architecture (e.g., Human Neocortex)} & \textbf{Distributed Architecture (e.g., Octopus Nervous System)} \\
+\hline
+\textbf{Integration} & High integration through hierarchical and lateral connectivity; unified workspace for global access & Local integration through situated interaction; coordination is transient and task-specific \\
+\hline
+\textbf{Temporal Continuity} & Long-range temporal memory through hierarchical sequence learning; coherent experience over time & Episodic and context-specific temporal patterns; possibly multiple local timelines \\
+\hline
+\textbf{Flexibility} & Achieved through top-down modulation, attention, and representational reconfiguration & Emergent from local autonomy and embodied sensorimotor feedback; reactive and opportunistic \\
+\hline
+\textbf{Embodiment} & Abstract internal models encoded in cortical circuits; body is sensor and effector & Body is a computational resource; cognition extended through limbs and environment \\
+\hline
+\end{tabular}
+\label{tab:architecture_comparison}
+\end{table}
+\vspace{1em}
+
+Taken in this way, comparisons suggest that centralized and distributed architectures are two instantiations of a more general principle: cognition, and possibly consciousness, arises from temporally organized prediction within a network of interacting modules. What matters is not where the predictions occur, but how they are used—whether they generate coherent behavior, track relevant features of the environment, and adapt over time. Centralization is one solution to this problem, but not the only one.
+
+Moreover, this comparative analysis challenges common assumptions in philosophy of mind and cognitive science. If consciousness is tightly coupled to structural integration, then the octopus should be unconscious despite its apparent intelligence. If, however, consciousness is grounded in the coordination of predictive systems, regardless of their anatomical arrangement, then distributed architectures like that of the octopus may support a different kind of conscious experience—one that is fragmented, partial, or embodied differently across space and time.
+
+This raises an important epistemological issue: our models of consciousness may be biased toward architectures like our own. Human consciousness is unified, continuous, and introspectively accessible. But these properties may not be universal. As Carls-Diamante \parencite{carls2022where} argues, there may be something it is like to be an octopus arm—suggesting that consciousness can be multiply realized, fragmented, or spatially distributed. HTM, when generalized beyond the cortical column, provides a formalism capable of modeling such non-unified systems.
+
+As a result, centralized and distributed models of consciousness need not be mutually exclusive. Instead, they may represent points along a continuum of organizational strategies, each suited to different ecological and anatomical constraints. What unites them is the core mechanism of temporal prediction—implemented either through hierarchical inference or decentralized coordination. HTM, as a computational theory of temporal memory and prediction, thus offers a unique lens through which both types of systems can be understood, compared, and perhaps even unified.
+
+\section{Conclusion and Implications}
+
+In this paper, I have sought to explore the emergence of consciousness from a predictive processing perspective, focusing on HTM as both a computational model and a theoretical framework. HTM, grounded in the structure of the human neocortex, offers a mechanism for temporally organized prediction, contextual learning, and representational coherence—features that underwrite the unity of conscious experience in humans. I have contrasted this centralized model with the radically decentralized nervous system of the octopus, whose arms possess independent sensory and motor capabilities and seemingly exhibit context-sensitive behavior even in the absence of centralized control.
+
+Such a comparison supports this paper's central claim: consciousness does not strictly require anatomical centralization, but rather functional coherence among predictive subsystems. In both humans and octopuses, cognition appears to emerge from temporally extended, context-sensitive inference. In HTM, this is achieved through hierarchical and lateral connectivity; in octopuses, it arises through embodied coordination, local autonomy, and environmentally situated interaction.
+
+Althought I don't feel as though I am the first to make them, the implications of this claim are significant. First, it broadens our understanding of consciousness beyond anthropocentric or vertebrate-centric models. Consciousness need not be globally unified or introspectively accessible in the way it is for humans. It may instead be partial, distributed, or fluid, shaped by the organism's ecological niche and sensorimotor structure. This perspective opens the door to recognizing alternative forms of sentience in non-human animals and demands more nuanced approaches in comparative neuroscience.
+
+Secondly, this work provides a new lens for my core work around artificial cognitive architectures for manufacturing. By abstracting the core features of prediction, sparsity, and temporal memory, HTM can be extended to systems without centralized processors. Distributed HTM-like modules could be embedded in robots or synthetic organisms, allowing for adaptive behavior and learning through local interaction. Such architectures may be more resilient, scalable, and capable of emergent coordination than monolithic deep learning systems, particularly in dynamic or embodied environments.
+
+Thirdly, this framework contributes to philosophical debates about the nature of consciousness and its necessary conditions. If consciousness is grounded in the synchronization of temporally structured predictions, then unity becomes a contingent property rather than a necessary one. This raises questions about whether we can meaningfully speak of "what it is like" to be a system that is not globally integrated, and challenges traditional assumptions in theories of mind and identity. The possibility of partial or modular consciousness, as in the octopus, calls for an expanded phenomenological vocabulary—one that can accommodate systems with multiple, loosely coupled predictive centers.
+
+Lastly, my project underscores the value of cross-species and cross-disciplinary inquiry. Understanding consciousness demands models that are biologically plausible, computationally grounded, and philosophically coherent. By integrating neuroscience, cognitive theory, and philosophy of mind, this paper suggests a unified yet flexible framework for modeling consciousness in both centralized and distributed systems. This is a step toward a more general theory of embodied prediction—one that applies not only to humans but to diverse forms of life and cognition.
 \newpage
 \printbibliography
 \end{document}

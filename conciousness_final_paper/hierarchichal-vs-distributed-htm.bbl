@@ -52,11 +52,8 @@
       \field{note}{Technical Report, Numenta}
       \field{title}{Properties of Sparse Distributed Representations and their Application to Hierarchical Temporal Memory}
       \field{year}{2015}
-      \verb{urlraw}
-      \verb https://numenta.com/resources/white-papers/
-      \endverb
-      \verb{url}
-      \verb https://numenta.com/resources/white-papers/
+      \verb{doi}
+      \verb 10.48550/arXiv.1503.07469
       \endverb
     \endentry
     \entry{carls2022where}{article}{}{}
@@ -125,6 +122,12 @@
       \field{labeltitlesource}{title}
       \field{title}{Surfing Uncertainty: Prediction, Action, and the Embodied Mind}
       \field{year}{2016}
+      \verb{urlraw}
+      \verb https://github.com/AlexHorovitz/academic_papers/blob/main/conciousness_final_paper/sources/surfing-uncertainty-prediction-action-and-the-embodied-mind-reprintnbsped-0190933216-9780190933210_compress.pdf
+      \endverb
+      \verb{url}
+      \verb https://github.com/AlexHorovitz/academic_papers/blob/main/conciousness_final_paper/sources/surfing-uncertainty-prediction-action-and-the-embodied-mind-reprintnbsped-0190933216-9780190933210_compress.pdf
+      \endverb
     \endentry
     \entry{cui2017spatial}{article}{}{}
       \name{author}{3}{}{%
@@ -206,6 +209,12 @@
       \field{year}{2010}
       \field{pages}{127\bibrangedash 138}
       \range{pages}{12}
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/nrn2787
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/nrn2787
+      \endverb
     \endentry
     \entry{hawkins2016why}{article}{}{}
       \name{author}{2}{}{%
@@ -448,6 +457,9 @@
       \field{year}{1997}
       \field{pages}{701\bibrangedash 722}
       \range{pages}{22}
+      \verb{doi}
+      \verb 10.1093/brain/120.4.701
+      \endverb
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
@@ -484,11 +496,8 @@
       \field{note}{Technical Report, Numenta}
       \field{title}{Properties of Sparse Distributed Representations and their Application to Hierarchical Temporal Memory}
       \field{year}{2015}
-      \verb{urlraw}
-      \verb https://numenta.com/resources/white-papers/
-      \endverb
-      \verb{url}
-      \verb https://numenta.com/resources/white-papers/
+      \verb{doi}
+      \verb 10.48550/arXiv.1503.07469
       \endverb
     \endentry
     \entry{carls2022where}{article}{}{}
@@ -557,6 +566,12 @@
       \field{labeltitlesource}{title}
       \field{title}{Surfing Uncertainty: Prediction, Action, and the Embodied Mind}
       \field{year}{2016}
+      \verb{urlraw}
+      \verb https://github.com/AlexHorovitz/academic_papers/blob/main/conciousness_final_paper/sources/surfing-uncertainty-prediction-action-and-the-embodied-mind-reprintnbsped-0190933216-9780190933210_compress.pdf
+      \endverb
+      \verb{url}
+      \verb https://github.com/AlexHorovitz/academic_papers/blob/main/conciousness_final_paper/sources/surfing-uncertainty-prediction-action-and-the-embodied-mind-reprintnbsped-0190933216-9780190933210_compress.pdf
+      \endverb
     \endentry
     \entry{cui2017spatial}{article}{}{}
       \name{author}{3}{}{%
@@ -638,6 +653,12 @@
       \field{year}{2010}
       \field{pages}{127\bibrangedash 138}
       \range{pages}{12}
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/nrn2787
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/nrn2787
+      \endverb
     \endentry
     \entry{hawkins2016why}{article}{}{}
       \name{author}{2}{}{%
@@ -880,6 +901,9 @@
       \field{year}{1997}
       \field{pages}{701\bibrangedash 722}
       \range{pages}{22}
+      \verb{doi}
+      \verb 10.1093/brain/120.4.701
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
