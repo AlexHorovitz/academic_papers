@@ -216,6 +216,45 @@
       \verb https://www.nature.com/articles/nrn2787
       \endverb
     \endentry
+    \entry{hawkins2004intelligence}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ae942e35d736eab568a4727899116694}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Times Books}%
+      }
+      \strng{namehash}{ae942e35d736eab568a4727899116694}
+      \strng{fullhash}{ae942e35d736eab568a4727899116694}
+      \strng{fullhashraw}{ae942e35d736eab568a4727899116694}
+      \strng{bibnamehash}{ae942e35d736eab568a4727899116694}
+      \strng{authorbibnamehash}{ae942e35d736eab568a4727899116694}
+      \strng{authornamehash}{ae942e35d736eab568a4727899116694}
+      \strng{authorfullhash}{ae942e35d736eab568a4727899116694}
+      \strng{authorfullhashraw}{ae942e35d736eab568a4727899116694}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On Intelligence: How a New Understanding of the Brain Will Lead to the Creation of Truly Intelligent Machines}
+      \field{year}{2004}
+      \verb{urlraw}
+      \verb https://amzn.to/3GFIIGl
+      \endverb
+      \verb{url}
+      \verb https://amzn.to/3GFIIGl
+      \endverb
+    \endentry
     \entry{hawkins2016why}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ae942e35d736eab568a4727899116694}{%
@@ -443,6 +482,7 @@
       \strng{authornamehash}{b9242a97176b3047c6097b83266963cf}
       \strng{authorfullhash}{b9242a97176b3047c6097b83266963cf}
       \strng{authorfullhashraw}{b9242a97176b3047c6097b83266963cf}
+      \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -459,6 +499,46 @@
       \range{pages}{22}
       \verb{doi}
       \verb 10.1093/brain/120.4.701
+      \endverb
+    \endentry
+    \entry{mountcastle1998perceptual}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9242a97176b3047c6097b83266963cf}{%
+           family={Mountcastle},
+           familyi={M\bibinitperiod},
+           given={Vernon\bibnamedelima B.},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Massachusetts}%
+      }
+      \list{publisher}{1}{%
+        {Harvard University Press}%
+      }
+      \strng{namehash}{b9242a97176b3047c6097b83266963cf}
+      \strng{fullhash}{b9242a97176b3047c6097b83266963cf}
+      \strng{fullhashraw}{b9242a97176b3047c6097b83266963cf}
+      \strng{bibnamehash}{b9242a97176b3047c6097b83266963cf}
+      \strng{authorbibnamehash}{b9242a97176b3047c6097b83266963cf}
+      \strng{authornamehash}{b9242a97176b3047c6097b83266963cf}
+      \strng{authorfullhash}{b9242a97176b3047c6097b83266963cf}
+      \strng{authorfullhashraw}{b9242a97176b3047c6097b83266963cf}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Perceptual Neuroscience: THE CEREBRAL CORTEX}
+      \field{year}{1998}
+      \verb{urlraw}
+      \verb https://amzn.to/43glK1l
+      \endverb
+      \verb{url}
+      \verb https://amzn.to/43glK1l
       \endverb
     \endentry
   \enddatalist
@@ -660,6 +740,45 @@
       \verb https://www.nature.com/articles/nrn2787
       \endverb
     \endentry
+    \entry{hawkins2004intelligence}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ae942e35d736eab568a4727899116694}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Times Books}%
+      }
+      \strng{namehash}{ae942e35d736eab568a4727899116694}
+      \strng{fullhash}{ae942e35d736eab568a4727899116694}
+      \strng{fullhashraw}{ae942e35d736eab568a4727899116694}
+      \strng{bibnamehash}{ae942e35d736eab568a4727899116694}
+      \strng{authorbibnamehash}{ae942e35d736eab568a4727899116694}
+      \strng{authornamehash}{ae942e35d736eab568a4727899116694}
+      \strng{authorfullhash}{ae942e35d736eab568a4727899116694}
+      \strng{authorfullhashraw}{ae942e35d736eab568a4727899116694}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On Intelligence: How a New Understanding of the Brain Will Lead to the Creation of Truly Intelligent Machines}
+      \field{year}{2004}
+      \verb{urlraw}
+      \verb https://amzn.to/3GFIIGl
+      \endverb
+      \verb{url}
+      \verb https://amzn.to/3GFIIGl
+      \endverb
+    \endentry
     \entry{hawkins2016why}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ae942e35d736eab568a4727899116694}{%
@@ -887,6 +1006,7 @@
       \strng{authornamehash}{b9242a97176b3047c6097b83266963cf}
       \strng{authorfullhash}{b9242a97176b3047c6097b83266963cf}
       \strng{authorfullhashraw}{b9242a97176b3047c6097b83266963cf}
+      \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -903,6 +1023,46 @@
       \range{pages}{22}
       \verb{doi}
       \verb 10.1093/brain/120.4.701
+      \endverb
+    \endentry
+    \entry{mountcastle1998perceptual}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9242a97176b3047c6097b83266963cf}{%
+           family={Mountcastle},
+           familyi={M\bibinitperiod},
+           given={Vernon\bibnamedelima B.},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Massachusetts}%
+      }
+      \list{publisher}{1}{%
+        {Harvard University Press}%
+      }
+      \strng{namehash}{b9242a97176b3047c6097b83266963cf}
+      \strng{fullhash}{b9242a97176b3047c6097b83266963cf}
+      \strng{fullhashraw}{b9242a97176b3047c6097b83266963cf}
+      \strng{bibnamehash}{b9242a97176b3047c6097b83266963cf}
+      \strng{authorbibnamehash}{b9242a97176b3047c6097b83266963cf}
+      \strng{authornamehash}{b9242a97176b3047c6097b83266963cf}
+      \strng{authorfullhash}{b9242a97176b3047c6097b83266963cf}
+      \strng{authorfullhashraw}{b9242a97176b3047c6097b83266963cf}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Perceptual Neuroscience: THE CEREBRAL CORTEX}
+      \field{year}{1998}
+      \verb{urlraw}
+      \verb https://amzn.to/43glK1l
+      \endverb
+      \verb{url}
+      \verb https://amzn.to/43glK1l
       \endverb
     \endentry
   \enddatalist
