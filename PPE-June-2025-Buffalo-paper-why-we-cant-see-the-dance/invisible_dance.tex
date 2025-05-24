@@ -1,0 +1,71 @@
+\documentclass[12pt]{article}  % or [10.5pt]{extarticle} for 10.5pt size
+
+\usepackage{mathpazo}  % Palatino font
+\usepackage{amsmath}
+\usepackage{anyfontsize}
+\usepackage[backend=biber,style=apa]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}  % APA citation formatting
+\addbibresource{references.bib}  % Your BibTeX file
+\usepackage{footnote}
+\makesavenoteenv{tabular}
+
+
+\title{Why We Can’t See the Dance\\
+\small Why Sparse Cognition and Dancing Landscapes Suggest Rethinking Institutional Designs}
+\author{Alex Horovitz \\\small \texttt{alex.horovitz@opensocietylab.opg}}
+\date{June 2025}
+
+\begin{document}
+\setlength{\parskip}{0.75em}
+\maketitle
+
+\section*{Introduction}
+
+As we are increasingly aware, modern pluralistic societies are marked by deep, persistent diversity—not only in values and preferences, but in the very frameworks by which individuals make sense of the world \parencite{gaus2021open, muldoon2016social}. As institutional designers attempt to navigate this landscape, a critical error persists: the assumption that with sufficient data, coordination, or consensus, we can optimize collective outcomes across an increasingly diverse public. This paper argues that such optimization is not only politically naive, but cognitively implausible. Our evolved biological hardware—most notably, the neocortex—was never designed to handle pluralism at scale.
+
+Drawing from the neuroscience of prediction and perception, particularly the Hierarchical Temporal Memory (HTM) model of the neocortex \parencite{hawkins2004intelligence, hawkins2021thousand}, I argue that human cognition is fundamentally limited in its ability to process dynamic, heterogeneous, and non-linear social information. The brain is a machine for pattern recognition and temporal prediction, relying on sparse distributed representations (SDRs) that generalize and compress complex information to enable efficient action \parencite{ahmad2016neurons}. While effective in environments with stable statistical regularities, this architecture struggles in contexts where social reality is adaptive, multi-threaded, and discontinuous.
+
+This view has implications for institutional theory. Complexity theorists have described modern policy domains as “dancing landscapes”—topographies where local optima shift over time due to endogenous feedback and evolving agent behavior \parencite{kauffman1993origins, page2011diversity}. Yet HTM-modeled minds, tuned for sparsity and prediction, are poorly equipped to perceive this dance. Instead, they default to outdated or oversimplified representations of the world, privileging coherence over truth and legibility over adaptability \parencite{scott1998seeing}.
+
+Consequently, I am suggesting that many failures of modern governance—whether in pandemic response, climate policy, or cultural integration—stem not from a lack of data or will, but from an inability to \textit{see} pluralism clearly. The very structure of human cognition will likely lead us to misread complexity as chaos, dissent as dysfunction, and moral heterogeneity as a pathology to be cured rather than a condition to be navigated or celebrated.
+
+In what follows, I will attempt to model this cognitive constraint formally, using the mathematics of sparse encoding to show how individual agents fail to track shifting policy landscapes. By my account, institutional responses need to treat governance not as a means of optimization, but as a scaffolding structure that augments the limits of our human cognitive capacities. Institutions, I am asserting, should be designed not to decide for the people, but to \textit{extend their pluralist imagination}—allowing stable coordination within systems too complex for any single brain to model.
+
+\section*{II. Theoretical Foundations}
+
+\subsection*{A. Pluralism and Institutional Complexity}
+
+The open society, as theorized by Karl Popper and further developed by Gerald Gaus, is not merely a tolerant society—it is one in a state of continuous moral revolution \parencite{gaus2021open, popper1945open}. It accepts as axiomatic the coexistence of conflicting moral views, institutional preferences, and epistemic standards. For Gaus, the challenge of modern political philosophy is not to achieve consensus, but to construct frameworks for peaceful cooperation under conditions of deep and enduring disagreement.
+
+This marks a break from earlier liberal traditions. Rather than seeking overlapping consensus or Rawlsian reflective equilibrium, Gaus instead offers an account of what he calls “autocatalytic diversity,” where individual freedoms multiply social possibilities, which in turn generate further divergence \parencite{gaus2021open}. Such a feedback loop absolutely defies simple policy modeling and exposes the limits of technocratic approaches that attempt to steer society toward fixed moral or political ends.
+
+Hayek’s epistemological insights complement this view. He famously argued that knowledge is fundamentally dispersed: no central authority can hope to aggregate all the local, tacit knowledge that informs individual behavior in complex societies \parencite{hayek1945use}. From this, he concluded that spontaneous order—arising from rule-bound, decentralized interaction—was preferable to deliberate, top-down control.
+
+James C. Scott’s concept of legibility adds another layer: the very effort to render society visible and manageable through simplification schemes (e.g., cadastral maps, standardized names, urban grids) often erases the nuance and adaptability that give organic institutions their strength \parencite{scott1998seeing}. The administrative desire to make society “legible” to planners introduces distortions, reinforcing centralized misreadings of diverse, adaptive human systems.
+
+Taken together, these views suggest that pluralistic societies are epistemically and morally intractable to optimization. They do not present fixed landscapes over which one can search for a universally preferable peak, but shifting terrains of value, knowledge, and constraint. Any attempt to impose a global solution risks flattening the very diversity that makes adaptation and resilience possible. Institutions, therefore, must be judged not by their ability to converge on consensus, but by their capacity to mediate disagreement, foster local experimentation, and remain flexible in the face of moral and epistemic evolution.
+
+\subsection*{B. Complexity Theory and Dancing Landscapes}
+
+While pluralism explains the heterogeneity of inputs into the political process, complexity theory helps us understand the emergent nature of outcomes. Building on the work of Kauffman, Page, and others, we can model institutional environments as high-dimensional fitness landscapes, where each point corresponds to a possible policy configuration, and its elevation reflects a locally assessed value (e.g., social welfare, legitimacy, public support).
+
+In such landscapes, local optima abound. Efforts to “climb” to better outcomes often get trapped in suboptimal equilibria, not because actors are irrational, but because the surrounding terrain provides no obvious gradient to something better \parencite{kauffman1993origins}. Furthermore, as agents adapt to one another’s behaviors—as well as to the shifting institutional landscape—the topology itself evolves. We can represent this formally by considering a utility landscape \( U(x, t) \), where \( x \in \mathbb{R}^n \) denotes a policy configuration and \( t \) denotes time. In a dancing landscape, we observe that
+\[
+\nabla_x U(x, t) \neq \nabla_x U(x, t + \Delta t)
+\]
+even for small \( \Delta t \), and
+\[
+\arg\max_x U(x, t) \neq \arg\max_x U(x, t + \Delta t),
+\]
+indicating that both the gradient and the location of optima shift over time.\footnote{In classical optimization problems, the function \( U(x) \) is static, and agents follow gradients to ascend or descend toward a fixed extremum. In a dancing landscape, however, the function \( U(x, t) \) changes over time due to endogenous adaptation, making both local and global optimization transient and path-dependent. This results in a constantly evolving set of equilibria that agents may fail to track or even perceive.}
+
+Page refers to this phenomenon as a “dancing landscape,” where the utility of a given policy configuration at time \( t \) cannot be assumed to hold at time \( t+1 \) \parencite{page2011diversity}.
+
+These systems are non-ergodic: their path-dependence ensures that historical choices constrain future options. Feedback loops—positive and negative—amplify or attenuate innovations unpredictably. Under such conditions, the notion of a stable, global optimum becomes incoherent. At best, institutional designers can construct meta-rules that enable localized experimentation, discovery, and adaptation across diverse social contexts.
+
+This demands a shift in perspective: from a control-theoretic view of governance to one grounded in resilience, modularity, and epistemic humility. As we will argue, this shift is particularly important given that the human cognitive system—designed for predictability and compression—cannot intuitively track these dynamic shifts without help.
+
+
+\newpage
+\printbibliography
+\end{document}
