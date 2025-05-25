@@ -9,9 +9,17 @@
 \usepackage{footnote}
 \makesavenoteenv{tabular}
 
+% watermark for draft
+\usepackage{draftwatermark}
+\SetWatermarkText{DRAFT}
+\SetWatermarkScale{1.5}
+\SetWatermarkColor[gray]{0.85}
+\SetWatermarkAngle{45}
+% end remove me for final
 
-\title{Why We Can’t See the Dance\\
-\small Why Sparse Cognition and Dancing Landscapes Suggest Rethinking Institutional Designs}
+
+\title{Why We Can’t See the Landscape Dance\\
+\small Institutional Design Within the Limits of Human Cognition}
 \author{Alex Horovitz \\\small \texttt{alex.horovitz@opensocietylab.opg}}
 \date{June 2025}
 
@@ -63,8 +71,95 @@ Page refers to this phenomenon as a “dancing landscape,” where the utility o
 
 These systems are non-ergodic: their path-dependence ensures that historical choices constrain future options. Feedback loops—positive and negative—amplify or attenuate innovations unpredictably. Under such conditions, the notion of a stable, global optimum becomes incoherent. At best, institutional designers can construct meta-rules that enable localized experimentation, discovery, and adaptation across diverse social contexts.
 
-This demands a shift in perspective: from a control-theoretic view of governance to one grounded in resilience, modularity, and epistemic humility. As we will argue, this shift is particularly important given that the human cognitive system—designed for predictability and compression—cannot intuitively track these dynamic shifts without help.
+This demands a shift in perspective: from a control-theoretic view of governance to one grounded in resilience, modularity, and epistemic humility. By my account, this shift is particularly important given that the human cognitive system—designed for predictability and compression—cannot intuitively track these dynamic shifts without help.
 
+\section*{III. The Human Brain as a Legibility Engine}
+
+This section introduces key ideas from neuroscience and computational modeling to help explain why human beings struggle to perceive and adapt to pluralism and complexity in institutional life. While the arguments rest on formal models of cognition, my aim here is to translate those ideas clearly for readers who are not trained in neuroscience or machine learning. The goal is not to assert technical mastery but to show how recent advances in understanding human prediction can shed light on persistent failures of political design and social coordination.
+
+One of the most promising theoretical frameworks for understanding neocortical function is known as Hierarchical Temporal Memory (HTM), introduced by Hawkins and colleagues as a biologically plausible model of how the neocortex processes sequences, forms predictions, and builds internal models of the world \parencite{hawkins2004intelligence, hawkins2021thousand}. HTM draws on both anatomical studies of cortical columns and computational theory to propose that human intelligence arises from the continuous recognition and prediction of temporal patterns. The model aligns with contemporary findings that emphasize the predictive and hierarchical nature of neocortical processing \parencite{friston2005theory, buesing2011neural}.
+
+To implement these predictions, HTM relies on Sparse Distributed Representations (SDRs)—high-dimensional binary vectors in which only a small percentage of bits are active. This principle mirrors cortical population coding, where only a subset of neurons fire in response to a given stimulus \parencite{olshausen1996emergence, ganguli2012compressed}. SDRs are advantageous because they are robust to noise, energy-efficient, and capable of supporting generalization across similar inputs. They have also been widely applied in neuromorphic computing and brain-inspired machine learning systems \parencite{Tsinos2024sdr}.
+
+However, the mathematical properties that make SDRs effective in static environments limit their responsiveness to dynamically changing input spaces. Formally, SDRs encode information as vectors \( s \in \{0,1\}^n \) where \( k \ll n \), and similarity is determined by the overlap \( |s_1 \cap s_2| \). If this overlap falls below a defined threshold, the system classifies the inputs as unrelated. This creates a high-pass filter: it preserves gross structural regularities while discarding fine-grained, low-signal variation. In social and institutional environments where change is gradual, multi-dimensional, and often subtle, this means that agents may fail to detect important shifts until they are too large to ignore \parencite{george2011towards}.
+
+This tendency to preserve stable patterns also explains why humans are inclined toward legible, simplified models of reality. Representing new or ambiguous information requires cognitive resources, and as decades of work in psychology has shown, humans are cognitive misers who default to heuristic processing when possible \parencite{kahneman2011thinking, stanovich2000individual}. This helps explain the persistence of biases like the status quo bias, anchoring, and belief perseverance even in well-educated populations \parencite{samuelson1988status, nickerson1998confirmation}.
+
+Moreover, HTM systems use temporal sequencing to predict future inputs. That is, the model learns that pattern A is often followed by pattern B and updates its internal state accordingly. But in environments where underlying structures change—such as pluralist societies with interacting, adaptive agents—these temporal correlations degrade. The system continues to expect B after A even when the relationship has ceased to hold. Neurocomputationally, this reflects what is known as prediction error, a foundational concept in contemporary theories of brain function \parencite{friston2009predictive, clark2013whatever}. When prediction errors accumulate, humans either reject the new input as noise or resort to overgeneralized narratives.
+
+It is crucial to understand that this is not a failure of human rationality but a tradeoff born of evolutionary constraints. Sparse, temporally predictive processing offered clear advantages in ancestral environments characterized by limited social group sizes and relatively stable ecological conditions \parencite{dunbar1992neocortex}. But transplanted into modern, large-scale, information-rich societies, the same architecture struggles to track the emergent, polycentric nature of moral and political systems.
+
+The implication is significant: many institutional failures arise not because leaders are ignorant or citizens are apathetic, but because the basic hardware of human cognition filters out the very signals that dancing landscapes produce. As James Scott noted in his theory of legibility, states flatten complexity to render it governable \parencite{scott1998seeing}. We extend this observation to the mind: brains flatten complexity to render it livable. We make the world cognitively legible, even at the cost of accuracy.
+
+What this suggests is that institutional design must operate as a prosthetic extension of cognition. Good institutions do not just solve coordination problems; they expand our perceptual bandwidth. They make room for disagreement, ambiguity, and surprise—features that sparse cognition resists but pluralism requires. In this sense, democratic pluralism is not only a moral commitment but a neurocognitive challenge.
+
+To meet this challenge, institutions must be designed not as optimization machines, but as scaffolds for cognitive diversity and adaptive learning. Just as eyeglasses extend vision or writing extends memory, polycentric governance, local experimentation, and distributed feedback loops extend the brain’s ability to detect, evaluate, and respond to complexity. This reorientation—from controlling complexity to cooperating with it—requires epistemic humility, but it offers the only sustainable path through a world we can never fully predict.
+
+\section*{IV. Misreading the Landscape: Institutional Implications}
+
+The cognitive constraints outlined above do not simply manifest as individual blind spots—they scale up through institutions. Political and bureaucratic systems, staffed and guided by predictively-biased human agents, inherit these misperceptions and embed them in law, policy, and organizational design. When these systems operate over a landscape that is high-dimensional, multi-agent, and temporally unstable, they inevitably misread both the structure and trajectory of the terrain they seek to regulate.
+
+Let us denote a dynamic institutional landscape as \( L: X \times T \rightarrow \mathbb{R} \), where \( X \subset \mathbb{R}^n \) is the space of institutional configurations and \( T \) represents time. A well-functioning institution aims to optimize some outcome function \( U(x, t) \) over \( X \), ideally locating and maintaining an optimum \( x^*(t) = \arg\max_{x \in X} U(x, t) \). However, under the constraints discussed in Section III, institutions operate on a degraded representation \( \tilde{L}(x, t) \), a projection of \( L(x, t) \) shaped by sparsely encoded cognitive priors and filtered perception. In effect, institutions climb the wrong landscape, or climb it too late.
+
+These distortions manifest in well-documented policy failures. Consider the overcentralized pandemic responses in many Western democracies. Governments assumed static compliance, uniform epidemiological response, and stable political trust across regions—assumptions that did not hold in a pluralist society undergoing concurrent epistemic fragmentation and real-time adaptation \parencite{kapucu2021managing}. While the virus evolved biologically, institutions failed to evolve administratively, revealing a lag between landscape movement and institutional reorientation. In terms of our formal model, \( \frac{dU}{dt} \neq 0 \), but institutional processes treated \( U(x, t) \approx U(x, t - \Delta t) \), leading to reactive and misaligned policies.
+
+The same misreadings occur in urban planning, where “rational” zoning policies assume the utility function for land use \( U_L(x, t) \) is stable and additive. Yet real land value is co-produced by emergent social dynamics, cultural memory, and informal economic activity—all of which shift as new agents enter, exit, or reconfigure their goals \parencite{jacobs1961death, ostrom1990governing}. Top-down policies often aim to maximize a simplified proxy, such as median income or traffic flow, while ignoring second-order feedback that reshapes what counts as a livable or just city.
+
+These examples reflect a broader institutional failure to encode and respond to **higher-order gradients**. In a stable optimization setting, the first derivative \( \nabla_x U \) suffices to guide action. But in dancing landscapes, institutions must also track \( \frac{d}{dt} \nabla_x U \)—the rate at which directional change itself is changing. Few institutions are equipped to model this, let alone act on it. The result is policy inertia or, worse, overfit solutions to vanishing problems.
+
+A powerful illustration of this comes from financial regulation. After the 2008 crisis, many central banks implemented fixed risk models assuming distributions derived from historical volatility. Yet these models misread endogenous risk formation, failing to incorporate that agents themselves change their strategies in response to the perceived landscape of risk \parencite{haldane2012dog}. In formal terms, if risk sensitivity \( R(x, t) \) is a function of anticipated utility volatility \( \text{Var}_t(U(x)) \), and agents anticipate regulation, then \( R \) becomes reflexive and cannot be solved by linear forecasting. Institutional failure follows from assuming \( R \) is exogenous.
+
+Moreover, pluralism itself—both moral and epistemic—is often treated as institutional noise rather than signal. Democratic structures frequently rely on majoritarian aggregation, implicitly assuming that individual preferences are points in a convex space. But when preferences cluster in non-convex ways—due to identity, ideology, or group-embedded norms—simple aggregation yields distorted outcomes. Arrow’s impossibility theorem \parencite{arrow1950difficulty} formalizes this: no system of preference aggregation can simultaneously satisfy fairness, Pareto efficiency, and independence of irrelevant alternatives. The dancing landscape of pluralism guarantees frequent violations of at least one of these conditions.
+
+This mismatch is often papered over through **legibility proxies**: simplified indicators that stand in for systemic health. Examples include GDP, unemployment rate, net promoter scores, or crime statistics. These metrics, while useful for certain local insights, are often reified into policy targets. Goodhart’s Law predicts the resulting distortion: “When a measure becomes a target, it ceases to be a good measure” \parencite{strathern1997improving}. Institutions optimize proxies because their internal models cannot track the underlying complexity those proxies once reflected.
+
+These implications demand an institutional philosophy grounded not in control but in curiosity. Borrowing from cybernetics, we might conceive of good institutions as **viable systems**: organizations that maximize not control but responsiveness to environmental complexity \parencite{beer1979heart}. The viability of a system depends on its capacity to model its own modeling limitations. Institutions must be reflexively aware of their own cognitive simplifications and incorporate mechanisms for exploratory recalibration.
+
+What appears to be required then, is not merely a technical shift but a normative one. The choice to design institutions that facilitate rather than constrain pluralism repositions governance as a participatory epistemic practice. Institutions become platforms for distributed inference: places where collective intelligence is not imposed from above but cultivated from below. In the final section, we can explore together what this design paradigm entails.
+
+\section*{V. Toward Institutional Augmentation of Human Limits}
+
+If human cognition is shaped by sparsity, compression, and prediction, and if institutional failure often results from scaling these features into governance, then institutional success must come not from fighting this architecture, but from augmenting it. Institutions, understood functionally, must act as cognitive prosthetics—systems that extend the bandwidth, adaptability, and temporal resolution of their human constituents. Where the mind misreads a dancing landscape, the institution must compensate not by correcting perception but by scaffolding pluralistic exploration.
+
+We can formalize such an idea with a modular extension to our landscape model. Let each individual agent \( i \) possess a bounded view of the institutional landscape, represented as a locally sparse utility approximation \( \tilde{U}_i(x, t) \). No agent sees the full utility topology \( U(x, t) \), but institutions can be structured to synthesize partial insights. Let \( \mathcal{I} \) denote the institution as a coordinating function that aggregates local utility approximations:
+\[
+\mathcal{I}(x, t) = \mathcal{F}(\{\tilde{U}_i(x, t)\}_{i=1}^N),
+\]
+where \( \mathcal{F} \) is a distributed function that prioritizes diversity of input and responsiveness to update. Institutions succeed not by collapsing \( \mathcal{F} \) to a mean or median, but by preserving heterogeneity as a feature rather than a bug.
+
+This reframes governance as an exercise in **meta-optimization**. The institution need not optimize for a single peak \( x^* \), but should maximize the system’s ability to find new optima over time. Borrowing from Stafford Beer’s cybernetic theory of viable systems \parencite{beer1979heart}, we might say that institutional robustness is proportional to its **effective variety**:
+\[
+V_{\text{eff}} = \frac{\text{Var}(\tilde{U}_i)}{\text{Update Lag}(\mathcal{I})},
+\]
+where \( \text{Var}(\tilde{U}_i) \) captures the epistemic diversity of contributors and \( \text{Update Lag}(\mathcal{I}) \) reflects institutional delay in processing new information. High robustness requires both diversity and fast adaptation—two features often sacrificed in hierarchical or centralized regimes.
+
+Polycentric institutions, as studied by Elinor Ostrom \parencite{ostrom1990governing}, meet this requirement more naturally than monolithic structures. In a polycentric regime, overlapping centers of decision-making allow for parallel experimentation, localized feedback, and selective emulation. From a systems perspective, this resembles evolutionary search across a rugged fitness landscape—many agents pursuing partially independent trajectories, some of which converge, diverge, or adapt through imitation. Ostrom’s empirical findings—water systems, grazing lands, fisheries—validate this decentralized model as a durable scaffolding mechanism in complex environments.
+
+Institutional design should therefore include intentional redundancies and modular pathways. Just as the brain maintains multiple overlapping sensory channels to reduce prediction error, institutions should foster **redundant deliberative spaces** (e.g., overlapping jurisdictions, independent oversight, citizen panels) to surface discontinuous insights. In mathematical terms, let \( \mathcal{I} \) be decomposed into \( k \) quasi-independent modules \( \mathcal{I}_1, \dots, \mathcal{I}_k \), each responsible for a constrained subspace \( X_j \subset X \), and define
+\[
+\mathcal{I}(x, t) = \bigcup_{j=1}^{k} \mathcal{I}_j(x_j, t).
+\]
+This modularity enables faster local updates and reduces the risk of system-wide failure due to overcommitment to stale global models.
+
+This also clarifies the role of institutional metrics. As Scott warned, legibility metrics often obscure as much as they reveal \parencite{scott1998seeing}. But metrics are not inherently corrosive; they become problematic when they substitute for deliberation. Well-designed institutions use metrics not to impose control, but to **diagnose drift**, **alert variation**, and **flag emergent mismatch**. Metrics should be ephemeral, not constitutive. When a proxy like GDP becomes a governing logic rather than a diagnostic tool, institutional cognition is reduced to one-bit compression of a dancing landscape.
+
+Just as importantly, institutions must be built with **anticipatory plasticity**: the capacity to change their internal rules of adaptation. Most bureaucracies treat structure as invariant and policy as variable. But in truly adaptive institutions, the rules of updating—who gets heard, how signals are validated, what counts as relevant knowledge—must themselves be open to review. In formal terms, if \( \mathcal{I} \) operates via an update function \( \delta: \mathcal{I}_t \rightarrow \mathcal{I}_{t+1} \), then institutional intelligence depends on whether \( \delta \) itself can evolve:
+\[
+\delta_{t+1} = f(\delta_t, \text{Feedback}),
+\]
+where feedback includes both endogenous failures and exogenous shocks. Institutions that cannot evolve their own learning procedures become maladaptive in dynamic policy environments.
+
+In short, if the human mind is a lossy compression machine operating on sparse priors, then institutions must be error-correcting, diversity-preserving, and feedback-sensitive systems. They must amplify marginal voices, local variation, and temporal drift—not in pursuit of utopia, but to preserve viability in a pluralist world. This is not merely better politics; it is better neuroscience-informed design.\footnote{This view aligns with Gerald Gaus's later work, in which he argued that moral and political reasoning in a diverse society must be understood as an ongoing, decentralized process of adjustment among free and cognitively limited agents. Rather than designing for a well-ordered society in the Rawlsian sense, Gaus urged us to design institutions that enable continuous moral evolution. See Gaus (2021).}
+
+\section*{VI. Conclusion: See the Dance}
+
+The arguments presented here converge on a central insight: modern institutions are failing not only because they are misaligned with societal complexity, but because they inherit and scale the limitations of human cognition. Sparse, predictive minds are efficient in bounded, stable environments—but in pluralist societies shaped by feedback, adaptation, and epistemic heterogeneity, this architecture blinds us to essential features of the terrain. Institutions that reflect these cognitive priors will predictably misread shifting conditions, oversimplify disagreement, and overfit yesterday’s solutions to today’s problems.
+
+The task, then, is not to overcome the limitations of human minds, but to scaffold around them. I propose modeling institutional design as a distributed inference system that synthesizes partial, local utility approximations \( \tilde{U}_i(x, t) \) into a collective function \( \mathcal{I}(x, t) \), where success depends less on reaching \( \arg\max U \) and more on maximizing the system’s capacity to explore, adapt, and remain robust under uncertainty. Institutions that perform well in dancing landscapes are those with high epistemic bandwidth and low update lag—formally, those that maximize \( V_{\text{eff}} = \text{Var}(\tilde{U}_i) / \text{Update Lag}(\mathcal{I}) \).
+
+This is by no means a call for chaos or relativism. It is a call for design informed by the recognition that the dance of pluralism is not noise, but signal. In a rugged, shifting utility space, robustness comes from modularity, parallelism, and ongoing recalibration—not from converging prematurely on what appears to be consensus. To see the dance is to accept that peaks move, that agents learn, and that what appears optimal at \( t \) may be inertial by \( t+1 \). Institutions must be built not to find "the" or "a" peak, but to keep climbing.
+
+Ultimately, the strength of a society lies in how well it supports minds that cannot, on their own, perceive the system they are part of. Institutions must become pluralism processors: structures that don’t merely tolerate difference, but convert difference into adaptive capacity. We do not need perfect cognition or perfect consensus. We need institutions that see farther than we can, and that help us—together—keep pace with a landscape that never stops moving.
 
 \newpage
 \printbibliography

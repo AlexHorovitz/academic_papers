@@ -3085,6 +3085,32 @@
     <bcf:citekey order="9" intorder="1">scott1998seeing</bcf:citekey>
     <bcf:citekey order="10" intorder="1">kauffman1993origins</bcf:citekey>
     <bcf:citekey order="11" intorder="1">page2011diversity</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">hawkins2004intelligence</bcf:citekey>
+    <bcf:citekey order="12" intorder="2">hawkins2021thousand</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">friston2005theory</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">buesing2011neural</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">olshausen1996emergence</bcf:citekey>
+    <bcf:citekey order="14" intorder="2">ganguli2012compressed</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">Tsinos2024sdr</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">george2011towards</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">kahneman2011thinking</bcf:citekey>
+    <bcf:citekey order="17" intorder="2">stanovich2000individual</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">samuelson1988status</bcf:citekey>
+    <bcf:citekey order="18" intorder="2">nickerson1998confirmation</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">friston2009predictive</bcf:citekey>
+    <bcf:citekey order="19" intorder="2">clark2013whatever</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">dunbar1992neocortex</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">scott1998seeing</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">kapucu2021managing</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">jacobs1961death</bcf:citekey>
+    <bcf:citekey order="23" intorder="2">ostrom1990governing</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">haldane2012dog</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">arrow1950difficulty</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">strathern1997improving</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">beer1979heart</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">beer1979heart</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">ostrom1990governing</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">scott1998seeing</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

@@ -53,6 +53,283 @@
       \field{title}{How do neurons operate on sparse distributed representations? A mathematical theory of sparsity, neurons and active dendrites}
       \field{year}{2016}
     \endentry
+    \entry{arrow1950difficulty}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d45272a5c29864ab7c14d6d5567315c}{%
+           family={Arrow},
+           familyi={A\bibinitperiod},
+           given={Kenneth\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d45272a5c29864ab7c14d6d5567315c}
+      \strng{fullhash}{5d45272a5c29864ab7c14d6d5567315c}
+      \strng{fullhashraw}{5d45272a5c29864ab7c14d6d5567315c}
+      \strng{bibnamehash}{5d45272a5c29864ab7c14d6d5567315c}
+      \strng{authorbibnamehash}{5d45272a5c29864ab7c14d6d5567315c}
+      \strng{authornamehash}{5d45272a5c29864ab7c14d6d5567315c}
+      \strng{authorfullhash}{5d45272a5c29864ab7c14d6d5567315c}
+      \strng{authorfullhashraw}{5d45272a5c29864ab7c14d6d5567315c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Political Economy}
+      \field{number}{4}
+      \field{title}{A difficulty in the concept of social welfare}
+      \field{volume}{58}
+      \field{year}{1950}
+      \field{pages}{328\bibrangedash 346}
+      \range{pages}{19}
+    \endentry
+    \entry{beer1979heart}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bd1fd36e7960e25622cccc0e9ced8e95}{%
+           family={Beer},
+           familyi={B\bibinitperiod},
+           given={Stafford},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{fullhash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{fullhashraw}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{bibnamehash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{authorbibnamehash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{authornamehash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{authorfullhash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{authorfullhashraw}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Heart of Enterprise}
+      \field{year}{1979}
+    \endentry
+    \entry{buesing2011neural}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1565ce82971194591b5780f8588fcc3a}{%
+           family={Buesing},
+           familyi={B\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=852500bedd14271687798be54db1677f}{%
+           family={Bill},
+           familyi={B\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46903af2a234346e2857b1bfc2f54949}{%
+           family={Nessler},
+           familyi={N\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b7071d23a59fcc869863e969ca2e992}{%
+           family={Maass},
+           familyi={M\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b926ab73d8c86b5888e4381c647022d1}
+      \strng{fullhash}{4aa5ec478d6fa25c7738ee78b42a2950}
+      \strng{fullhashraw}{4aa5ec478d6fa25c7738ee78b42a2950}
+      \strng{bibnamehash}{4aa5ec478d6fa25c7738ee78b42a2950}
+      \strng{authorbibnamehash}{4aa5ec478d6fa25c7738ee78b42a2950}
+      \strng{authornamehash}{b926ab73d8c86b5888e4381c647022d1}
+      \strng{authorfullhash}{4aa5ec478d6fa25c7738ee78b42a2950}
+      \strng{authorfullhashraw}{4aa5ec478d6fa25c7738ee78b42a2950}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS Computational Biology}
+      \field{number}{11}
+      \field{title}{Neural dynamics as sampling: A model for stochastic computation in recurrent networks of spiking neurons}
+      \field{volume}{7}
+      \field{year}{2011}
+    \endentry
+    \entry{clark2013whatever}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f9dc85571871980f95346c5af4ceb5b3}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{fullhash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{fullhashraw}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{bibnamehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authorbibnamehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authornamehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authorfullhash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authorfullhashraw}{f9dc85571871980f95346c5af4ceb5b3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Behavioral and Brain Sciences}
+      \field{number}{3}
+      \field{title}{Whatever next? Predictive brains, situated agents, and the future of cognitive science}
+      \field{volume}{36}
+      \field{year}{2013}
+      \field{pages}{181\bibrangedash 204}
+      \range{pages}{24}
+    \endentry
+    \entry{dunbar1992neocortex}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=311e4c3e4356eace0947269a3a9295c2}{%
+           family={Dunbar},
+           familyi={D\bibinitperiod},
+           given={Robin\bibnamedelimb I.\bibnamedelimi M.},
+           giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{311e4c3e4356eace0947269a3a9295c2}
+      \strng{fullhash}{311e4c3e4356eace0947269a3a9295c2}
+      \strng{fullhashraw}{311e4c3e4356eace0947269a3a9295c2}
+      \strng{bibnamehash}{311e4c3e4356eace0947269a3a9295c2}
+      \strng{authorbibnamehash}{311e4c3e4356eace0947269a3a9295c2}
+      \strng{authornamehash}{311e4c3e4356eace0947269a3a9295c2}
+      \strng{authorfullhash}{311e4c3e4356eace0947269a3a9295c2}
+      \strng{authorfullhashraw}{311e4c3e4356eace0947269a3a9295c2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Human Evolution}
+      \field{number}{6}
+      \field{title}{Neocortex size as a constraint on group size in primates}
+      \field{volume}{22}
+      \field{year}{1992}
+      \field{pages}{469\bibrangedash 493}
+      \range{pages}{25}
+    \endentry
+    \entry{friston2005theory}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f452a84796a900973333b32a5f8bc61}{%
+           family={Friston},
+           familyi={F\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{fullhash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{fullhashraw}{9f452a84796a900973333b32a5f8bc61}
+      \strng{bibnamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorbibnamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authornamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorfullhash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorfullhashraw}{9f452a84796a900973333b32a5f8bc61}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society B}
+      \field{number}{1456}
+      \field{title}{A theory of cortical responses}
+      \field{volume}{360}
+      \field{year}{2005}
+      \field{pages}{815\bibrangedash 836}
+      \range{pages}{22}
+    \endentry
+    \entry{friston2009predictive}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f452a84796a900973333b32a5f8bc61}{%
+           family={Friston},
+           familyi={F\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{fullhash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{fullhashraw}{9f452a84796a900973333b32a5f8bc61}
+      \strng{bibnamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorbibnamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authornamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorfullhash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorfullhashraw}{9f452a84796a900973333b32a5f8bc61}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends in Cognitive Sciences}
+      \field{number}{7}
+      \field{title}{The free-energy principle: a rough guide to the brain?}
+      \field{volume}{13}
+      \field{year}{2009}
+      \field{pages}{293\bibrangedash 301}
+      \range{pages}{9}
+    \endentry
+    \entry{ganguli2012compressed}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=05b3e391388084df874ede60f2210c12}{%
+           family={Ganguli},
+           familyi={G\bibinitperiod},
+           given={Surya},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed8f7756b26934dfcef286998c88ac0a}{%
+           family={Sompolinsky},
+           familyi={S\bibinitperiod},
+           given={Haim},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{fullhash}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{fullhashraw}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{bibnamehash}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{authorbibnamehash}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{authornamehash}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{authorfullhash}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{authorfullhashraw}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Neuroscience}
+      \field{title}{Compressed sensing, sparsity, and dimensionality in neuronal information processing and data analysis}
+      \field{volume}{35}
+      \field{year}{2012}
+      \field{pages}{485\bibrangedash 508}
+      \range{pages}{24}
+    \endentry
     \entry{gaus2021open}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3d5a481a9e7131728395184132692c47}{%
@@ -83,6 +360,74 @@
       \field{title}{The Open Society and Its Complexities}
       \field{year}{2021}
     \endentry
+    \entry{george2011towards}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7ec5c9b1115d5d7eef6ee95a1d257e46}{%
+           family={George},
+           familyi={G\bibinitperiod},
+           given={Dileep},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae942e35d736eab568a4727899116694}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e4ccf6bed4017635bbdb76245810ef0c}
+      \strng{fullhash}{e4ccf6bed4017635bbdb76245810ef0c}
+      \strng{fullhashraw}{e4ccf6bed4017635bbdb76245810ef0c}
+      \strng{bibnamehash}{e4ccf6bed4017635bbdb76245810ef0c}
+      \strng{authorbibnamehash}{e4ccf6bed4017635bbdb76245810ef0c}
+      \strng{authornamehash}{e4ccf6bed4017635bbdb76245810ef0c}
+      \strng{authorfullhash}{e4ccf6bed4017635bbdb76245810ef0c}
+      \strng{authorfullhashraw}{e4ccf6bed4017635bbdb76245810ef0c}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS Computational Biology}
+      \field{number}{10}
+      \field{title}{Towards a mathematical theory of cortical micro-circuits}
+      \field{volume}{7}
+      \field{year}{2009}
+    \endentry
+    \entry{haldane2012dog}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fb82099a99d20d9c804076486aa84fe9}{%
+           family={Haldane},
+           familyi={H\bibinitperiod},
+           given={Andrew\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Bank of England}%
+      }
+      \strng{namehash}{fb82099a99d20d9c804076486aa84fe9}
+      \strng{fullhash}{fb82099a99d20d9c804076486aa84fe9}
+      \strng{fullhashraw}{fb82099a99d20d9c804076486aa84fe9}
+      \strng{bibnamehash}{fb82099a99d20d9c804076486aa84fe9}
+      \strng{authorbibnamehash}{fb82099a99d20d9c804076486aa84fe9}
+      \strng{authornamehash}{fb82099a99d20d9c804076486aa84fe9}
+      \strng{authorfullhash}{fb82099a99d20d9c804076486aa84fe9}
+      \strng{authorfullhashraw}{fb82099a99d20d9c804076486aa84fe9}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Speech at the Federal Reserve Bank of Kansas City’s Jackson Hole Economic Policy Symposium}
+      \field{note}{\url{https://www.bankofengland.co.uk/-/media/boe/files/paper/2012/the-dog-and-the-frisbee.pdf}}
+      \field{title}{The Dog and the Frisbee}
+      \field{year}{2012}
+    \endentry
     \entry{hawkins2004intelligence}{book}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ae942e35d736eab568a4727899116694}{%
@@ -99,7 +444,7 @@
            givenun=0}}%
       }
       \list{publisher}{1}{%
-        {Times Books}%
+        {Owl Books}%
       }
       \strng{namehash}{7544d6588e0b24400764573852866700}
       \strng{fullhash}{7544d6588e0b24400764573852866700}
@@ -193,6 +538,104 @@
       \field{pages}{519\bibrangedash 530}
       \range{pages}{12}
     \endentry
+    \entry{jacobs1961death}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a01104208f884a04bf7571a20e5b8332}{%
+           family={Jacobs},
+           familyi={J\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Random House}%
+      }
+      \strng{namehash}{a01104208f884a04bf7571a20e5b8332}
+      \strng{fullhash}{a01104208f884a04bf7571a20e5b8332}
+      \strng{fullhashraw}{a01104208f884a04bf7571a20e5b8332}
+      \strng{bibnamehash}{a01104208f884a04bf7571a20e5b8332}
+      \strng{authorbibnamehash}{a01104208f884a04bf7571a20e5b8332}
+      \strng{authornamehash}{a01104208f884a04bf7571a20e5b8332}
+      \strng{authorfullhash}{a01104208f884a04bf7571a20e5b8332}
+      \strng{authorfullhashraw}{a01104208f884a04bf7571a20e5b8332}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Death and Life of Great American Cities}
+      \field{year}{1961}
+    \endentry
+    \entry{kahneman2011thinking}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Farrar, Straus}%
+        {Giroux}%
+      }
+      \strng{namehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{fullhash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{fullhashraw}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{bibnamehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authorbibnamehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authornamehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authorfullhash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authorfullhashraw}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thinking, Fast and Slow}
+      \field{year}{2011}
+    \endentry
+    \entry{kapucu2021managing}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=766204a393f0e1f055d8d87db0170bff}{%
+           family={Kapucu},
+           familyi={K\bibinitperiod},
+           given={Naim},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6696122e4d7c4a06f1d9c5bffcd731a3}{%
+           family={Moynihan},
+           familyi={M\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c8f756d8a66de3c9a92ab197c2410df8}
+      \strng{fullhash}{c8f756d8a66de3c9a92ab197c2410df8}
+      \strng{fullhashraw}{c8f756d8a66de3c9a92ab197c2410df8}
+      \strng{bibnamehash}{c8f756d8a66de3c9a92ab197c2410df8}
+      \strng{authorbibnamehash}{c8f756d8a66de3c9a92ab197c2410df8}
+      \strng{authornamehash}{c8f756d8a66de3c9a92ab197c2410df8}
+      \strng{authorfullhash}{c8f756d8a66de3c9a92ab197c2410df8}
+      \strng{authorfullhashraw}{c8f756d8a66de3c9a92ab197c2410df8}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Policy Studies}
+      \field{title}{Trump’s (mis)management of the COVID-19 pandemic in the US}
+      \field{volume}{42}
+      \field{year}{2021}
+      \field{pages}{592\bibrangedash 610}
+      \range{pages}{19}
+    \endentry
     \entry{kauffman1993origins}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a447063ee328386c8ceba6c257ab6bc9}{%
@@ -252,6 +695,105 @@
       \field{labeltitlesource}{title}
       \field{title}{Social Contract Theory for a Diverse World: Beyond Tolerance}
       \field{year}{2016}
+    \endentry
+    \entry{nickerson1998confirmation}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e51931b7efc821d8bfd20c18c04f1b49}{%
+           family={Nickerson},
+           familyi={N\bibinitperiod},
+           given={Raymond\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e51931b7efc821d8bfd20c18c04f1b49}
+      \strng{fullhash}{e51931b7efc821d8bfd20c18c04f1b49}
+      \strng{fullhashraw}{e51931b7efc821d8bfd20c18c04f1b49}
+      \strng{bibnamehash}{e51931b7efc821d8bfd20c18c04f1b49}
+      \strng{authorbibnamehash}{e51931b7efc821d8bfd20c18c04f1b49}
+      \strng{authornamehash}{e51931b7efc821d8bfd20c18c04f1b49}
+      \strng{authorfullhash}{e51931b7efc821d8bfd20c18c04f1b49}
+      \strng{authorfullhashraw}{e51931b7efc821d8bfd20c18c04f1b49}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of General Psychology}
+      \field{number}{2}
+      \field{title}{Confirmation bias: A ubiquitous phenomenon in many guises}
+      \field{volume}{2}
+      \field{year}{1998}
+      \field{pages}{175\bibrangedash 220}
+      \range{pages}{46}
+    \endentry
+    \entry{olshausen1996emergence}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=278e76f0404aafaa82214e26727fc6ea}{%
+           family={Olshausen},
+           familyi={O\bibinitperiod},
+           given={Bruno\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=acd7caf12cd1c2455057870c03684a51}{%
+           family={Field},
+           familyi={F\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{264c1797e83cbcba7158283b81a86bd6}
+      \strng{fullhash}{264c1797e83cbcba7158283b81a86bd6}
+      \strng{fullhashraw}{264c1797e83cbcba7158283b81a86bd6}
+      \strng{bibnamehash}{264c1797e83cbcba7158283b81a86bd6}
+      \strng{authorbibnamehash}{264c1797e83cbcba7158283b81a86bd6}
+      \strng{authornamehash}{264c1797e83cbcba7158283b81a86bd6}
+      \strng{authorfullhash}{264c1797e83cbcba7158283b81a86bd6}
+      \strng{authorfullhashraw}{264c1797e83cbcba7158283b81a86bd6}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{title}{Emergence of simple-cell receptive field properties by learning a sparse code for natural images}
+      \field{volume}{381}
+      \field{year}{1996}
+      \field{pages}{607\bibrangedash 609}
+      \range{pages}{3}
+    \endentry
+    \entry{ostrom1990governing}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=83bfc750a74aff11efa4bbcd04d4af05}{%
+           family={Ostrom},
+           familyi={O\bibinitperiod},
+           given={Elinor},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{fullhash}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{fullhashraw}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{bibnamehash}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{authorbibnamehash}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{authornamehash}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{authorfullhash}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{authorfullhashraw}{83bfc750a74aff11efa4bbcd04d4af05}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Governing the Commons: The Evolution of Institutions for Collective Action}
+      \field{year}{1990}
     \endentry
     \entry{page2011diversity}{book}{}{}
       \name{author}{1}{}{%
@@ -313,6 +855,44 @@
       \field{title}{The Open Society and Its Enemies}
       \field{year}{1945}
     \endentry
+    \entry{samuelson1988status}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a98bf4c101a9cac0636603147a370e52}{%
+           family={Samuelson},
+           familyi={S\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c532b195147fe1b4ec8f8140400437cf}{%
+           family={Zeckhauser},
+           familyi={Z\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b6c021114029a819bc7f9541bb58b318}
+      \strng{fullhash}{b6c021114029a819bc7f9541bb58b318}
+      \strng{fullhashraw}{b6c021114029a819bc7f9541bb58b318}
+      \strng{bibnamehash}{b6c021114029a819bc7f9541bb58b318}
+      \strng{authorbibnamehash}{b6c021114029a819bc7f9541bb58b318}
+      \strng{authornamehash}{b6c021114029a819bc7f9541bb58b318}
+      \strng{authorfullhash}{b6c021114029a819bc7f9541bb58b318}
+      \strng{authorfullhashraw}{b6c021114029a819bc7f9541bb58b318}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Risk and Uncertainty}
+      \field{number}{1}
+      \field{title}{Status quo bias in decision making}
+      \field{volume}{1}
+      \field{year}{1988}
+      \field{pages}{7\bibrangedash 59}
+      \range{pages}{53}
+    \endentry
     \entry{scott1998seeing}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=29338f2b8892d678ed0d73c644afae4f}{%
@@ -342,6 +922,115 @@
       \field{labeltitlesource}{title}
       \field{title}{Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed}
       \field{year}{1998}
+    \endentry
+    \entry{stanovich2000individual}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cf2d6180ffb001aa2205509f7c175004}{%
+           family={Stanovich},
+           familyi={S\bibinitperiod},
+           given={Keith\bibnamedelima E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Psychology Press}%
+      }
+      \strng{namehash}{cf2d6180ffb001aa2205509f7c175004}
+      \strng{fullhash}{cf2d6180ffb001aa2205509f7c175004}
+      \strng{fullhashraw}{cf2d6180ffb001aa2205509f7c175004}
+      \strng{bibnamehash}{cf2d6180ffb001aa2205509f7c175004}
+      \strng{authorbibnamehash}{cf2d6180ffb001aa2205509f7c175004}
+      \strng{authornamehash}{cf2d6180ffb001aa2205509f7c175004}
+      \strng{authorfullhash}{cf2d6180ffb001aa2205509f7c175004}
+      \strng{authorfullhashraw}{cf2d6180ffb001aa2205509f7c175004}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Individual Differences in Reasoning: Implications for the Rationality Debate?}
+      \field{year}{2000}
+    \endentry
+    \entry{strathern1997improving}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c864bdb329c58ab2d8b297568aeca11e}{%
+           family={Strathern},
+           familyi={S\bibinitperiod},
+           given={Marilyn},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c864bdb329c58ab2d8b297568aeca11e}
+      \strng{fullhash}{c864bdb329c58ab2d8b297568aeca11e}
+      \strng{fullhashraw}{c864bdb329c58ab2d8b297568aeca11e}
+      \strng{bibnamehash}{c864bdb329c58ab2d8b297568aeca11e}
+      \strng{authorbibnamehash}{c864bdb329c58ab2d8b297568aeca11e}
+      \strng{authornamehash}{c864bdb329c58ab2d8b297568aeca11e}
+      \strng{authorfullhash}{c864bdb329c58ab2d8b297568aeca11e}
+      \strng{authorfullhashraw}{c864bdb329c58ab2d8b297568aeca11e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Review}
+      \field{number}{3}
+      \field{title}{Improving ratings: Audit in the British University system}
+      \field{volume}{5}
+      \field{year}{1997}
+      \field{pages}{305\bibrangedash 321}
+      \range{pages}{17}
+    \endentry
+    \entry{Tsinos2024sdr}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3f1f02cc840aa000bd3d1518ac2a8cea}{%
+           family={Tsinos},
+           familyi={T\bibinitperiod},
+           given={Christos\bibnamedelima G.},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5da16c90b5cefa7069cb14c9ccabcb28}{%
+           family={Boulogeorgos},
+           familyi={B\bibinitperiod},
+           given={Alexandros-Apostolos\bibnamedelima A.},
+           giveni={A\bibinithyphendelim A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e6d25f6f7c790670703cd54c914c4a1}{%
+           family={Tsiftsis},
+           familyi={T\bibinitperiod},
+           given={Theodoros\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eaa605dbdb4de2134dbf263172202220}
+      \strng{fullhash}{db738c255b9150b8a300d96b2241b4fc}
+      \strng{fullhashraw}{db738c255b9150b8a300d96b2241b4fc}
+      \strng{bibnamehash}{db738c255b9150b8a300d96b2241b4fc}
+      \strng{authorbibnamehash}{db738c255b9150b8a300d96b2241b4fc}
+      \strng{authornamehash}{eaa605dbdb4de2134dbf263172202220}
+      \strng{authorfullhash}{db738c255b9150b8a300d96b2241b4fc}
+      \strng{authorfullhashraw}{db738c255b9150b8a300d96b2241b4fc}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Wireless Communications Letters}
+      \field{number}{7}
+      \field{title}{NeuroRIS: Neuromorphic-Inspired Metasurfaces}
+      \field{volume}{13}
+      \field{year}{2024}
+      \field{pages}{1878\bibrangedash 1882}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/LWC.2024.3394318
+      \endverb
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
@@ -379,6 +1068,283 @@
       \field{title}{How do neurons operate on sparse distributed representations? A mathematical theory of sparsity, neurons and active dendrites}
       \field{year}{2016}
     \endentry
+    \entry{arrow1950difficulty}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d45272a5c29864ab7c14d6d5567315c}{%
+           family={Arrow},
+           familyi={A\bibinitperiod},
+           given={Kenneth\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d45272a5c29864ab7c14d6d5567315c}
+      \strng{fullhash}{5d45272a5c29864ab7c14d6d5567315c}
+      \strng{fullhashraw}{5d45272a5c29864ab7c14d6d5567315c}
+      \strng{bibnamehash}{5d45272a5c29864ab7c14d6d5567315c}
+      \strng{authorbibnamehash}{5d45272a5c29864ab7c14d6d5567315c}
+      \strng{authornamehash}{5d45272a5c29864ab7c14d6d5567315c}
+      \strng{authorfullhash}{5d45272a5c29864ab7c14d6d5567315c}
+      \strng{authorfullhashraw}{5d45272a5c29864ab7c14d6d5567315c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Political Economy}
+      \field{number}{4}
+      \field{title}{A difficulty in the concept of social welfare}
+      \field{volume}{58}
+      \field{year}{1950}
+      \field{pages}{328\bibrangedash 346}
+      \range{pages}{19}
+    \endentry
+    \entry{beer1979heart}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bd1fd36e7960e25622cccc0e9ced8e95}{%
+           family={Beer},
+           familyi={B\bibinitperiod},
+           given={Stafford},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{fullhash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{fullhashraw}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{bibnamehash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{authorbibnamehash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{authornamehash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{authorfullhash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{authorfullhashraw}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Heart of Enterprise}
+      \field{year}{1979}
+    \endentry
+    \entry{buesing2011neural}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1565ce82971194591b5780f8588fcc3a}{%
+           family={Buesing},
+           familyi={B\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=852500bedd14271687798be54db1677f}{%
+           family={Bill},
+           familyi={B\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46903af2a234346e2857b1bfc2f54949}{%
+           family={Nessler},
+           familyi={N\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b7071d23a59fcc869863e969ca2e992}{%
+           family={Maass},
+           familyi={M\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b926ab73d8c86b5888e4381c647022d1}
+      \strng{fullhash}{4aa5ec478d6fa25c7738ee78b42a2950}
+      \strng{fullhashraw}{4aa5ec478d6fa25c7738ee78b42a2950}
+      \strng{bibnamehash}{4aa5ec478d6fa25c7738ee78b42a2950}
+      \strng{authorbibnamehash}{4aa5ec478d6fa25c7738ee78b42a2950}
+      \strng{authornamehash}{b926ab73d8c86b5888e4381c647022d1}
+      \strng{authorfullhash}{4aa5ec478d6fa25c7738ee78b42a2950}
+      \strng{authorfullhashraw}{4aa5ec478d6fa25c7738ee78b42a2950}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS Computational Biology}
+      \field{number}{11}
+      \field{title}{Neural dynamics as sampling: A model for stochastic computation in recurrent networks of spiking neurons}
+      \field{volume}{7}
+      \field{year}{2011}
+    \endentry
+    \entry{clark2013whatever}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f9dc85571871980f95346c5af4ceb5b3}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{fullhash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{fullhashraw}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{bibnamehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authorbibnamehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authornamehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authorfullhash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authorfullhashraw}{f9dc85571871980f95346c5af4ceb5b3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Behavioral and Brain Sciences}
+      \field{number}{3}
+      \field{title}{Whatever next? Predictive brains, situated agents, and the future of cognitive science}
+      \field{volume}{36}
+      \field{year}{2013}
+      \field{pages}{181\bibrangedash 204}
+      \range{pages}{24}
+    \endentry
+    \entry{dunbar1992neocortex}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=311e4c3e4356eace0947269a3a9295c2}{%
+           family={Dunbar},
+           familyi={D\bibinitperiod},
+           given={Robin\bibnamedelimb I.\bibnamedelimi M.},
+           giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{311e4c3e4356eace0947269a3a9295c2}
+      \strng{fullhash}{311e4c3e4356eace0947269a3a9295c2}
+      \strng{fullhashraw}{311e4c3e4356eace0947269a3a9295c2}
+      \strng{bibnamehash}{311e4c3e4356eace0947269a3a9295c2}
+      \strng{authorbibnamehash}{311e4c3e4356eace0947269a3a9295c2}
+      \strng{authornamehash}{311e4c3e4356eace0947269a3a9295c2}
+      \strng{authorfullhash}{311e4c3e4356eace0947269a3a9295c2}
+      \strng{authorfullhashraw}{311e4c3e4356eace0947269a3a9295c2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Human Evolution}
+      \field{number}{6}
+      \field{title}{Neocortex size as a constraint on group size in primates}
+      \field{volume}{22}
+      \field{year}{1992}
+      \field{pages}{469\bibrangedash 493}
+      \range{pages}{25}
+    \endentry
+    \entry{friston2005theory}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f452a84796a900973333b32a5f8bc61}{%
+           family={Friston},
+           familyi={F\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{fullhash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{fullhashraw}{9f452a84796a900973333b32a5f8bc61}
+      \strng{bibnamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorbibnamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authornamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorfullhash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorfullhashraw}{9f452a84796a900973333b32a5f8bc61}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society B}
+      \field{number}{1456}
+      \field{title}{A theory of cortical responses}
+      \field{volume}{360}
+      \field{year}{2005}
+      \field{pages}{815\bibrangedash 836}
+      \range{pages}{22}
+    \endentry
+    \entry{friston2009predictive}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f452a84796a900973333b32a5f8bc61}{%
+           family={Friston},
+           familyi={F\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{fullhash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{fullhashraw}{9f452a84796a900973333b32a5f8bc61}
+      \strng{bibnamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorbibnamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authornamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorfullhash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorfullhashraw}{9f452a84796a900973333b32a5f8bc61}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends in Cognitive Sciences}
+      \field{number}{7}
+      \field{title}{The free-energy principle: a rough guide to the brain?}
+      \field{volume}{13}
+      \field{year}{2009}
+      \field{pages}{293\bibrangedash 301}
+      \range{pages}{9}
+    \endentry
+    \entry{ganguli2012compressed}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=05b3e391388084df874ede60f2210c12}{%
+           family={Ganguli},
+           familyi={G\bibinitperiod},
+           given={Surya},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed8f7756b26934dfcef286998c88ac0a}{%
+           family={Sompolinsky},
+           familyi={S\bibinitperiod},
+           given={Haim},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{fullhash}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{fullhashraw}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{bibnamehash}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{authorbibnamehash}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{authornamehash}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{authorfullhash}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{authorfullhashraw}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Neuroscience}
+      \field{title}{Compressed sensing, sparsity, and dimensionality in neuronal information processing and data analysis}
+      \field{volume}{35}
+      \field{year}{2012}
+      \field{pages}{485\bibrangedash 508}
+      \range{pages}{24}
+    \endentry
     \entry{gaus2021open}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3d5a481a9e7131728395184132692c47}{%
@@ -408,6 +1374,74 @@
       \field{labeltitlesource}{title}
       \field{title}{The Open Society and Its Complexities}
       \field{year}{2021}
+    \endentry
+    \entry{george2011towards}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7ec5c9b1115d5d7eef6ee95a1d257e46}{%
+           family={George},
+           familyi={G\bibinitperiod},
+           given={Dileep},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae942e35d736eab568a4727899116694}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e4ccf6bed4017635bbdb76245810ef0c}
+      \strng{fullhash}{e4ccf6bed4017635bbdb76245810ef0c}
+      \strng{fullhashraw}{e4ccf6bed4017635bbdb76245810ef0c}
+      \strng{bibnamehash}{e4ccf6bed4017635bbdb76245810ef0c}
+      \strng{authorbibnamehash}{e4ccf6bed4017635bbdb76245810ef0c}
+      \strng{authornamehash}{e4ccf6bed4017635bbdb76245810ef0c}
+      \strng{authorfullhash}{e4ccf6bed4017635bbdb76245810ef0c}
+      \strng{authorfullhashraw}{e4ccf6bed4017635bbdb76245810ef0c}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS Computational Biology}
+      \field{number}{10}
+      \field{title}{Towards a mathematical theory of cortical micro-circuits}
+      \field{volume}{7}
+      \field{year}{2009}
+    \endentry
+    \entry{haldane2012dog}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fb82099a99d20d9c804076486aa84fe9}{%
+           family={Haldane},
+           familyi={H\bibinitperiod},
+           given={Andrew\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Bank of England}%
+      }
+      \strng{namehash}{fb82099a99d20d9c804076486aa84fe9}
+      \strng{fullhash}{fb82099a99d20d9c804076486aa84fe9}
+      \strng{fullhashraw}{fb82099a99d20d9c804076486aa84fe9}
+      \strng{bibnamehash}{fb82099a99d20d9c804076486aa84fe9}
+      \strng{authorbibnamehash}{fb82099a99d20d9c804076486aa84fe9}
+      \strng{authornamehash}{fb82099a99d20d9c804076486aa84fe9}
+      \strng{authorfullhash}{fb82099a99d20d9c804076486aa84fe9}
+      \strng{authorfullhashraw}{fb82099a99d20d9c804076486aa84fe9}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Speech at the Federal Reserve Bank of Kansas City’s Jackson Hole Economic Policy Symposium}
+      \field{note}{\url{https://www.bankofengland.co.uk/-/media/boe/files/paper/2012/the-dog-and-the-frisbee.pdf}}
+      \field{title}{The Dog and the Frisbee}
+      \field{year}{2012}
     \endentry
     \entry{hawkins2021thousand}{book}{}{}
       \name{author}{3}{}{%
@@ -467,7 +1501,7 @@
            givenun=0}}%
       }
       \list{publisher}{1}{%
-        {Times Books}%
+        {Owl Books}%
       }
       \strng{namehash}{7544d6588e0b24400764573852866700}
       \strng{fullhash}{7544d6588e0b24400764573852866700}
@@ -518,6 +1552,104 @@
       \field{year}{1945}
       \field{pages}{519\bibrangedash 530}
       \range{pages}{12}
+    \endentry
+    \entry{jacobs1961death}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a01104208f884a04bf7571a20e5b8332}{%
+           family={Jacobs},
+           familyi={J\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Random House}%
+      }
+      \strng{namehash}{a01104208f884a04bf7571a20e5b8332}
+      \strng{fullhash}{a01104208f884a04bf7571a20e5b8332}
+      \strng{fullhashraw}{a01104208f884a04bf7571a20e5b8332}
+      \strng{bibnamehash}{a01104208f884a04bf7571a20e5b8332}
+      \strng{authorbibnamehash}{a01104208f884a04bf7571a20e5b8332}
+      \strng{authornamehash}{a01104208f884a04bf7571a20e5b8332}
+      \strng{authorfullhash}{a01104208f884a04bf7571a20e5b8332}
+      \strng{authorfullhashraw}{a01104208f884a04bf7571a20e5b8332}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Death and Life of Great American Cities}
+      \field{year}{1961}
+    \endentry
+    \entry{kahneman2011thinking}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Farrar, Straus}%
+        {Giroux}%
+      }
+      \strng{namehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{fullhash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{fullhashraw}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{bibnamehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authorbibnamehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authornamehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authorfullhash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authorfullhashraw}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thinking, Fast and Slow}
+      \field{year}{2011}
+    \endentry
+    \entry{kapucu2021managing}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=766204a393f0e1f055d8d87db0170bff}{%
+           family={Kapucu},
+           familyi={K\bibinitperiod},
+           given={Naim},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6696122e4d7c4a06f1d9c5bffcd731a3}{%
+           family={Moynihan},
+           familyi={M\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c8f756d8a66de3c9a92ab197c2410df8}
+      \strng{fullhash}{c8f756d8a66de3c9a92ab197c2410df8}
+      \strng{fullhashraw}{c8f756d8a66de3c9a92ab197c2410df8}
+      \strng{bibnamehash}{c8f756d8a66de3c9a92ab197c2410df8}
+      \strng{authorbibnamehash}{c8f756d8a66de3c9a92ab197c2410df8}
+      \strng{authornamehash}{c8f756d8a66de3c9a92ab197c2410df8}
+      \strng{authorfullhash}{c8f756d8a66de3c9a92ab197c2410df8}
+      \strng{authorfullhashraw}{c8f756d8a66de3c9a92ab197c2410df8}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Policy Studies}
+      \field{title}{Trump’s (mis)management of the COVID-19 pandemic in the US}
+      \field{volume}{42}
+      \field{year}{2021}
+      \field{pages}{592\bibrangedash 610}
+      \range{pages}{19}
     \endentry
     \entry{kauffman1993origins}{book}{}{}
       \name{author}{1}{}{%
@@ -579,6 +1711,105 @@
       \field{title}{Social Contract Theory for a Diverse World: Beyond Tolerance}
       \field{year}{2016}
     \endentry
+    \entry{nickerson1998confirmation}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e51931b7efc821d8bfd20c18c04f1b49}{%
+           family={Nickerson},
+           familyi={N\bibinitperiod},
+           given={Raymond\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e51931b7efc821d8bfd20c18c04f1b49}
+      \strng{fullhash}{e51931b7efc821d8bfd20c18c04f1b49}
+      \strng{fullhashraw}{e51931b7efc821d8bfd20c18c04f1b49}
+      \strng{bibnamehash}{e51931b7efc821d8bfd20c18c04f1b49}
+      \strng{authorbibnamehash}{e51931b7efc821d8bfd20c18c04f1b49}
+      \strng{authornamehash}{e51931b7efc821d8bfd20c18c04f1b49}
+      \strng{authorfullhash}{e51931b7efc821d8bfd20c18c04f1b49}
+      \strng{authorfullhashraw}{e51931b7efc821d8bfd20c18c04f1b49}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of General Psychology}
+      \field{number}{2}
+      \field{title}{Confirmation bias: A ubiquitous phenomenon in many guises}
+      \field{volume}{2}
+      \field{year}{1998}
+      \field{pages}{175\bibrangedash 220}
+      \range{pages}{46}
+    \endentry
+    \entry{olshausen1996emergence}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=278e76f0404aafaa82214e26727fc6ea}{%
+           family={Olshausen},
+           familyi={O\bibinitperiod},
+           given={Bruno\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=acd7caf12cd1c2455057870c03684a51}{%
+           family={Field},
+           familyi={F\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{264c1797e83cbcba7158283b81a86bd6}
+      \strng{fullhash}{264c1797e83cbcba7158283b81a86bd6}
+      \strng{fullhashraw}{264c1797e83cbcba7158283b81a86bd6}
+      \strng{bibnamehash}{264c1797e83cbcba7158283b81a86bd6}
+      \strng{authorbibnamehash}{264c1797e83cbcba7158283b81a86bd6}
+      \strng{authornamehash}{264c1797e83cbcba7158283b81a86bd6}
+      \strng{authorfullhash}{264c1797e83cbcba7158283b81a86bd6}
+      \strng{authorfullhashraw}{264c1797e83cbcba7158283b81a86bd6}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{title}{Emergence of simple-cell receptive field properties by learning a sparse code for natural images}
+      \field{volume}{381}
+      \field{year}{1996}
+      \field{pages}{607\bibrangedash 609}
+      \range{pages}{3}
+    \endentry
+    \entry{ostrom1990governing}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=83bfc750a74aff11efa4bbcd04d4af05}{%
+           family={Ostrom},
+           familyi={O\bibinitperiod},
+           given={Elinor},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{fullhash}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{fullhashraw}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{bibnamehash}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{authorbibnamehash}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{authornamehash}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{authorfullhash}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{authorfullhashraw}{83bfc750a74aff11efa4bbcd04d4af05}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Governing the Commons: The Evolution of Institutions for Collective Action}
+      \field{year}{1990}
+    \endentry
     \entry{page2011diversity}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9be30916c37af0c86aa82aff91242e9b}{%
@@ -639,6 +1870,44 @@
       \field{title}{The Open Society and Its Enemies}
       \field{year}{1945}
     \endentry
+    \entry{samuelson1988status}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a98bf4c101a9cac0636603147a370e52}{%
+           family={Samuelson},
+           familyi={S\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c532b195147fe1b4ec8f8140400437cf}{%
+           family={Zeckhauser},
+           familyi={Z\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b6c021114029a819bc7f9541bb58b318}
+      \strng{fullhash}{b6c021114029a819bc7f9541bb58b318}
+      \strng{fullhashraw}{b6c021114029a819bc7f9541bb58b318}
+      \strng{bibnamehash}{b6c021114029a819bc7f9541bb58b318}
+      \strng{authorbibnamehash}{b6c021114029a819bc7f9541bb58b318}
+      \strng{authornamehash}{b6c021114029a819bc7f9541bb58b318}
+      \strng{authorfullhash}{b6c021114029a819bc7f9541bb58b318}
+      \strng{authorfullhashraw}{b6c021114029a819bc7f9541bb58b318}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Risk and Uncertainty}
+      \field{number}{1}
+      \field{title}{Status quo bias in decision making}
+      \field{volume}{1}
+      \field{year}{1988}
+      \field{pages}{7\bibrangedash 59}
+      \range{pages}{53}
+    \endentry
     \entry{scott1998seeing}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=29338f2b8892d678ed0d73c644afae4f}{%
@@ -668,6 +1937,115 @@
       \field{labeltitlesource}{title}
       \field{title}{Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed}
       \field{year}{1998}
+    \endentry
+    \entry{stanovich2000individual}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cf2d6180ffb001aa2205509f7c175004}{%
+           family={Stanovich},
+           familyi={S\bibinitperiod},
+           given={Keith\bibnamedelima E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Psychology Press}%
+      }
+      \strng{namehash}{cf2d6180ffb001aa2205509f7c175004}
+      \strng{fullhash}{cf2d6180ffb001aa2205509f7c175004}
+      \strng{fullhashraw}{cf2d6180ffb001aa2205509f7c175004}
+      \strng{bibnamehash}{cf2d6180ffb001aa2205509f7c175004}
+      \strng{authorbibnamehash}{cf2d6180ffb001aa2205509f7c175004}
+      \strng{authornamehash}{cf2d6180ffb001aa2205509f7c175004}
+      \strng{authorfullhash}{cf2d6180ffb001aa2205509f7c175004}
+      \strng{authorfullhashraw}{cf2d6180ffb001aa2205509f7c175004}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Individual Differences in Reasoning: Implications for the Rationality Debate?}
+      \field{year}{2000}
+    \endentry
+    \entry{strathern1997improving}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c864bdb329c58ab2d8b297568aeca11e}{%
+           family={Strathern},
+           familyi={S\bibinitperiod},
+           given={Marilyn},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c864bdb329c58ab2d8b297568aeca11e}
+      \strng{fullhash}{c864bdb329c58ab2d8b297568aeca11e}
+      \strng{fullhashraw}{c864bdb329c58ab2d8b297568aeca11e}
+      \strng{bibnamehash}{c864bdb329c58ab2d8b297568aeca11e}
+      \strng{authorbibnamehash}{c864bdb329c58ab2d8b297568aeca11e}
+      \strng{authornamehash}{c864bdb329c58ab2d8b297568aeca11e}
+      \strng{authorfullhash}{c864bdb329c58ab2d8b297568aeca11e}
+      \strng{authorfullhashraw}{c864bdb329c58ab2d8b297568aeca11e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Review}
+      \field{number}{3}
+      \field{title}{Improving ratings: Audit in the British University system}
+      \field{volume}{5}
+      \field{year}{1997}
+      \field{pages}{305\bibrangedash 321}
+      \range{pages}{17}
+    \endentry
+    \entry{Tsinos2024sdr}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3f1f02cc840aa000bd3d1518ac2a8cea}{%
+           family={Tsinos},
+           familyi={T\bibinitperiod},
+           given={Christos\bibnamedelima G.},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5da16c90b5cefa7069cb14c9ccabcb28}{%
+           family={Boulogeorgos},
+           familyi={B\bibinitperiod},
+           given={Alexandros-Apostolos\bibnamedelima A.},
+           giveni={A\bibinithyphendelim A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e6d25f6f7c790670703cd54c914c4a1}{%
+           family={Tsiftsis},
+           familyi={T\bibinitperiod},
+           given={Theodoros\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eaa605dbdb4de2134dbf263172202220}
+      \strng{fullhash}{db738c255b9150b8a300d96b2241b4fc}
+      \strng{fullhashraw}{db738c255b9150b8a300d96b2241b4fc}
+      \strng{bibnamehash}{db738c255b9150b8a300d96b2241b4fc}
+      \strng{authorbibnamehash}{db738c255b9150b8a300d96b2241b4fc}
+      \strng{authornamehash}{eaa605dbdb4de2134dbf263172202220}
+      \strng{authorfullhash}{db738c255b9150b8a300d96b2241b4fc}
+      \strng{authorfullhashraw}{db738c255b9150b8a300d96b2241b4fc}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Wireless Communications Letters}
+      \field{number}{7}
+      \field{title}{NeuroRIS: Neuromorphic-Inspired Metasurfaces}
+      \field{volume}{13}
+      \field{year}{2024}
+      \field{pages}{1878\bibrangedash 1882}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/LWC.2024.3394318
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
