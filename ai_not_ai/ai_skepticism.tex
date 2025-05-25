@@ -1,0 +1,39 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{csquotes}
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{references.bib}
+
+\title{Syntax Without Semantics:\\
+Why Generative AI Models Only Appear to Understand}
+\author{Alex Horovitz \\ \texttt{alex.horovitz@opensocietylab.org}}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper argues that the apparent semantic competence exhibited by large language models (LLMs) is an illusion generated in the minds of observers rather than evidence of understanding within the models themselves. We formalize the syntactic nature of such systems, demonstrate how semantic meaning is projected onto their output by human users, and expose the epistemic and methodological risks of treating syntactic fluency as semantic understanding. The goal is to reframe current claims about artificial intelligence in terms that respect the distinction between computation and cognition.
+\end{abstract}
+
+\section{Introduction}
+
+Large language models such as GPT-4, Claude Opus, and Gemini have prompted widespread speculation that we are approaching—or may have already achieved—a form of machine understanding. Their apparent ability to converse, reason, and even reflect on their own outputs has led many to treat them as nascent cognitive agents. However, this paper argues that these appearances are deceptive: LLMs do not possess semantic understanding. Rather, the illusion of intelligence and comprehension arises from the human observer, not from the machine itself.
+
+This distinction is not merely rhetorical but fundamental. From a formal perspective, these models implement functions of the form
+\[
+f: \Sigma^* \to \mathcal{P}(\Sigma)
+\]
+where \( \Sigma \) is a finite vocabulary, and \( f \) maps sequences of tokens to probability distributions over next tokens. The operations involved are entirely syntactic—manipulations of symbols without regard to their meaning. The models do not possess referential frameworks, interpretive commitments, or a model of the world in the Tarskian or intensional sense.\footnote{In the Tarskian sense, meaning is established through truth-conditional semantics: a sentence's meaning is given by the conditions under which it is true in a model \autocite{tarski1983truth}. In the intensional sense, often associated with possible worlds semantics \autocite{carnap1947meaning, montague1974formal}, meanings are functions from possible worlds to truth values, capturing context-dependence and modality. LLMs, by contrast, do not internally model either framework.}
+
+
+Nevertheless, humans routinely interpret model outputs as meaningful, rational, or even insightful. This paper contends that the semantic content is not produced by the machine but inferred—indeed constructed—by the user. We introduce a human interpretation function \( h \), such that for any output \( s \in \Sigma^* \), the apparent semantic content is given by \( h(f(s)) \). In this view, generative AI systems serve as high-dimensional mirrors: they reflect back structured patterns of human language that we mistake for thought.
+
+The implications are significant for the philosophy of science. First, treating syntactic fluency as evidence of semantic capacity introduces a category error. Second, interpreting statistical patterns as signs of reasoning risks reifying simulation as explanation. Finally, using such systems as models of human cognition conflates symbolic association with intentionality. This paper seeks to reassert a clear boundary between surface-level mimicry and genuine understanding, and to provide a mathematical and philosophical foundation for resisting anthropomorphic projections in AI discourse.
+
+\end{document}
