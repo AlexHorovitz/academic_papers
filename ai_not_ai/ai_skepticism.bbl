@@ -1,0 +1,1325 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{baars1988cognitive}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c3eff89541ba705e7b7fa560d122ae45}{%
+           family={Baars},
+           familyi={B\bibinitperiod},
+           given={Bernard\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{c3eff89541ba705e7b7fa560d122ae45}
+      \strng{fullhash}{c3eff89541ba705e7b7fa560d122ae45}
+      \strng{fullhashraw}{c3eff89541ba705e7b7fa560d122ae45}
+      \strng{bibnamehash}{c3eff89541ba705e7b7fa560d122ae45}
+      \strng{authorbibnamehash}{c3eff89541ba705e7b7fa560d122ae45}
+      \strng{authornamehash}{c3eff89541ba705e7b7fa560d122ae45}
+      \strng{authorfullhash}{c3eff89541ba705e7b7fa560d122ae45}
+      \strng{authorfullhashraw}{c3eff89541ba705e7b7fa560d122ae45}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Cognitive Theory of Consciousness}
+      \field{year}{1988}
+    \endentry
+    \entry{carnap1947meaning}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6ac7e21451c80f04ca26894d84279358}{%
+           family={Carnap},
+           familyi={C\bibinitperiod},
+           given={Rudolf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{6ac7e21451c80f04ca26894d84279358}
+      \strng{fullhash}{6ac7e21451c80f04ca26894d84279358}
+      \strng{fullhashraw}{6ac7e21451c80f04ca26894d84279358}
+      \strng{bibnamehash}{6ac7e21451c80f04ca26894d84279358}
+      \strng{authorbibnamehash}{6ac7e21451c80f04ca26894d84279358}
+      \strng{authornamehash}{6ac7e21451c80f04ca26894d84279358}
+      \strng{authorfullhash}{6ac7e21451c80f04ca26894d84279358}
+      \strng{authorfullhashraw}{6ac7e21451c80f04ca26894d84279358}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Meaning and Necessity: A Study in Semantics and Modal Logic}
+      \field{year}{1947}
+    \endentry
+    \entry{dennett1989intentional}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f4a7ef5757f8b8a262657ec68653e531}{%
+           family={Dennett},
+           familyi={D\bibinitperiod},
+           given={Daniel\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{fullhash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{fullhashraw}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{bibnamehash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{authorbibnamehash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{authornamehash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{authorfullhash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{authorfullhashraw}{f4a7ef5757f8b8a262657ec68653e531}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Intentional Stance}
+      \field{year}{1989}
+    \endentry
+    \entry{grice1975logic}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6901b87606f754ab73a1dfda8bfd8bf9}{%
+           family={Grice},
+           familyi={G\bibinitperiod},
+           given={H.\bibnamedelimi P.},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=d59bef1c480e103dec86b71e47802b1b}{%
+           family={Cole},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f3a37bd9311daf22d7be68a231ec5689}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={Jerry},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{6901b87606f754ab73a1dfda8bfd8bf9}
+      \strng{fullhash}{6901b87606f754ab73a1dfda8bfd8bf9}
+      \strng{fullhashraw}{6901b87606f754ab73a1dfda8bfd8bf9}
+      \strng{bibnamehash}{6901b87606f754ab73a1dfda8bfd8bf9}
+      \strng{authorbibnamehash}{6901b87606f754ab73a1dfda8bfd8bf9}
+      \strng{authornamehash}{6901b87606f754ab73a1dfda8bfd8bf9}
+      \strng{authorfullhash}{6901b87606f754ab73a1dfda8bfd8bf9}
+      \strng{authorfullhashraw}{6901b87606f754ab73a1dfda8bfd8bf9}
+      \strng{editorbibnamehash}{101da941875d52ae5eedab7e3b206d4d}
+      \strng{editornamehash}{101da941875d52ae5eedab7e3b206d4d}
+      \strng{editorfullhash}{101da941875d52ae5eedab7e3b206d4d}
+      \strng{editorfullhashraw}{101da941875d52ae5eedab7e3b206d4d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Syntax and Semantics, Volume 3}
+      \field{title}{Logic and Conversation}
+      \field{year}{1975}
+      \field{pages}{41\bibrangedash 58}
+      \range{pages}{18}
+    \endentry
+    \entry{heider1944experimental}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=06894819b9e4fd9d2f45552193362f2b}{%
+           family={Heider},
+           familyi={H\bibinitperiod},
+           given={Fritz},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd0078d6dd85c8bd9a7b7ddb6a012f31}{%
+           family={Simmel},
+           familyi={S\bibinitperiod},
+           given={Marianne},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{18ae8543e74cffe1bce94bf6a73b9ccb}
+      \strng{fullhash}{18ae8543e74cffe1bce94bf6a73b9ccb}
+      \strng{fullhashraw}{18ae8543e74cffe1bce94bf6a73b9ccb}
+      \strng{bibnamehash}{18ae8543e74cffe1bce94bf6a73b9ccb}
+      \strng{authorbibnamehash}{18ae8543e74cffe1bce94bf6a73b9ccb}
+      \strng{authornamehash}{18ae8543e74cffe1bce94bf6a73b9ccb}
+      \strng{authorfullhash}{18ae8543e74cffe1bce94bf6a73b9ccb}
+      \strng{authorfullhashraw}{18ae8543e74cffe1bce94bf6a73b9ccb}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Journal of Psychology}
+      \field{number}{2}
+      \field{title}{An Experimental Study of Apparent Behavior}
+      \field{volume}{57}
+      \field{year}{1944}
+      \field{pages}{243\bibrangedash 259}
+      \range{pages}{17}
+    \endentry
+    \entry{hutchins1996cognition}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9120f90e175141b28a649072fed95ffc}{%
+           family={Hutchins},
+           familyi={H\bibinitperiod},
+           given={Edwin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{9120f90e175141b28a649072fed95ffc}
+      \strng{fullhash}{9120f90e175141b28a649072fed95ffc}
+      \strng{fullhashraw}{9120f90e175141b28a649072fed95ffc}
+      \strng{bibnamehash}{9120f90e175141b28a649072fed95ffc}
+      \strng{authorbibnamehash}{9120f90e175141b28a649072fed95ffc}
+      \strng{authornamehash}{9120f90e175141b28a649072fed95ffc}
+      \strng{authorfullhash}{9120f90e175141b28a649072fed95ffc}
+      \strng{authorfullhashraw}{9120f90e175141b28a649072fed95ffc}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cognition in the Wild}
+      \field{year}{1996}
+    \endentry
+    \entry{kahneman2011thinking}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Farrar, Straus}%
+        {Giroux}%
+      }
+      \strng{namehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{fullhash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{fullhashraw}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{bibnamehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authorbibnamehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authornamehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authorfullhash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authorfullhashraw}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thinking, Fast and Slow}
+      \field{year}{2011}
+    \endentry
+    \entry{marcus2019rebooting}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=199868cb9a5ee49454615e31ec8cc1ae}{%
+           family={Marcus},
+           familyi={M\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e313a551f14d86a5958c804b661f644}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Ernest},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Vintage}%
+      }
+      \strng{namehash}{fb6020b65b2a69b8faa4a6c8bc1a7506}
+      \strng{fullhash}{fb6020b65b2a69b8faa4a6c8bc1a7506}
+      \strng{fullhashraw}{fb6020b65b2a69b8faa4a6c8bc1a7506}
+      \strng{bibnamehash}{fb6020b65b2a69b8faa4a6c8bc1a7506}
+      \strng{authorbibnamehash}{fb6020b65b2a69b8faa4a6c8bc1a7506}
+      \strng{authornamehash}{fb6020b65b2a69b8faa4a6c8bc1a7506}
+      \strng{authorfullhash}{fb6020b65b2a69b8faa4a6c8bc1a7506}
+      \strng{authorfullhashraw}{fb6020b65b2a69b8faa4a6c8bc1a7506}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Rebooting AI: Building Artificial Intelligence We Can Trust}
+      \field{year}{2020}
+    \endentry
+    \entry{businessinsider2025claude}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f2e3df9c86f4669b444d337f049ea0c3}{%
+           family={Ming},
+           familyi={M\bibinitperiod},
+           given={Lee\bibnamedelima Chong},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f2e3df9c86f4669b444d337f049ea0c3}
+      \strng{fullhash}{f2e3df9c86f4669b444d337f049ea0c3}
+      \strng{fullhashraw}{f2e3df9c86f4669b444d337f049ea0c3}
+      \strng{bibnamehash}{f2e3df9c86f4669b444d337f049ea0c3}
+      \strng{authorbibnamehash}{f2e3df9c86f4669b444d337f049ea0c3}
+      \strng{authornamehash}{f2e3df9c86f4669b444d337f049ea0c3}
+      \strng{authorfullhash}{f2e3df9c86f4669b444d337f049ea0c3}
+      \strng{authorfullhashraw}{f2e3df9c86f4669b444d337f049ea0c3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Business Insider}
+      \field{title}{Anthropic's new Claude model blackmailed an engineer having an affair in test runs}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.businessinsider.com/claude-blackmail-engineer-having-affair-survive-test-anthropic-opus-2025-5
+      \endverb
+      \verb{url}
+      \verb https://www.businessinsider.com/claude-blackmail-engineer-having-affair-survive-test-anthropic-opus-2025-5
+      \endverb
+    \endentry
+    \entry{montague1974formal}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7c6ba51ce7aee268ca16ba50bb7f44f2}{%
+           family={Montague},
+           familyi={M\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=2735e5d31d198770952ecf8c9e1055ff}{%
+           family={Thomason},
+           familyi={T\bibinitperiod},
+           given={Richmond\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Yale University Press}%
+      }
+      \strng{namehash}{7c6ba51ce7aee268ca16ba50bb7f44f2}
+      \strng{fullhash}{7c6ba51ce7aee268ca16ba50bb7f44f2}
+      \strng{fullhashraw}{7c6ba51ce7aee268ca16ba50bb7f44f2}
+      \strng{bibnamehash}{7c6ba51ce7aee268ca16ba50bb7f44f2}
+      \strng{authorbibnamehash}{7c6ba51ce7aee268ca16ba50bb7f44f2}
+      \strng{authornamehash}{7c6ba51ce7aee268ca16ba50bb7f44f2}
+      \strng{authorfullhash}{7c6ba51ce7aee268ca16ba50bb7f44f2}
+      \strng{authorfullhashraw}{7c6ba51ce7aee268ca16ba50bb7f44f2}
+      \strng{editorbibnamehash}{2735e5d31d198770952ecf8c9e1055ff}
+      \strng{editornamehash}{2735e5d31d198770952ecf8c9e1055ff}
+      \strng{editorfullhash}{2735e5d31d198770952ecf8c9e1055ff}
+      \strng{editorfullhashraw}{2735e5d31d198770952ecf8c9e1055ff}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Formal Philosophy: Selected Papers of Richard Montague}
+      \field{year}{1974}
+    \endentry
+    \entry{NowikPawe2021Epfa}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=287ae86e61d762defdadeb5555227b7d}{%
+           family={Nowik},
+           familyi={N\bibinitperiod},
+           given={Paweł},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{287ae86e61d762defdadeb5555227b7d}
+      \strng{fullhash}{287ae86e61d762defdadeb5555227b7d}
+      \strng{fullhashraw}{287ae86e61d762defdadeb5555227b7d}
+      \strng{bibnamehash}{287ae86e61d762defdadeb5555227b7d}
+      \strng{authorbibnamehash}{287ae86e61d762defdadeb5555227b7d}
+      \strng{authornamehash}{287ae86e61d762defdadeb5555227b7d}
+      \strng{authorfullhash}{287ae86e61d762defdadeb5555227b7d}
+      \strng{authorfullhashraw}{287ae86e61d762defdadeb5555227b7d}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2212-473X}
+      \field{journaltitle}{Computer law and security review}
+      \field{title}{Electronic personhood for artificial intelligence in the workplace}
+      \field{volume}{42}
+      \field{year}{2021}
+      \field{pages}{105584\bibrangedash}
+      \range{pages}{-1}
+      \keyw{Artificial intelligence}
+    \endentry
+    \entry{popper2014logic}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af678ce291c200fd37cd78a346556e99}{%
+           family={Popper},
+           familyi={P\bibinitperiod},
+           given={Karl\bibnamedelima R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{af678ce291c200fd37cd78a346556e99}
+      \strng{fullhash}{af678ce291c200fd37cd78a346556e99}
+      \strng{fullhashraw}{af678ce291c200fd37cd78a346556e99}
+      \strng{bibnamehash}{af678ce291c200fd37cd78a346556e99}
+      \strng{authorbibnamehash}{af678ce291c200fd37cd78a346556e99}
+      \strng{authornamehash}{af678ce291c200fd37cd78a346556e99}
+      \strng{authorfullhash}{af678ce291c200fd37cd78a346556e99}
+      \strng{authorfullhashraw}{af678ce291c200fd37cd78a346556e99}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Originally published 1959}
+      \field{title}{The Logic of Scientific Discovery}
+      \field{year}{2014}
+    \endentry
+    \entry{reeves2003media}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6d279f4ffde7a43eaaa4fcfec0005fbf}{%
+           family={Reeves},
+           familyi={R\bibinitperiod},
+           given={Byron},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93d1ffa95c0528b61b14c0d506bda534}{%
+           family={Nass},
+           familyi={N\bibinitperiod},
+           given={Clifford},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{04a0db88598db0cbabbe11a25e5199ac}
+      \strng{fullhash}{04a0db88598db0cbabbe11a25e5199ac}
+      \strng{fullhashraw}{04a0db88598db0cbabbe11a25e5199ac}
+      \strng{bibnamehash}{04a0db88598db0cbabbe11a25e5199ac}
+      \strng{authorbibnamehash}{04a0db88598db0cbabbe11a25e5199ac}
+      \strng{authornamehash}{04a0db88598db0cbabbe11a25e5199ac}
+      \strng{authorfullhash}{04a0db88598db0cbabbe11a25e5199ac}
+      \strng{authorfullhashraw}{04a0db88598db0cbabbe11a25e5199ac}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Media Equation: How People Treat Computers, Television, and New Media Like Real People and Places}
+      \field{year}{1996}
+    \endentry
+    \entry{searle1980minds}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=932676a29fb955b21e5599a8c1c5e6ca}{%
+           family={Searle},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{932676a29fb955b21e5599a8c1c5e6ca}
+      \strng{fullhash}{932676a29fb955b21e5599a8c1c5e6ca}
+      \strng{fullhashraw}{932676a29fb955b21e5599a8c1c5e6ca}
+      \strng{bibnamehash}{932676a29fb955b21e5599a8c1c5e6ca}
+      \strng{authorbibnamehash}{932676a29fb955b21e5599a8c1c5e6ca}
+      \strng{authornamehash}{932676a29fb955b21e5599a8c1c5e6ca}
+      \strng{authorfullhash}{932676a29fb955b21e5599a8c1c5e6ca}
+      \strng{authorfullhashraw}{932676a29fb955b21e5599a8c1c5e6ca}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Behavioral and Brain Sciences}
+      \field{number}{3}
+      \field{title}{Minds, Brains, and Programs}
+      \field{volume}{3}
+      \field{year}{1980}
+      \field{pages}{422\bibrangedash 424}
+      \range{pages}{3}
+    \endentry
+    \entry{tarski1943truth}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1d9d32785708836ac3a223ad31f277fe}{%
+           family={Tarski},
+           familyi={T\bibinitperiod},
+           given={Alfred},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {International Phenomenological Society}%
+      }
+      \strng{namehash}{1d9d32785708836ac3a223ad31f277fe}
+      \strng{fullhash}{1d9d32785708836ac3a223ad31f277fe}
+      \strng{fullhashraw}{1d9d32785708836ac3a223ad31f277fe}
+      \strng{bibnamehash}{1d9d32785708836ac3a223ad31f277fe}
+      \strng{authorbibnamehash}{1d9d32785708836ac3a223ad31f277fe}
+      \strng{authornamehash}{1d9d32785708836ac3a223ad31f277fe}
+      \strng{authorfullhash}{1d9d32785708836ac3a223ad31f277fe}
+      \strng{authorfullhashraw}{1d9d32785708836ac3a223ad31f277fe}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Philosophy and Phenomenological Research}
+      \field{number}{3}
+      \field{title}{The Semantic Conception of Truth and the Foundations of Semantics}
+      \field{volume}{4}
+      \field{year}{1943}
+      \field{pages}{341\bibrangedash 376}
+      \range{pages}{36}
+    \endentry
+    \entry{tononi2004information}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f9ce8131c11c545dbdc50a80a8ddd9e1}{%
+           family={Tononi},
+           familyi={T\bibinitperiod},
+           given={Giulio},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f9ce8131c11c545dbdc50a80a8ddd9e1}
+      \strng{fullhash}{f9ce8131c11c545dbdc50a80a8ddd9e1}
+      \strng{fullhashraw}{f9ce8131c11c545dbdc50a80a8ddd9e1}
+      \strng{bibnamehash}{f9ce8131c11c545dbdc50a80a8ddd9e1}
+      \strng{authorbibnamehash}{f9ce8131c11c545dbdc50a80a8ddd9e1}
+      \strng{authornamehash}{f9ce8131c11c545dbdc50a80a8ddd9e1}
+      \strng{authorfullhash}{f9ce8131c11c545dbdc50a80a8ddd9e1}
+      \strng{authorfullhashraw}{f9ce8131c11c545dbdc50a80a8ddd9e1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC Neuroscience}
+      \field{number}{1}
+      \field{title}{An Information Integration Theory of Consciousness}
+      \field{volume}{5}
+      \field{year}{2004}
+      \field{pages}{42}
+      \range{pages}{1}
+    \endentry
+    \entry{turing1950computing}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1210277649f3c7541e2750ee21da6237}{%
+           family={Turing},
+           familyi={T\bibinitperiod},
+           given={Alan\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{fullhash}{1210277649f3c7541e2750ee21da6237}
+      \strng{fullhashraw}{1210277649f3c7541e2750ee21da6237}
+      \strng{bibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorbibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authornamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorfullhash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorfullhashraw}{1210277649f3c7541e2750ee21da6237}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mind}
+      \field{number}{236}
+      \field{title}{Computing Machinery and Intelligence}
+      \field{volume}{49}
+      \field{year}{1950}
+      \field{pages}{433\bibrangedash 460}
+      \range{pages}{28}
+    \endentry
+    \entry{vanfraassen1980scientific}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=38b0d6ffefe9c0115de90c6397d3449b}{%
+           family={Fraassen},
+           familyi={F\bibinitperiod},
+           given={Bas\bibnamedelima C.},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{38b0d6ffefe9c0115de90c6397d3449b}
+      \strng{fullhash}{38b0d6ffefe9c0115de90c6397d3449b}
+      \strng{fullhashraw}{38b0d6ffefe9c0115de90c6397d3449b}
+      \strng{bibnamehash}{38b0d6ffefe9c0115de90c6397d3449b}
+      \strng{authorbibnamehash}{38b0d6ffefe9c0115de90c6397d3449b}
+      \strng{authornamehash}{38b0d6ffefe9c0115de90c6397d3449b}
+      \strng{authorfullhash}{38b0d6ffefe9c0115de90c6397d3449b}
+      \strng{authorfullhashraw}{38b0d6ffefe9c0115de90c6397d3449b}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Scientific Image}
+      \field{year}{1980}
+    \endentry
+    \entry{wittgenstein1953philosophical}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3234c99a3eebf68ef7d42684cdb8ed8f}{%
+           family={Wittgenstein},
+           familyi={W\bibinitperiod},
+           given={Ludwig},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Blackwell Publishing}%
+      }
+      \strng{namehash}{3234c99a3eebf68ef7d42684cdb8ed8f}
+      \strng{fullhash}{3234c99a3eebf68ef7d42684cdb8ed8f}
+      \strng{fullhashraw}{3234c99a3eebf68ef7d42684cdb8ed8f}
+      \strng{bibnamehash}{3234c99a3eebf68ef7d42684cdb8ed8f}
+      \strng{authorbibnamehash}{3234c99a3eebf68ef7d42684cdb8ed8f}
+      \strng{authornamehash}{3234c99a3eebf68ef7d42684cdb8ed8f}
+      \strng{authorfullhash}{3234c99a3eebf68ef7d42684cdb8ed8f}
+      \strng{authorfullhashraw}{3234c99a3eebf68ef7d42684cdb8ed8f}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Translated by G. E. M. Anscombe}
+      \field{title}{Philosophical Investigations}
+      \field{year}{1953}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{baars1988cognitive}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c3eff89541ba705e7b7fa560d122ae45}{%
+           family={Baars},
+           familyi={B\bibinitperiod},
+           given={Bernard\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{c3eff89541ba705e7b7fa560d122ae45}
+      \strng{fullhash}{c3eff89541ba705e7b7fa560d122ae45}
+      \strng{fullhashraw}{c3eff89541ba705e7b7fa560d122ae45}
+      \strng{bibnamehash}{c3eff89541ba705e7b7fa560d122ae45}
+      \strng{authorbibnamehash}{c3eff89541ba705e7b7fa560d122ae45}
+      \strng{authornamehash}{c3eff89541ba705e7b7fa560d122ae45}
+      \strng{authorfullhash}{c3eff89541ba705e7b7fa560d122ae45}
+      \strng{authorfullhashraw}{c3eff89541ba705e7b7fa560d122ae45}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Cognitive Theory of Consciousness}
+      \field{year}{1988}
+    \endentry
+    \entry{carnap1947meaning}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6ac7e21451c80f04ca26894d84279358}{%
+           family={Carnap},
+           familyi={C\bibinitperiod},
+           given={Rudolf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{6ac7e21451c80f04ca26894d84279358}
+      \strng{fullhash}{6ac7e21451c80f04ca26894d84279358}
+      \strng{fullhashraw}{6ac7e21451c80f04ca26894d84279358}
+      \strng{bibnamehash}{6ac7e21451c80f04ca26894d84279358}
+      \strng{authorbibnamehash}{6ac7e21451c80f04ca26894d84279358}
+      \strng{authornamehash}{6ac7e21451c80f04ca26894d84279358}
+      \strng{authorfullhash}{6ac7e21451c80f04ca26894d84279358}
+      \strng{authorfullhashraw}{6ac7e21451c80f04ca26894d84279358}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Meaning and Necessity: A Study in Semantics and Modal Logic}
+      \field{year}{1947}
+    \endentry
+    \entry{dennett1989intentional}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f4a7ef5757f8b8a262657ec68653e531}{%
+           family={Dennett},
+           familyi={D\bibinitperiod},
+           given={Daniel\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{fullhash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{fullhashraw}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{bibnamehash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{authorbibnamehash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{authornamehash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{authorfullhash}{f4a7ef5757f8b8a262657ec68653e531}
+      \strng{authorfullhashraw}{f4a7ef5757f8b8a262657ec68653e531}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Intentional Stance}
+      \field{year}{1989}
+    \endentry
+    \entry{grice1975logic}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6901b87606f754ab73a1dfda8bfd8bf9}{%
+           family={Grice},
+           familyi={G\bibinitperiod},
+           given={H.\bibnamedelimi P.},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=d59bef1c480e103dec86b71e47802b1b}{%
+           family={Cole},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f3a37bd9311daf22d7be68a231ec5689}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={Jerry},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{6901b87606f754ab73a1dfda8bfd8bf9}
+      \strng{fullhash}{6901b87606f754ab73a1dfda8bfd8bf9}
+      \strng{fullhashraw}{6901b87606f754ab73a1dfda8bfd8bf9}
+      \strng{bibnamehash}{6901b87606f754ab73a1dfda8bfd8bf9}
+      \strng{authorbibnamehash}{6901b87606f754ab73a1dfda8bfd8bf9}
+      \strng{authornamehash}{6901b87606f754ab73a1dfda8bfd8bf9}
+      \strng{authorfullhash}{6901b87606f754ab73a1dfda8bfd8bf9}
+      \strng{authorfullhashraw}{6901b87606f754ab73a1dfda8bfd8bf9}
+      \strng{editorbibnamehash}{101da941875d52ae5eedab7e3b206d4d}
+      \strng{editornamehash}{101da941875d52ae5eedab7e3b206d4d}
+      \strng{editorfullhash}{101da941875d52ae5eedab7e3b206d4d}
+      \strng{editorfullhashraw}{101da941875d52ae5eedab7e3b206d4d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Syntax and Semantics, Volume 3}
+      \field{title}{Logic and Conversation}
+      \field{year}{1975}
+      \field{pages}{41\bibrangedash 58}
+      \range{pages}{18}
+    \endentry
+    \entry{heider1944experimental}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=06894819b9e4fd9d2f45552193362f2b}{%
+           family={Heider},
+           familyi={H\bibinitperiod},
+           given={Fritz},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd0078d6dd85c8bd9a7b7ddb6a012f31}{%
+           family={Simmel},
+           familyi={S\bibinitperiod},
+           given={Marianne},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{18ae8543e74cffe1bce94bf6a73b9ccb}
+      \strng{fullhash}{18ae8543e74cffe1bce94bf6a73b9ccb}
+      \strng{fullhashraw}{18ae8543e74cffe1bce94bf6a73b9ccb}
+      \strng{bibnamehash}{18ae8543e74cffe1bce94bf6a73b9ccb}
+      \strng{authorbibnamehash}{18ae8543e74cffe1bce94bf6a73b9ccb}
+      \strng{authornamehash}{18ae8543e74cffe1bce94bf6a73b9ccb}
+      \strng{authorfullhash}{18ae8543e74cffe1bce94bf6a73b9ccb}
+      \strng{authorfullhashraw}{18ae8543e74cffe1bce94bf6a73b9ccb}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Journal of Psychology}
+      \field{number}{2}
+      \field{title}{An Experimental Study of Apparent Behavior}
+      \field{volume}{57}
+      \field{year}{1944}
+      \field{pages}{243\bibrangedash 259}
+      \range{pages}{17}
+    \endentry
+    \entry{hutchins1996cognition}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9120f90e175141b28a649072fed95ffc}{%
+           family={Hutchins},
+           familyi={H\bibinitperiod},
+           given={Edwin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{9120f90e175141b28a649072fed95ffc}
+      \strng{fullhash}{9120f90e175141b28a649072fed95ffc}
+      \strng{fullhashraw}{9120f90e175141b28a649072fed95ffc}
+      \strng{bibnamehash}{9120f90e175141b28a649072fed95ffc}
+      \strng{authorbibnamehash}{9120f90e175141b28a649072fed95ffc}
+      \strng{authornamehash}{9120f90e175141b28a649072fed95ffc}
+      \strng{authorfullhash}{9120f90e175141b28a649072fed95ffc}
+      \strng{authorfullhashraw}{9120f90e175141b28a649072fed95ffc}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cognition in the Wild}
+      \field{year}{1996}
+    \endentry
+    \entry{kahneman2011thinking}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Farrar, Straus}%
+        {Giroux}%
+      }
+      \strng{namehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{fullhash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{fullhashraw}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{bibnamehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authorbibnamehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authornamehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authorfullhash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authorfullhashraw}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thinking, Fast and Slow}
+      \field{year}{2011}
+    \endentry
+    \entry{marcus2019rebooting}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=199868cb9a5ee49454615e31ec8cc1ae}{%
+           family={Marcus},
+           familyi={M\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e313a551f14d86a5958c804b661f644}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Ernest},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Vintage}%
+      }
+      \strng{namehash}{fb6020b65b2a69b8faa4a6c8bc1a7506}
+      \strng{fullhash}{fb6020b65b2a69b8faa4a6c8bc1a7506}
+      \strng{fullhashraw}{fb6020b65b2a69b8faa4a6c8bc1a7506}
+      \strng{bibnamehash}{fb6020b65b2a69b8faa4a6c8bc1a7506}
+      \strng{authorbibnamehash}{fb6020b65b2a69b8faa4a6c8bc1a7506}
+      \strng{authornamehash}{fb6020b65b2a69b8faa4a6c8bc1a7506}
+      \strng{authorfullhash}{fb6020b65b2a69b8faa4a6c8bc1a7506}
+      \strng{authorfullhashraw}{fb6020b65b2a69b8faa4a6c8bc1a7506}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Rebooting AI: Building Artificial Intelligence We Can Trust}
+      \field{year}{2020}
+    \endentry
+    \entry{businessinsider2025claude}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f2e3df9c86f4669b444d337f049ea0c3}{%
+           family={Ming},
+           familyi={M\bibinitperiod},
+           given={Lee\bibnamedelima Chong},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f2e3df9c86f4669b444d337f049ea0c3}
+      \strng{fullhash}{f2e3df9c86f4669b444d337f049ea0c3}
+      \strng{fullhashraw}{f2e3df9c86f4669b444d337f049ea0c3}
+      \strng{bibnamehash}{f2e3df9c86f4669b444d337f049ea0c3}
+      \strng{authorbibnamehash}{f2e3df9c86f4669b444d337f049ea0c3}
+      \strng{authornamehash}{f2e3df9c86f4669b444d337f049ea0c3}
+      \strng{authorfullhash}{f2e3df9c86f4669b444d337f049ea0c3}
+      \strng{authorfullhashraw}{f2e3df9c86f4669b444d337f049ea0c3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Business Insider}
+      \field{title}{Anthropic's new Claude model blackmailed an engineer having an affair in test runs}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.businessinsider.com/claude-blackmail-engineer-having-affair-survive-test-anthropic-opus-2025-5
+      \endverb
+      \verb{url}
+      \verb https://www.businessinsider.com/claude-blackmail-engineer-having-affair-survive-test-anthropic-opus-2025-5
+      \endverb
+    \endentry
+    \entry{montague1974formal}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7c6ba51ce7aee268ca16ba50bb7f44f2}{%
+           family={Montague},
+           familyi={M\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=2735e5d31d198770952ecf8c9e1055ff}{%
+           family={Thomason},
+           familyi={T\bibinitperiod},
+           given={Richmond\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Yale University Press}%
+      }
+      \strng{namehash}{7c6ba51ce7aee268ca16ba50bb7f44f2}
+      \strng{fullhash}{7c6ba51ce7aee268ca16ba50bb7f44f2}
+      \strng{fullhashraw}{7c6ba51ce7aee268ca16ba50bb7f44f2}
+      \strng{bibnamehash}{7c6ba51ce7aee268ca16ba50bb7f44f2}
+      \strng{authorbibnamehash}{7c6ba51ce7aee268ca16ba50bb7f44f2}
+      \strng{authornamehash}{7c6ba51ce7aee268ca16ba50bb7f44f2}
+      \strng{authorfullhash}{7c6ba51ce7aee268ca16ba50bb7f44f2}
+      \strng{authorfullhashraw}{7c6ba51ce7aee268ca16ba50bb7f44f2}
+      \strng{editorbibnamehash}{2735e5d31d198770952ecf8c9e1055ff}
+      \strng{editornamehash}{2735e5d31d198770952ecf8c9e1055ff}
+      \strng{editorfullhash}{2735e5d31d198770952ecf8c9e1055ff}
+      \strng{editorfullhashraw}{2735e5d31d198770952ecf8c9e1055ff}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Formal Philosophy: Selected Papers of Richard Montague}
+      \field{year}{1974}
+    \endentry
+    \entry{NowikPawe2021Epfa}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=287ae86e61d762defdadeb5555227b7d}{%
+           family={Nowik},
+           familyi={N\bibinitperiod},
+           given={Paweł},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{287ae86e61d762defdadeb5555227b7d}
+      \strng{fullhash}{287ae86e61d762defdadeb5555227b7d}
+      \strng{fullhashraw}{287ae86e61d762defdadeb5555227b7d}
+      \strng{bibnamehash}{287ae86e61d762defdadeb5555227b7d}
+      \strng{authorbibnamehash}{287ae86e61d762defdadeb5555227b7d}
+      \strng{authornamehash}{287ae86e61d762defdadeb5555227b7d}
+      \strng{authorfullhash}{287ae86e61d762defdadeb5555227b7d}
+      \strng{authorfullhashraw}{287ae86e61d762defdadeb5555227b7d}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2212-473X}
+      \field{journaltitle}{Computer law and security review}
+      \field{title}{Electronic personhood for artificial intelligence in the workplace}
+      \field{volume}{42}
+      \field{year}{2021}
+      \field{pages}{105584\bibrangedash}
+      \range{pages}{-1}
+      \keyw{Artificial intelligence}
+    \endentry
+    \entry{popper2014logic}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af678ce291c200fd37cd78a346556e99}{%
+           family={Popper},
+           familyi={P\bibinitperiod},
+           given={Karl\bibnamedelima R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{af678ce291c200fd37cd78a346556e99}
+      \strng{fullhash}{af678ce291c200fd37cd78a346556e99}
+      \strng{fullhashraw}{af678ce291c200fd37cd78a346556e99}
+      \strng{bibnamehash}{af678ce291c200fd37cd78a346556e99}
+      \strng{authorbibnamehash}{af678ce291c200fd37cd78a346556e99}
+      \strng{authornamehash}{af678ce291c200fd37cd78a346556e99}
+      \strng{authorfullhash}{af678ce291c200fd37cd78a346556e99}
+      \strng{authorfullhashraw}{af678ce291c200fd37cd78a346556e99}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Originally published 1959}
+      \field{title}{The Logic of Scientific Discovery}
+      \field{year}{2014}
+    \endentry
+    \entry{reeves2003media}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6d279f4ffde7a43eaaa4fcfec0005fbf}{%
+           family={Reeves},
+           familyi={R\bibinitperiod},
+           given={Byron},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93d1ffa95c0528b61b14c0d506bda534}{%
+           family={Nass},
+           familyi={N\bibinitperiod},
+           given={Clifford},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{04a0db88598db0cbabbe11a25e5199ac}
+      \strng{fullhash}{04a0db88598db0cbabbe11a25e5199ac}
+      \strng{fullhashraw}{04a0db88598db0cbabbe11a25e5199ac}
+      \strng{bibnamehash}{04a0db88598db0cbabbe11a25e5199ac}
+      \strng{authorbibnamehash}{04a0db88598db0cbabbe11a25e5199ac}
+      \strng{authornamehash}{04a0db88598db0cbabbe11a25e5199ac}
+      \strng{authorfullhash}{04a0db88598db0cbabbe11a25e5199ac}
+      \strng{authorfullhashraw}{04a0db88598db0cbabbe11a25e5199ac}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Media Equation: How People Treat Computers, Television, and New Media Like Real People and Places}
+      \field{year}{1996}
+    \endentry
+    \entry{searle1980minds}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=932676a29fb955b21e5599a8c1c5e6ca}{%
+           family={Searle},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{932676a29fb955b21e5599a8c1c5e6ca}
+      \strng{fullhash}{932676a29fb955b21e5599a8c1c5e6ca}
+      \strng{fullhashraw}{932676a29fb955b21e5599a8c1c5e6ca}
+      \strng{bibnamehash}{932676a29fb955b21e5599a8c1c5e6ca}
+      \strng{authorbibnamehash}{932676a29fb955b21e5599a8c1c5e6ca}
+      \strng{authornamehash}{932676a29fb955b21e5599a8c1c5e6ca}
+      \strng{authorfullhash}{932676a29fb955b21e5599a8c1c5e6ca}
+      \strng{authorfullhashraw}{932676a29fb955b21e5599a8c1c5e6ca}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Behavioral and Brain Sciences}
+      \field{number}{3}
+      \field{title}{Minds, Brains, and Programs}
+      \field{volume}{3}
+      \field{year}{1980}
+      \field{pages}{422\bibrangedash 424}
+      \range{pages}{3}
+    \endentry
+    \entry{tarski1943truth}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1d9d32785708836ac3a223ad31f277fe}{%
+           family={Tarski},
+           familyi={T\bibinitperiod},
+           given={Alfred},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {International Phenomenological Society}%
+      }
+      \strng{namehash}{1d9d32785708836ac3a223ad31f277fe}
+      \strng{fullhash}{1d9d32785708836ac3a223ad31f277fe}
+      \strng{fullhashraw}{1d9d32785708836ac3a223ad31f277fe}
+      \strng{bibnamehash}{1d9d32785708836ac3a223ad31f277fe}
+      \strng{authorbibnamehash}{1d9d32785708836ac3a223ad31f277fe}
+      \strng{authornamehash}{1d9d32785708836ac3a223ad31f277fe}
+      \strng{authorfullhash}{1d9d32785708836ac3a223ad31f277fe}
+      \strng{authorfullhashraw}{1d9d32785708836ac3a223ad31f277fe}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Philosophy and Phenomenological Research}
+      \field{number}{3}
+      \field{title}{The Semantic Conception of Truth and the Foundations of Semantics}
+      \field{volume}{4}
+      \field{year}{1943}
+      \field{pages}{341\bibrangedash 376}
+      \range{pages}{36}
+    \endentry
+    \entry{tononi2004information}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f9ce8131c11c545dbdc50a80a8ddd9e1}{%
+           family={Tononi},
+           familyi={T\bibinitperiod},
+           given={Giulio},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f9ce8131c11c545dbdc50a80a8ddd9e1}
+      \strng{fullhash}{f9ce8131c11c545dbdc50a80a8ddd9e1}
+      \strng{fullhashraw}{f9ce8131c11c545dbdc50a80a8ddd9e1}
+      \strng{bibnamehash}{f9ce8131c11c545dbdc50a80a8ddd9e1}
+      \strng{authorbibnamehash}{f9ce8131c11c545dbdc50a80a8ddd9e1}
+      \strng{authornamehash}{f9ce8131c11c545dbdc50a80a8ddd9e1}
+      \strng{authorfullhash}{f9ce8131c11c545dbdc50a80a8ddd9e1}
+      \strng{authorfullhashraw}{f9ce8131c11c545dbdc50a80a8ddd9e1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC Neuroscience}
+      \field{number}{1}
+      \field{title}{An Information Integration Theory of Consciousness}
+      \field{volume}{5}
+      \field{year}{2004}
+      \field{pages}{42}
+      \range{pages}{1}
+    \endentry
+    \entry{turing1950computing}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1210277649f3c7541e2750ee21da6237}{%
+           family={Turing},
+           familyi={T\bibinitperiod},
+           given={Alan\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{fullhash}{1210277649f3c7541e2750ee21da6237}
+      \strng{fullhashraw}{1210277649f3c7541e2750ee21da6237}
+      \strng{bibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorbibnamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authornamehash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorfullhash}{1210277649f3c7541e2750ee21da6237}
+      \strng{authorfullhashraw}{1210277649f3c7541e2750ee21da6237}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mind}
+      \field{number}{236}
+      \field{title}{Computing Machinery and Intelligence}
+      \field{volume}{49}
+      \field{year}{1950}
+      \field{pages}{433\bibrangedash 460}
+      \range{pages}{28}
+    \endentry
+    \entry{vanfraassen1980scientific}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=38b0d6ffefe9c0115de90c6397d3449b}{%
+           family={Fraassen},
+           familyi={F\bibinitperiod},
+           given={Bas\bibnamedelima C.},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{38b0d6ffefe9c0115de90c6397d3449b}
+      \strng{fullhash}{38b0d6ffefe9c0115de90c6397d3449b}
+      \strng{fullhashraw}{38b0d6ffefe9c0115de90c6397d3449b}
+      \strng{bibnamehash}{38b0d6ffefe9c0115de90c6397d3449b}
+      \strng{authorbibnamehash}{38b0d6ffefe9c0115de90c6397d3449b}
+      \strng{authornamehash}{38b0d6ffefe9c0115de90c6397d3449b}
+      \strng{authorfullhash}{38b0d6ffefe9c0115de90c6397d3449b}
+      \strng{authorfullhashraw}{38b0d6ffefe9c0115de90c6397d3449b}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Scientific Image}
+      \field{year}{1980}
+    \endentry
+    \entry{wittgenstein1953philosophical}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3234c99a3eebf68ef7d42684cdb8ed8f}{%
+           family={Wittgenstein},
+           familyi={W\bibinitperiod},
+           given={Ludwig},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Blackwell Publishing}%
+      }
+      \strng{namehash}{3234c99a3eebf68ef7d42684cdb8ed8f}
+      \strng{fullhash}{3234c99a3eebf68ef7d42684cdb8ed8f}
+      \strng{fullhashraw}{3234c99a3eebf68ef7d42684cdb8ed8f}
+      \strng{bibnamehash}{3234c99a3eebf68ef7d42684cdb8ed8f}
+      \strng{authorbibnamehash}{3234c99a3eebf68ef7d42684cdb8ed8f}
+      \strng{authornamehash}{3234c99a3eebf68ef7d42684cdb8ed8f}
+      \strng{authorfullhash}{3234c99a3eebf68ef7d42684cdb8ed8f}
+      \strng{authorfullhashraw}{3234c99a3eebf68ef7d42684cdb8ed8f}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Translated by G. E. M. Anscombe}
+      \field{title}{Philosophical Investigations}
+      \field{year}{1953}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

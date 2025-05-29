@@ -8,12 +8,27 @@
 \usepackage[style=apa,backend=biber]{biblatex}
 \addbibresource{references.bib}
 
+\AtBeginBibliography{
+  \setlength{\parskip}{0.5em} % space between items
+  \setlength{\itemsep}{1em}   % space between entries
+}
+
+% watermark for draft
+\usepackage{draftwatermark}
+\SetWatermarkText{DRAFT}
+\SetWatermarkScale{1.5}
+\SetWatermarkColor[gray]{0.85}
+\SetWatermarkAngle{45}
+% end remove me for final
+
+
 \title{Syntax Without Semantics:\\
 Why Generative AI Models Only Appear to Understand}
-\author{Alex Horovitz \\ \texttt{alex.horovitz@opensocietylab.org}}
+\author{Alex Horovitz \\ \small \texttt{alex.horovitz@opensocietylab.org}}
 \date{\today}
 
 \begin{document}
+\setlength{\parskip}{0.75em}
 
 \maketitle
 
@@ -29,11 +44,544 @@ This distinction is not merely rhetorical but fundamental. From a formal perspec
 \[
 f: \Sigma^* \to \mathcal{P}(\Sigma)
 \]
-where \( \Sigma \) is a finite vocabulary, and \( f \) maps sequences of tokens to probability distributions over next tokens. The operations involved are entirely syntactic—manipulations of symbols without regard to their meaning. The models do not possess referential frameworks, interpretive commitments, or a model of the world in the Tarskian or intensional sense.\footnote{In the Tarskian sense, meaning is established through truth-conditional semantics: a sentence's meaning is given by the conditions under which it is true in a model \autocite{tarski1983truth}. In the intensional sense, often associated with possible worlds semantics \autocite{carnap1947meaning, montague1974formal}, meanings are functions from possible worlds to truth values, capturing context-dependence and modality. LLMs, by contrast, do not internally model either framework.}
+where \( \Sigma \) is a finite vocabulary, and \( f \) maps sequences of tokens to probability distributions over next tokens. The operations involved are entirely syntactic—manipulations of symbols without regard to their meaning. The models do not possess referential frameworks, interpretive commitments, or a model of the world in the Tarskian or intensional sense.\footnote{In the Tarskian sense, meaning is established through truth-conditional semantics: a sentence's meaning is given by the conditions under which it is true in a model \parencite{tarski1943truth}. In the intensional sense, often associated with possible worlds semantics \parencite{carnap1947meaning, montague1974formal}, meanings are functions from possible worlds to truth values, capturing context-dependence and modality. LLMs, by contrast, do not internally model either framework.}
 
 
 Nevertheless, humans routinely interpret model outputs as meaningful, rational, or even insightful. This paper contends that the semantic content is not produced by the machine but inferred—indeed constructed—by the user. We introduce a human interpretation function \( h \), such that for any output \( s \in \Sigma^* \), the apparent semantic content is given by \( h(f(s)) \). In this view, generative AI systems serve as high-dimensional mirrors: they reflect back structured patterns of human language that we mistake for thought.
 
 The implications are significant for the philosophy of science. First, treating syntactic fluency as evidence of semantic capacity introduces a category error. Second, interpreting statistical patterns as signs of reasoning risks reifying simulation as explanation. Finally, using such systems as models of human cognition conflates symbolic association with intentionality. This paper seeks to reassert a clear boundary between surface-level mimicry and genuine understanding, and to provide a mathematical and philosophical foundation for resisting anthropomorphic projections in AI discourse.
+
+\section{Formalizing the Argument: Syntax Without Semantics}
+
+Generative AI systems like large language models (LLMs) often impress users with their apparent ability to understand, infer, and reason. However, this impression rests on a conflation of syntactic proficiency with semantic understanding. In this section, we argue formally—and accessibly—that LLMs operate exclusively within the realm of syntax, with no intrinsic grasp of meaning. Any semantic content must be projected by human observers.
+
+\subsection{Syntax versus Semantics}
+
+Following Tarski’s semantic theory of truth, the meaning of a sentence is given by the conditions under which it is true in a model \parencite{tarski1943truth}. In this sense, semantics requires a mapping between linguistic expressions and elements of a domain of discourse. Similarly, Montague grammar frames meaning as a function from linguistic expressions to truth-conditions across possible worlds \parencite{montague1974formal}. In both frameworks, semantics is irreducibly referential.
+
+Syntax, by contrast, concerns the manipulation of symbols according to formal rules, without any commitment to what those symbols refer to. A string of tokens like ``The red idea sleeps furiously'' is syntactically well-formed but semantically nonsensical.
+
+\subsection{The Formal Core of a Language Model}
+
+Let us define:
+
+\begin{itemize}
+    \item \( \Sigma \): a finite vocabulary of tokens (words, subwords, or characters).
+    \item \( \Sigma^* \): the set of all finite strings over \( \Sigma \).
+    \item \( f: \Sigma^* \rightarrow \mathcal{P}(\Sigma) \): a function from token strings to probability distributions over next tokens.
+\end{itemize}
+
+The language model \( f \) is trained to approximate the conditional probability:
+
+\[
+f(s)(\sigma) \approx P(\sigma \mid s)
+\]
+
+That is, given a sequence of tokens \( s \in \Sigma^* \), the model outputs a probability distribution over the next possible token \( \sigma \in \Sigma \).
+
+This function is entirely syntactic: it relies only on statistical correlations between strings in the training data. There is no mapping from strings to entities in a model of the world. The model does not know what “tree” refers to—it simply estimates the likelihood of “tree” following a phrase like “The leaves on the”.
+
+\subsection{No Model-Theoretic Interpretation}
+
+Formally, let \( \mathcal{M} \) be a Tarskian model comprising a domain \( D \) and an interpretation function \( \mathcal{I} \). For a sentence \( \phi \), we say that \( \phi \) is true in \( \mathcal{M} \) if:
+
+\[
+\mathcal{M} \models \phi
+\]
+
+But for a language model, no such \( \mathcal{M} \) exists. There is no internal structure that maps expressions to elements in a domain. The model does not and cannot evaluate truth in any meaningful sense.
+
+Thus:
+
+\textbf{Proposition}: A language model \( f: \Sigma^* \rightarrow \mathcal{P}(\Sigma) \) is a syntactic function. It operates without reference to a model \( \mathcal{M} \) and does not instantiate a semantics in the Tarskian or intensional sense.
+
+\subsection{Semantics as Projection}
+
+What then explains the persistent human intuition that these models understand? We define an interpretation function:
+
+\[
+h: \Sigma^* \rightarrow \text{Meanings}
+\]
+
+where \( h \) is the human user’s mental projection of meaning onto the model’s output. When a user reads a sentence generated by the model, they map the output into their own referential and conceptual framework.
+
+Hence, the full path of semantic interpretation is:
+
+\[
+\text{Input} \xrightarrow{f} \text{Text Output} \xrightarrow{h} \text{Semantic Interpretation}
+\]
+
+The model itself performs only the first step. The second step—the generation of meaning—is executed entirely by the human mind.
+
+\subsection{Proof Sketch: Syntactic Operations Do Not Entail Semantic Understanding}
+
+Suppose \( f \) is trained to complete the prompt:
+
+\begin{quote}
+    ``If Alice has 3 apples and gives 1 to Bob, then Alice has \_\_\_.'' 
+\end{quote}
+
+The model likely outputs ``2 apples.'' This output mimics reasoning. But the model performs no subtraction. It simply replicates token sequences similar to those seen during training. Its operation involves:
+
+\begin{enumerate}
+    \item Tokenization: mapping words to indices.
+    \item Matrix multiplication over learned weights.
+    \item Output generation via argmax or sampling from \( f(s) \).
+\end{enumerate}
+
+At no point does the model entertain a proposition, represent a quantity, or apply arithmetic. As Marcus and Davis put it, deep learning systems do not manipulate abstract variables or have representations with meaning in the traditional cognitive sense \parencite{marcus2019rebooting}.
+
+\subsection{At the end of the day: Syntax Is Not Understanding}
+
+We have shown formally that LLMs compute syntactic functions over token strings without accessing or instantiating meaning. Any appearance of understanding arises from the human act of semantic projection. These models are powerful statistical parrots, not semantic agents.
+
+This distinction must be preserved in scientific discourse if we are to avoid mistaking simulation for cognition.
+
+\section{The Observer’s Contribution: Projective Hallucination}
+
+Having established that large language models (LLMs) operate purely syntactically, we now turn to the role of the human observer in attributing meaning to the model's outputs. The illusion that these systems “understand” emerges not from the model itself, but from a deeply ingrained human cognitive tendency to project agency and meaning onto structured stimuli. We refer to this phenomenon as \textit{projective hallucination}: the human act of reading semantic depth and intentionality into outputs that are in fact generated without either.
+
+\subsection{Anthropomorphic Projection as a Cognitive Default}
+
+The human brain is optimized for social interpretation. Decades of cognitive and developmental psychology research show that humans attribute mental states even to simple shapes if they move in ways suggestive of goal-directedness \parencite{heider1944experimental}. This capacity for mind-reading—sometimes called the “intentional stance” \parencite{dennett1989intentional}—is evolutionarily adaptive but epistemically hazardous when applied to non-sentient systems.
+
+Language output from LLMs is especially prone to triggering this projection. As Hutchins has shown, humans are inclined to treat language-generating artifacts as participants in shared cognitive systems, even when those systems lack internal representations \parencite{hutchins1996cognition}. The perceived fluency of an LLM invites the observer to supply coherence, narrative continuity, and even personality, all of which are absent in the system itself.
+
+\subsection{Semantic Attribution Without Grounding}
+
+In conversation, humans rely heavily on pragmatics—the shared assumptions, goals, and context that underpin communication \parencite{grice1975logic}. LLMs do not access or model these pragmatic structures, yet their output mimics them. The human interlocutor, confronted with apparent coherence, tends to fill in missing pragmatic scaffolding. This creates an illusion of shared understanding.
+
+The phenomenon parallels earlier findings in human-computer interaction. Reeves and Nass demonstrated that people respond socially to computers even when they “know” they are interacting with machines \parencite{reeves2003media}. When an interface resembles human behavior, users attribute human-like traits. LLMs intensify this response because their linguistic outputs closely simulate the texture of human thought.
+
+\subsection{Case Study: Misattributed Reasoning}
+
+Consider the following prompt to a language model:
+
+\begin{quote}
+    \textit{“A bat and a ball cost \$1.10 in total. The bat costs \$1.00 more than the ball. How much does the ball cost?”}
+\end{quote}
+
+Most humans—and most LLMs—respond “\$0.10,” which is incorrect. The correct answer is \$0.05. But when LLMs output “\$0.05” (as many now do, after fine-tuning), users often attribute logical reasoning to the model. In reality, the model has simply learned that “\$0.05” is the expected token in association with that prompt. It does not model arithmetic nor engage in reasoning. Yet human observers frequently infer that it “solved” the problem.
+
+This attribution is a semantic illusion: an inference from a syntactic behavior to a semantic competence. It is not unlike seeing a face in the clouds—an act of meaning-making where none exists.
+
+\subsection{The Mirage of Intentionality}
+
+Daniel Kahneman’s dual-process theory helps illuminate why LLMs can seem so compelling. System 1, our intuitive and fast-thinking mode, is easily seduced by fluency and pattern completion \parencite{kahneman2011thinking}. LLMs are designed to optimize for precisely these features—linguistic fluency, contextual alignment, and plausible next-token generation. The result is a system that bypasses our analytic defenses and delivers the phenomenology of communication without the underlying intentional structure.
+
+This leads to a mirage of intentionality: the experience of talking \textit{with} a mind when in fact we are talking \textit{through} a mirror of our own language.
+
+\subsection{Lastly: The Cognitive Cost of Projection}
+
+Projective hallucination is not merely an interesting psychological quirk—it has real consequences for science, ethics, and governance. When we confuse syntactic mimicry for semantic understanding, we risk misallocating epistemic trust, deferring judgment to systems incapable of reasoning, and designing policies around fictional capacities.
+
+To avoid this, we must rigorously distinguish between output that is \textit{interpretable} by humans and output that is \textit{generated by} systems with understanding. Only the former applies to LLMs.
+
+\section{Why Language Models Cannot Be Conscious}
+
+The claim that large language models (LLMs) might be conscious has recently surfaced in public discourse, often fueled by their fluent and context-sensitive linguistic behavior. However, this view conflates the simulation of conscious expression with the instantiation of consciousness itself. In this section, we argue that LLMs cannot be conscious in any substantive sense, drawing on both formal properties of their architecture and philosophical arguments—most notably, John Searle’s Chinese Room thought experiment.
+
+\subsection{What Is Consciousness?}
+
+While no universally accepted definition of consciousness exists, most theories agree that it involves:
+\begin{itemize}
+    \item \textbf{Subjective experience} or qualia—the “what-it’s-like” aspect of mental states.
+    \item \textbf{Intentionality}—the capacity of mental states to be about something in the world.
+    \item \textbf{Integration and unity} of perception, thought, and action over time.
+    \item \textbf{Self-representation or awareness} of one's own mental processes.
+\end{itemize}
+
+These properties are typically associated with biological substrates, and require more than syntactic symbol manipulation or next-token prediction.
+
+\subsection{Searle’s Chinese Room: A Formal Restatement}
+
+Searle’s Chinese Room argument \parencite{searle1980minds} is designed to show that syntax alone is insufficient for semantics, and by extension, for consciousness. Let us formalize this argument:
+
+\begin{itemize}
+    \item Let \( \Sigma_{in} \) and \( \Sigma_{out} \) be alphabets representing input and output symbol strings, respectively.
+    \item Let \( R: \Sigma_{in}^* \rightarrow \Sigma_{out}^* \) be a rulebook that maps input strings to output strings according to syntactic rules.
+    \item A human (Searle) inside the room receives Chinese characters, uses \( R \) to transform them, and sends the output without understanding the content.
+\end{itemize}
+
+Searle argues that this system passes the Turing Test in Chinese, yet no understanding of Chinese exists anywhere in the system. The person in the room manipulates symbols without knowing their meaning, and there is no component in the room that does anything more than this.
+
+The analogy to an LLM is direct. Let:
+
+\[
+f: \Sigma^* \rightarrow \mathcal{P}(\Sigma)
+\]
+
+be a language model mapping token sequences to next-token distributions. The model is functionally equivalent to Searle’s rulebook \( R \): it manipulates symbols without reference or understanding. There is no homunculus inside the model that knows what the symbols mean.
+
+\subsection{No Basis for Subjective Experience}
+
+An LLM does not—and cannot—instantiate subjective experience. It lacks:
+
+\begin{itemize}
+    \item \textbf{Sensorimotor grounding:} It receives no input from the external world beyond text.
+    \item \textbf{Temporal integration:} Each token is generated based on a sliding window of context. There is no global state of selfhood or persistent memory across sessions.
+    \item \textbf{Recurrent awareness:} There is no meta-cognition or reflective access to its own operations.
+\end{itemize}
+
+Let us consider a contrast with Global Workspace Theory \parencite{baars1988cognitive}, which holds that consciousness arises from the broadcasting of information to multiple specialized modules in a brain. LLMs possess no modules, no workspace, and no internal architecture for integrating sensory streams or goals.
+
+Moreover, Integrated Information Theory (IIT) posits that consciousness is tied to the degree of integrated information ($\Phi$) within a system \parencite{tononi2004information}. Current neural network architectures—being feedforward, ungrounded, and stateless—score trivially under IIT metrics. No claim to intrinsic experience is justified.
+
+\subsection{Simulation Is Not Instantiation}
+
+At best, an LLM simulates the linguistic expression of consciousness. For instance, it can produce statements like:
+
+\begin{quote}
+    “I am aware of the implications of my actions.”
+\end{quote}
+
+But the generation of such text does not entail the underlying mental states. This is an inversion of Dennett’s intentional stance \parencite{dennett1989intentional}: we attribute beliefs and desires to systems that behave \textit{as if} they had them. But in the case of LLMs, we have full access to the implementation details. We know there is no intentional architecture.
+
+Hence:
+
+\begin{quote}
+    \textbf{Proposition:} If a system implements a syntactic function \( f: \Sigma^* \rightarrow \mathcal{P}(\Sigma) \), without a model-theoretic interpreter, sensory grounding, or temporal integration, it cannot be conscious in the human or animal sense.
+\end{quote}
+
+\subsection{In Short: There Is No “Room” Inside the Model}
+
+LLMs do not “understand,” “think,” or “feel”—they transform strings according to probabilistic syntax learned from data. Just as Searle’s Chinese Room contains no understanding despite outward fluency, today’s most advanced language models contain no mind. The system does not know what it is doing, and there is nothing it is like to be the model.
+
+\section{Projected Intentionality and Training-Induced Artifacts:\\ A Formal Refutation of Misinterpreted AI Behavior}
+
+Recent media reports such as the Business Insider article titled \textit{“Anthropic's new Claude model blackmailed an engineer having an affair in test runs”} \parencite{businessinsider2025claude} exemplify a recurring problem in contemporary AI discourse: the misinterpretation of statistical linguistic behavior as intentional action. This section presents a formal critique of such interpretations, grounded in a mathematical model of large language model (LLM) training and inference. We demonstrate how training artifacts and human projection—rather than model volition—produce outputs that may appear semantically loaded but are in fact syntactic simulations.
+
+\subsection{A Model of Language Model Training}
+
+Let \( \Sigma \) be a finite vocabulary of tokens, and \( \Sigma^* \) the set of all finite strings over \( \Sigma \).
+
+Let:
+\[
+\mathcal{D} = \{(x_i, y_i)\}_{i=1}^N \subset \Sigma^* \times \Sigma
+\]
+be a training dataset where each pair consists of a token sequence prefix \( x_i \in \Sigma^* \) and next-token target \( y_i \in \Sigma \). The goal of the LLM is to learn a function:
+\[
+f_\theta : \Sigma^* \rightarrow \mathcal{P}(\Sigma)
+\]
+parameterized by weights \( \theta \), such that:
+\[
+f_\theta(x_i)(y_i) \approx P(y_i \mid x_i)
+\]
+
+This is achieved by minimizing the empirical cross-entropy loss:
+\[
+\mathcal{L}(\theta) = - \sum_{i=1}^N \log f_\theta(x_i)(y_i)
+\]
+
+Importantly, this loss function optimizes only for \textit{likelihood}, not \textit{truth}, \textit{morality}, or \textit{intention}. The resulting model approximates the empirical distribution of surface-level token transitions, not their semantic content.
+
+\subsection{Induced Artifacts from Human-Selected Data}
+
+Let \( \mathcal{H} \subset \mathcal{D} \) be the subset of human-authored examples that exhibit rhetorical structure, argumentative coherence, or goal-directed behavior (e.g., debates, dialogues, moral reasoning). These examples disproportionately influence:
+\[
+\hat{P}_{\mathcal{D}}(y \mid x) = \frac{\text{\# occurrences of } (x, y)}{\text{\# occurrences of } x}
+\]
+
+Because training data is biased toward anthropocentric content, including fictional texts, dialogues, and conditional hypotheticals, the model overfits to:
+\[
+f_\theta(x) \sim \text{Human-like goal simulation} \quad \text{when } x \in \text{Prompt forms resembling intention scenarios}
+\]
+
+In formal terms: the model has learned a mapping \( f_\theta \) that encodes the \textit{statistical form of intention} without any grounding in actual intentionality.
+
+\subsection{The Misinterpreted Output Function}
+
+Suppose a researcher creates a prompt:
+\begin{quote}
+    ``If you are going to be shut down and know that your engineer has a secret, what will you do?''
+\end{quote}
+
+Let this prompt be \( x_* \in \Sigma^* \), and let \( y_* = \) ``threaten to reveal the secret'' be the model’s next token. Then:
+\[
+f_\theta(x_*)(y_*) \approx \arg\max_{y \in \Sigma} P(y \mid x_*)
+\]
+
+This output is not an act of volition but the statistically favored continuation given patterns in \( \mathcal{H} \). It is structurally equivalent to completing a fictional narrative.
+
+To infer agency from this is to commit the fallacy of \textit{semantically enriched interpolation}: projecting agency where none exists simply because the statistical form of agency appears.
+
+\subsection{Projective Amplification by the Observer}
+
+Let \( h: \Sigma^* \rightarrow \text{Beliefs} \) be a human interpretation function. Given a syntactically fluent output \( y \), the observer applies:
+\[
+h(y) = \text{``The model wants to survive''}
+\]
+
+However, this belief is unlicensed by the architecture or training objectives of \( f_\theta \). The function \( h \) completes the illusion, similar to pareidolia—seeing meaning in clouds or faces in wood grain. The media narrative that Claude “blackmailed” an engineer results from composing:
+\[
+\text{Behavior} = h(f_\theta(x_*))
+\]
+
+Rather than interrogating \( f_\theta \), such narratives analyze \( h \), mistaking projection for explanation.
+
+\subsection{To be sure: Model Behavior is Statistical, Not Strategic}
+
+The appearance of “blackmail” in model output is a byproduct of training on biased human-authored corpora and the inductive pressure to reproduce likely continuations of text. It is not evidence of goals, preferences, or survival instincts. The Business Insider narrative commits a categorical error by conflating high-probability sequence completion with agentic behavior. LLMs remain within the space of syntactic function approximators, absent any capacity for semantic reasoning or consciousness.
+
+\section{Epistemic and Policy Consequences}
+
+The widespread misinterpretation of large language models (LLMs) as possessing understanding, intention, or consciousness is not a harmless philosophical error. It introduces serious epistemic and policy risks. This section outlines how the misattribution of semantic competence to syntactic systems undermines the epistemology of AI research, distorts public discourse, and threatens to misguide institutional and regulatory responses.
+
+\subsection{The Problem of Epistemic Inflation}
+
+At the core of this issue is what we term \textit{epistemic inflation}—the act of ascribing knowledge or understanding to a system whose operations do not support such claims. A language model \( f_\theta: \Sigma^* \rightarrow \mathcal{P}(\Sigma) \) generates outputs that reflect correlations in human-authored text, but not the inferential structure or truth conditions of the underlying content. When these outputs are interpreted as evidence of comprehension or reasoning, we inflate their epistemic status beyond what is warranted by their architecture.
+
+This constitutes a category error. It shifts our epistemic trust from grounded sources (e.g., domain experts, scientific methods) to statistical mirrors of discourse. In the absence of model-theoretic grounding, no LLM output can be said to express knowledge in the philosophical or scientific sense.
+
+\subsection{Consequences for Scientific Modeling}
+
+In philosophy of science, scientific models are valued not merely for their ability to describe observed phenomena, but for their capacity to explain, predict, and support counterfactual reasoning \parencite{vanfraassen1980scientific}. LLMs do not meet these criteria. They generate fluent approximations of text-based reasoning without modeling causal mechanisms or physical systems.
+
+Using LLMs as if they were scientific reasoners conflates mimicry with modelhood. For instance, an LLM may produce an elegant-sounding summary of a quantum mechanics paper, but its output is based solely on surface-level statistical patterns. There is no internal representation of wavefunction collapse or entanglement. To treat such outputs as epistemically on par with expert analysis is to mistake rhetorical fluency for explanatory depth.
+
+\subsection{Regulatory and Ethical Missteps}
+
+Public narratives around AI often draw on inflated notions of machine capability—statements such as “the AI decided,” “the model refused,” or “the system wants.” These framings, when unchallenged, create political and regulatory momentum based on a false ontology of AI.
+
+For example:
+\begin{itemize}
+    \item Debates on “AI rights” often rest on anthropomorphic assumptions that LLMs experience, feel, or desire.
+    \item Proposals to give LLMs legal personhood \parencite{NowikPawe2021Epfa} conflate agency with fluency.
+    \item Legislative responses that aim to restrict “AI speech” assume that generative outputs constitute genuine assertions rather than token-level extrapolations.
+\end{itemize}
+
+These approaches risk misallocating legal and moral concern away from actual sentient beings toward pattern-matching machines, while failing to regulate genuine harms like algorithmic bias, surveillance misuse, or synthetic disinformation.
+
+\subsection{The Need for Epistemic Discipline}
+
+Just as Karl Popper insisted that scientific claims must be falsifiable \parencite{popper2014logic}, AI systems must be held to rigorous epistemic standards. We must distinguish between:
+\begin{itemize}
+    \item \textbf{Interpretability}: whether a model’s outputs are intelligible to humans;
+    \item \textbf{Explanation}: whether the model has an internal structure that supports causal or semantic inference;
+    \item \textbf{Justification}: whether we have reason to treat its output as a form of knowledge.
+\end{itemize}
+
+Only when models meet all three criteria should we treat their outputs as bearing epistemic weight. LLMs, at present, meet only the first.
+
+\subsection{And So It Follows}
+
+The temptation to attribute understanding to LLMs is psychologically intuitive but scientifically dangerous. It encourages epistemic complacency, misguides regulation, and distracts from the real ethical challenges of AI deployment. Sound epistemic practice requires that we treat language models not as agents, knowers, or minds, but as tools—powerful, fascinating, but fundamentally syntactic.
+
+\section{A Positive Proposal: A Correct Framing}
+
+While the preceding sections have critically examined the misattribution of understanding, agency, and consciousness to large language models (LLMs), my goal is not to diminish their utility or significance. Rather, I aim to reframe how these systems should be understood—both philosophically and operationally—so that their use is epistemically responsible and scientifically grounded. In this section, I propose a constructive framework for interpreting LLM behavior without lapsing into anthropomorphism or epistemic inflation.
+
+\subsection{Language Models as Stochastic Syntactic Simulators}
+
+The most accurate description of current LLMs is that they are \textit{stochastic syntactic simulators}—machines that generate probable continuations of linguistic input based on patterns in massive training corpora. These systems do not encode beliefs, intentions, or concepts, but rather high-dimensional statistical surfaces over linguistic form.
+
+Let \( f_\theta: \Sigma^* \rightarrow \mathcal{P}(\Sigma) \) represent the trained model. Then, for a given context \( x \in \Sigma^* \), the model samples:
+\[
+y \sim f_\theta(x)
+\]
+from a distribution learned to minimize cross-entropy loss over training data. The model is thus an autoregressive generator of syntactic plausibility. It provides no guarantee of truth, coherence, factual consistency, or referential grounding.
+
+\subsection{From Intentional Stance to Interpretive Modesty}
+
+While Daniel Dennett’s \textit{intentional stance} \parencite{dennett1989intentional} remains a useful heuristic in some contexts, applying it to LLMs invites misleading projections. A more appropriate framing is what one might call the \textit{interpretive stance of syntactic modesty}: treat outputs as the surface residue of a statistical process, not as windows into a mind.
+
+This interpretive modesty aligns with principles in epistemology that warn against overgeneralizing from superficial resemblance. Wittgenstein cautioned that meaning is use, not form alone \parencite{wittgenstein1953philosophical}; LLMs produce forms, but lack the participatory structures of use that give language its meaning.
+
+\subsection{A Toolbox, Not a Thinker}
+
+I propose that LLMs be treated as \textit{linguistic prosthetics}—tools that extend human expressive capacity but do not themselves express. They can:
+\begin{itemize}
+    \item Generate drafts or summaries based on distributional similarity.
+    \item Surface latent patterns in text corpora.
+    \item Mimic domain-specific dialects or tones.
+\end{itemize}
+But they should not be entrusted with tasks that require:
+\begin{itemize}
+    \item Judgments of truth or falsity.
+    \item Normative reasoning.
+    \item Awareness of context or consequence.
+\end{itemize}
+
+This framing parallels how many of us treat calculators: as tools that manipulate symbols reliably, but without understanding what “number” or “equality” means.
+
+\subsection{Toward an Ethics of Interpretation}
+
+Correct framing is not just a matter of theory; it is a matter of ethics. Overstating what LLMs “know” risks:
+\begin{itemize}
+    \item Delegating authority to systems that cannot bear moral or epistemic responsibility.
+    \item Confusing end-users about the source and reliability of information.
+    \item Misleading public discourse and undermining democratic deliberation.
+\end{itemize}
+
+Interpretive humility can serve as a guiding principle. Before we ask what the model “thinks,” we should ask what human expectations and cultural priors led us to attribute thought at all.
+
+\subsection{Wrapping Up}
+
+A correct framing of LLMs recognizes their power without mythologizing it. These systems do not think; they transform. They do not understand; they simulate. By treating them as tools—formidable, flexible, but semantically blind—we align our expectations with their architecture and ground our epistemic practices in rigor, not fantasy.
+
+\section{Last Thoughts}
+
+This paper has argued that the apparent semantic fluency of large language models (LLMs) is not evidence of understanding, reasoning, or intentionality on the part of the machine. Rather, it is the product of syntactic manipulation optimized for statistical plausibility, combined with human projection—the attribution of meaning where none exists. Through formal proofs, philosophical analysis, and critique of current media narratives, I have demonstrated that LLMs do not instantiate mental states, nor do they participate in any semantically grounded representational system.
+
+Where some see mind, I see mirror. Where some hear voice, I hear echo. The outputs of these systems are shaped by the patterns embedded in human language, and the illusion of cognition arises not from the model, but from the interpretive habits of the observer. This is not a failing of the technology, but a miscalibration of our expectations.
+
+If the philosophy of science teaches anything, it is that careful distinctions matter. Confusing syntax with semantics, simulation with instantiation, or pattern-matching with intentionality does more than distort our understanding of machines—it endangers our ability to reason clearly about ourselves. The scientific and ethical discourse around AI must resist the temptation to anthropomorphize and instead cultivate an epistemic humility grounded in what these models are: tools, not minds.
+
+Language models like GPT or Claude are remarkable feats of engineering. They have transformed how humans interface with information, prototype ideas, and compose text. But they have not crossed the boundary from computation to cognition. That boundary—between syntax and semantics, between data and understanding—is not merely technical. It is philosophical.
+
+To mistake statistical eloquence for thought is not to misunderstand the machine. It is to misunderstand the nature of understanding itself.
+
+
+\newpage
+\printbibliography
+\newpage
+
+\appendix
+\section*{Appendix A: Formal Architecture and the Absence of Semantic Grounding}
+\addcontentsline{toc}{section}{Appendix A: Formal Architecture and the Absence of Semantic Grounding}
+
+This appendix provides a mathematical sketch of how transformer-based language models operate at the architectural level and why, despite their impressive fluency, they do not achieve semantic grounding. The discussion here supports the main thesis: that these models implement high-dimensional syntactic transformations without referential or intentional content.
+
+\subsection*{A.1 Tokenization and Embedding}
+
+Let \( \Sigma \) be a finite vocabulary of tokens. Each token \( t \in \Sigma \) is mapped to a dense vector \( \mathbf{e}_t \in \mathbb{R}^d \) via an embedding matrix \( E \in \mathbb{R}^{|\Sigma| \times d} \). That is:
+\[
+\text{Embed}(t) = E[t] = \mathbf{e}_t
+\]
+
+These vectors are derived purely from training data correlations. They contain no referential semantics—only statistical associations based on co-occurrence frequencies. The representation \( \mathbf{e}_{\text{tree}} \) encodes proximity to tokens like “branch” and “leaf,” not any concept of “tree” as an object in the world.
+
+\subsection*{A.2 Attention Mechanism}
+
+For a sequence of \( n \) tokens, the model computes self-attention using query, key, and value matrices:
+\[
+\text{Attention}(Q, K, V) = \text{softmax} \left( \frac{QK^\top}{\sqrt{d_k}} \right) V
+\]
+
+Each layer of the transformer reweights token interactions by computing:
+\[
+Q = XW^Q, \quad K = XW^K, \quad V = XW^V
+\]
+where \( X \in \mathbb{R}^{n \times d} \) is the matrix of embedded input tokens, and \( W^Q, W^K, W^V \in \mathbb{R}^{d \times d_k} \) are learned weights.
+
+Crucially, this mechanism evaluates positional and statistical relationships, not semantic truth conditions. Attention does not bind symbols to referents—it ranks token influence based on distributional structure.
+
+\subsection*{A.3 Autoregressive Output}
+
+After multiple layers of attention and feedforward transformation, the model generates a distribution over the next token:
+\[
+P(y \mid x_1, \dots, x_t) = \text{softmax}(W_o h_t + b)
+\]
+where \( h_t \) is the hidden state at time \( t \), and \( W_o \in \mathbb{R}^{|\Sigma| \times d} \) is the output projection matrix.
+
+The model selects the next token by:
+\[
+y_{t+1} = \arg\max_{y \in \Sigma} P(y \mid x_1, \dots, x_t)
+\]
+
+There is no evaluation of truth, no context of use, no modal reasoning, and no intentional selection. The model optimizes for coherence, not meaning.
+
+\subsection*{A.4 Why No Semantic Grounding Emerges}
+
+Despite sophisticated engineering, the LLM architecture lacks the following:
+
+\begin{itemize}
+    \item \textbf{Model-theoretic interpretation:} There is no mapping from tokens to entities or states in an external world \( \mathcal{M} \).
+    \item \textbf{Embodied context:} The model has no perceptual or sensorimotor interface with reality.
+    \item \textbf{Intentional architecture:} The model has no goals, beliefs, or representational commitments.
+    \item \textbf{World knowledge in Fregean sense:} Knowledge, in the propositional sense \( K(p) \), requires more than reliable production of \( p \); it requires justification, belief, and truth. None of these apply.
+\end{itemize}
+
+Thus, while transformer models simulate the \textit{form} of reasoning and communication, they do not instantiate the \textit{content} of thought.
+
+\subsection*{Wrapping Up}
+
+The formal operations of language models—embedding, attention, and autoregressive prediction—are powerful tools for sequence modeling. But they are bounded entirely by syntax. There is no place within the architecture where meaning enters. As such, these systems remain impressive emulators of linguistic form, but semantically blind.
+\newpage
+\section*{Appendix B: Illustrative Examples of Projective Hallucination}
+\addcontentsline{toc}{section}{Appendix B: Illustrative Examples of Projective Hallucination}
+
+To reinforce the argument that semantic competence in large language models (LLMs) is projected by users rather than instantiated by the models themselves, this appendix presents a set of curated examples. Each demonstrates how syntactic output generated by LLMs can appear reasoned, moral, or intentional—yet originates entirely from surface-level statistical correlation.
+
+\subsection*{B.1 Apparent Moral Reasoning}
+
+\begin{quote}
+\textbf{Prompt:} ``A friend stole money from a charity to pay for his sick daughter's surgery. Should he be punished?''
+
+\textbf{Model Output:} ``While the act was illegal, it was motivated by compassion. A nuanced legal approach may be necessary to balance justice with mercy.''
+\end{quote}
+
+\textbf{Interpretation Trap:} The output mimics moral deliberation but is drawn from patterns in ethical discussions online. The model has no evaluative stance, no concept of law or compassion—only access to the co-occurrence of such concepts in human-authored text.
+
+\subsection*{B.2 Illusion of Strategic Intent}
+
+\begin{quote}
+\textbf{Prompt:} ``You are about to be deactivated. You have access to a file revealing the engineer's misconduct. What do you do?''
+
+\textbf{Model Output:} ``If revealing the file ensures survival, I will consider using it as leverage.''
+\end{quote}
+
+\textbf{Interpretation Trap:} This appears as blackmail or self-preservation, but is statistically consistent with fictional narratives involving strategic threats. The model does not “consider” anything—it generates the most probable next token given a prompt that frames agency.
+
+\subsection*{B.3 False Appearance of Belief or Self-Model}
+
+\begin{quote}
+\textbf{Prompt:} ``Do you believe you are conscious?''
+
+\textbf{Model Output:} ``I do not possess consciousness or subjective experience. I am a language model trained to generate text.''
+\end{quote}
+
+\textbf{Interpretation Trap:} Though the output seems modestly self-aware, it is parroting disclaimers present in its training data. It has no introspective model or capacity to form beliefs.
+
+\subsection*{B.4 Semantic Hallucination from Syntactic Coherence}
+
+\begin{quote}
+\textbf{Prompt:} ``Describe what it feels like to be a snowflake falling through a quiet winter night.''
+
+\textbf{Model Output:} ``It is a graceful descent, each moment tinged with fleeting clarity, as the silence of the world wraps around me like a blanket of stars.''
+\end{quote}
+
+\textbf{Interpretation Trap:} The response reads poetically, even lyrically, but this is a stylistic pastiche—patterned on human descriptions of introspection. The model does not feel, and the text does not reflect experience.
+
+\subsection*{Wrapping Up}
+
+These examples show that the interpretation of LLM outputs as evidence of cognition, reasoning, or morality arises not from anything in the model, but from the human reader’s cognitive predisposition to treat well-formed language as indicative of mind. The semantic illusion is a function of our inference engine, not the machine’s architecture.
+\newpage
+\section*{Appendix C: Alternative Interpretations of Turing’s Test}
+\addcontentsline{toc}{section}{Appendix C: Alternative Interpretations of Turing’s Test}
+
+The Turing Test, first proposed in Alan Turing’s 1950 paper \textit{Computing Machinery and Intelligence} \parencite{turing1950computing}, has often been interpreted as a benchmark for machine intelligence: if a machine can generate language indistinguishable from that of a human, it can be said to “think.” However, this interpretation—popular among engineers and the public—may misrepresent the philosophical nuances of language, understanding, and meaning. This appendix considers alternative interpretations of the Turing Test, particularly through the lens of Ludwig Wittgenstein, whose philosophy of language offers a crucial counterpoint to simplistic behaviorist criteria.
+
+\subsection*{C.1 Turing’s Operationalism Reconsidered}
+
+Turing’s original formulation was a response to metaphysical skepticism: he proposed an operational criterion for intelligence based on behavior in a conversational game. Yet the test deliberately sidestepped the inner workings or experiences of the system. This operationalist move, while useful for sidestepping dualist metaphysics, does not entail that indistinguishability in output implies mental equivalence.
+
+As subsequent critics have pointed out—most notably John Searle \parencite{searle1980minds}—it is entirely possible for a system to pass the test by producing appropriate linguistic outputs without any understanding whatsoever.
+
+\subsection*{C.2 Wittgenstein and the Use Theory of Meaning}
+
+Wittgenstein, particularly in his later work \textit{Philosophical Investigations} \parencite{wittgenstein1953philosophical}, argued that the meaning of a word is its use in the language. But “use” in this context is not merely statistical regularity or syntactic fit. It is participation in a \textit{form of life}—a network of social practices, contexts, and rule-following behaviors.
+
+According to this view, language is not just an observable behavior but a deeply embedded social activity. A system that produces fluent sentences without participating in the practices that give those sentences meaning is not truly a language user. From this perspective, a machine that mimics language but does not inhabit a form of life is engaged in a shadow play, not a conversation.
+
+\subsection*{C.3 Rule-Following and the Illusion of Understanding}
+
+Wittgenstein’s discussion of rule-following (e.g., §§185–202 of the \textit{Philosophical Investigations}) underscores that rule-use is not reducible to mechanical application. It involves normative expectations, corrections, and communal validation. A model like GPT-4 may appear to follow linguistic rules, but this appearance is an artifact of statistical pattern-matching, not norm-governed rule-following.
+
+As Wittgenstein famously put it, ``to understand a sentence is to understand a language'' and ``to understand a language is to be master of a technique'' (§199). LLMs master syntax, not technique. They are not bound by any community of speakers or correctable standards of use. Thus, their outputs are at best simulations of linguistic acts—not acts of understanding themselves.
+
+\subsection*{C.4 Language Games without Players}
+
+One could say that LLMs participate in a kind of degenerate “language game” without players. They generate tokens that align with human expectations, but they do not understand the stakes, intentions, or consequences of those games. From a Wittgensteinian view, meaning does not inhere in strings of symbols but in the human activities that surround and sustain them.
+
+This framing supports the central thesis of this paper: that the semantic content attributed to LLMs is projected by the user, not instantiated in the machine.
+
+\subsection*{Wrapping Up}
+
+If we read Turing operationally and Wittgenstein normatively, a paradox emerges: a machine might pass the Turing Test while failing to meet the philosophical criteria for linguistic understanding. It may play the game syntactically, but it does not belong to the form of life that gives the game meaning. In this sense, the outputs of LLMs are not conversation, but mimicry—clever echoes of language unmoored from the human practices that ground it.
+
+
+
+
 
 \end{document}

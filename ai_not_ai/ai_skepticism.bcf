@@ -3070,6 +3070,31 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1" intorder="1">tarski1943truth</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">carnap1947meaning</bcf:citekey>
+    <bcf:citekey order="2" intorder="2">montague1974formal</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">tarski1943truth</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">montague1974formal</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">marcus2019rebooting</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">heider1944experimental</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">dennett1989intentional</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">hutchins1996cognition</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">grice1975logic</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">reeves2003media</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">kahneman2011thinking</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">searle1980minds</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">baars1988cognitive</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">tononi2004information</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">dennett1989intentional</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">businessinsider2025claude</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">vanfraassen1980scientific</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">NowikPawe2021Epfa</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">popper2014logic</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">dennett1989intentional</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">wittgenstein1953philosophical</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">turing1950computing</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">searle1980minds</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">wittgenstein1953philosophical</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
@@ -3117,6 +3142,16 @@
                 type="entry"
                 sortingtemplatename="apa"
                 sortingnamekeytemplatename="apasortcite"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="0"
+                name="apa/global//global/global/global"
+                type="entry"
+                sortingtemplatename="apa"
+                sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"
                 labelalphanametemplatename="global"
