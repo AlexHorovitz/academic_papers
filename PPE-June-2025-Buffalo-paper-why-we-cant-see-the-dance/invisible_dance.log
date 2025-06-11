@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  25 MAY 2025 01:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  11 JUN 2025 14:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -711,11 +711,6 @@ e-less Com-mu-ni-ca-tions
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'invisible_dance.run.xml'.
 \openout1 = `invisible_dance.run.xml'.
 
