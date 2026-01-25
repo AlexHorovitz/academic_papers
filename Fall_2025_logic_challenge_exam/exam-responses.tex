@@ -1,0 +1,86 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Logic Exam Responses}
+\author{Alex Horovitz \\ \texttt{alex@alexhorovitz.com}}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section*{Introduction}
+These are my solutions to the exam problems. If my style should seem a little odd, it is probably because in my day job I am a software engineer / manager. I aim for rigor, but I also favor clarity, brevity, and structured thinking -- too much time writing code and fixing other people's code. Apologies in advance if this isn't the response structure from the formal class.
+
+\section*{Part I: Valid or Invalid}
+
+\begin{enumerate}[label=\arabic*.]
+
+\item $R \to \neg P,\; Q,\; Q \to (P \lor \neg S) \;\vdash\; S \to \neg R$\\
+\textbf{Valid.}\\
+Proof sketch: From $Q$ and $Q \to (P \lor \neg S)$ infer $P \lor \neg S$. Assume $S$. Then $P$ must hold (since $\neg S$ contradicts $S$). If we further assume $R$, then by $R \to \neg P$ we derive $\neg P$, contradiction. Thus $\neg R$. Hence $S \to \neg R$.
+
+\item $\neg P \leftrightarrow Q,\; P \to R,\; \neg R \;\vdash\; \neg Q \leftrightarrow R$\\
+\textbf{Valid.}\\
+Proof sketch: From $P \to R$ and $\neg R$ we obtain $\neg P$. Then using $\neg P \leftrightarrow Q$ we get $Q$. Hence $\neg Q$ is false and $R$ is false, making $\neg Q \leftrightarrow R$ true. A natural deduction proof shows both directions $(\neg Q \to R)$ and $(R \to \neg Q)$.
+
+\item $\vdash\; P \leftrightarrow (P \lor (P \land Q))$\\
+\textbf{Valid.}\\
+Proof sketch: $P \lor (P \land Q)$ simplifies logically to $P$. So this is equivalent to $P \leftrightarrow P$, a tautology.
+
+\end{enumerate}
+
+\clearpage
+\section*{Part II: Truth Tables}
+
+\begin{enumerate}[label=\arabic*.]
+
+\item $(P \lor Q) \leftrightarrow (P \land Q) \;\vdash\; P \leftrightarrow Q$\\
+\textbf{Valid.}\\
+Truth table check: The premise is true only when $P$ and $Q$ have the same truth value (both true or both false). In those rows, $P \leftrightarrow Q$ is also true. Hence the sequent is valid.
+
+\item $P \to (Q \lor \neg R),\; R \land Q \;\vdash\; \neg P$\\
+\textbf{Invalid.}\\
+Counterexample: Let $P{=}T, Q{=}T, R{=}T$. Then $P \to (Q \lor \neg R)$ is true, $R \land Q$ is true, but $\neg P$ is false.
+
+\end{enumerate}
+
+\section*{Part III: Proofs / Countermodels}
+
+\begin{enumerate}[label=\arabic*.]
+
+\item $(\forall x F x \to \forall x G x) \;\vdash\; \exists x (F x \to G x)$\\
+\textbf{Valid.}\\
+Reasoning: If $\forall x F x$ fails, then for some witness $a$, $F a$ is false, making $(F a \to G a)$ true. If $\forall x F x$ holds, then by premise $\forall x G x$ also holds, and any witness satisfies $F x \to G x$. Either way, an existential witness exists.
+
+\item $\vdash\; \forall x \forall z F xz \to \forall y \forall z F yz$\\
+\textbf{Valid.}\\
+Reasoning: The renaming of bound variables shows that if $F$ holds for all $x$ and $z$, then it holds for all $y$ and $z$.
+
+\item $\exists x(E x a \lor F x) \lor F a,\; E b a \;\vdash\; F a \lor F b$\\
+\textbf{Invalid.}\\
+Countermodel: Domain $\{a,b\}$. Let $Eba$ be true, $F a$ false, $F b$ false. Then the premises are true but $F a \lor F b$ is false.
+
+\item $(\exists x A x \to \forall y (B y \to C y)),\; (\exists x D x \to \exists y B y) \;\vdash\; \exists x (A x \land D x) \to \exists y C y$\\
+\textbf{Valid.}\\
+Reasoning: If $\exists x(Ax \land Dx)$ holds, then some witness $c$ has both $A c$ and $D c$. From this we infer $\exists x A x$ and $\exists x D x$. The premises then yield $\forall y(By \to Cy)$ and $\exists y B y$, giving some witness $d$ with $B d$ and $C d$. Hence $\exists y C y$.
+
+\item $\exists x(F x \land G x),\; \exists x(\neg F x \land \neg G x) \;\vdash\; \exists x(G x \land \neg F x)$\\
+\textbf{Invalid.}\\
+Countermodel: Domain $\{a,b\}$. Assign $F(a)=T, G(a)=T$; $F(b)=F, G(b)=F$. Then the premises are true, but there is no $x$ with $G x \land \neg F x$.
+
+\end{enumerate}
+
+\clearpage
+\section*{Exam Comments:}
+Overall, the results I arrived at seem consistent with standard reasoning. Some of these are provable, others fall to counterexamples. However, I remain skeptical of my own response to problem III.3. This the one where I am least confident. My countermodel convinces me it is invalid, yet there is something which is just odd about it. At this point, I rely on my countermodel -- final answer as they say ...
+
+\bigskip
+Also, I attached my truth-tables after this section for review as needed.
+
+\bigskip
+\noindent\textit{Formatted in LaTeX{}, because code, math, and philosophy all deserve clean typesetting.}
+
+\end{document}

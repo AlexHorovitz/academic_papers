@@ -3092,9 +3092,6 @@
     <bcf:citekey order="19" intorder="1">popper2014logic</bcf:citekey>
     <bcf:citekey order="20" intorder="1">dennett1989intentional</bcf:citekey>
     <bcf:citekey order="21" intorder="1">wittgenstein1953philosophical</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">turing1950computing</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">searle1980minds</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">wittgenstein1953philosophical</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

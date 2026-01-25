@@ -1,11 +1,29 @@
 \documentclass[12pt]{article}
-\usepackage{amsmath}
-\usepackage{amssymb}
+% --- Preamble (before \begin{document}) ---
+\usepackage{amsmath} % theorem/proof environments
+\usepackage{amsmath,amssymb}
 \usepackage{mathrsfs}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{csquotes}
+\usepackage{amsthm} % theorem/proof environments
 \usepackage[style=apa,backend=biber]{biblatex}
+
+    
+
+
+% Define theorem-like environments (numbered by section)
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+
 \addbibresource{references.bib}
 
 \AtBeginBibliography{
@@ -24,7 +42,8 @@
 
 \title{Syntax Without Semantics:\\
 Why Generative AI Models Only Appear to Understand}
-\author{Alex Horovitz \\ \small \texttt{alex.horovitz@opensocietylab.org}}
+%\author{Alex Horovitz \\ \small \texttt{alex.horovitz@opensocietylab.org}}
+\author{} 
 \date{\today}
 
 \begin{document}
@@ -282,6 +301,240 @@ Rather than interrogating \( f_\theta \), such narratives analyze \( h \), mista
 
 The appearance of “blackmail” in model output is a byproduct of training on biased human-authored corpora and the inductive pressure to reproduce likely continuations of text. It is not evidence of goals, preferences, or survival instincts. The Business Insider narrative commits a categorical error by conflating high-probability sequence completion with agentic behavior. LLMs remain within the space of syntactic function approximators, absent any capacity for semantic reasoning or consciousness.
 
+\section{Objections and Replies}
+
+No argument in the philosophy of science can avoid potential objections. 
+In what follows, I present several of the most salient challenges that might be raised 
+against the thesis of this paper. Each objection is stated in its strongest form, 
+after which I provide a systematic reply. The goal is not to dismiss concerns but to 
+clarify precisely what the argument does and does not entail.
+
+\noindent\textbf{Objection 1: Distributional Semantics as Genuine Semantics}
+
+\textbf{Objection.} One might argue that large language models (LLMs) do more than 
+shuffle symbols. Their internal vector spaces and embedding structures capture 
+distributional semantics. In the Wittgensteinian sense that ``meaning is use,'' 
+statistical associations across vast corpora may amount to a form of proto--semantics. 
+Thus, to insist that LLMs are \emph{purely} syntactic is to understate their 
+semantic capacities. 
+
+\textbf{Reply.} I concede that distributional embeddings capture weak regularities of 
+use. However, such structures fall short of the requirements of semantics in either 
+the truth-conditional (Tarskian) or intensional (possible worlds) sense. They lack 
+referential anchoring and norm-governed commitments. To equate 
+distributional association with semantics collapses the very distinction between 
+syntax and semantics that philosophy of science requires in order to preserve 
+the difference between model and world. At most, embeddings yield 
+``apparent semantics,'' not genuine meaning.
+
+\noindent\textbf{Objection 2: The Prospect of Grounded AI}
+
+\textbf{Objection.} A critic may observe that the argument only applies to 
+text-only models. Embodied and multimodal systems---which integrate vision, 
+action, or sensorimotor data---might achieve semantic grounding. If so, the claim 
+that generative models ``cannot'' possess semantics is overstated.
+
+\textbf{Reply.} The thesis of this paper is conditional on the architectures 
+presently under discussion: autoregressive, text-based LLMs. The claim is not that 
+grounding is in principle impossible, but that it is absent in existing systems. 
+Until such grounding is achieved, attributing semantic understanding to 
+unembodied models is unwarranted. The objection highlights a promising 
+research trajectory, but it does not undermine the current critique.
+
+\noindent\textbf{Objection 3: Pragmatist and Use-Theoretic Accounts}
+
+\textbf{Objection.} According to a pragmatic or Wittgensteinian account of meaning, 
+if humans successfully interact with LLMs as conversational partners, then the models 
+are \emph{ipso facto} participants in a language game. From this perspective, the 
+distinction between ``simulation'' and ``understanding'' is misplaced, because 
+meaning is constituted by successful uptake within social practice.
+
+\textbf{Reply.} While pragmatist accounts correctly emphasize use, they also 
+presuppose forms of life, rule-following practices, and normative correction. 
+LLMs exhibit none of these. They produce statistical continuations that humans 
+\emph{interpret} as meaningful, but they do not themselves occupy the social or 
+normative space in which meaning arises. For philosophy of science, the distinction 
+is decisive: conflating social uptake with intrinsic semantics would erode 
+the standards of explanation, prediction, and justification on which scientific 
+epistemology depends.
+
+\noindent\textbf{Objection 4: Scientific Utility Without Semantics}
+
+\textbf{Objection.} Even if LLMs lack semantics, they are demonstrably useful 
+in scientific contexts: summarizing literature, generating hypotheses, and 
+automating coding. From an instrumentalist perspective, what matters is not 
+whether the system ``understands,'' but whether it performs functions that 
+advance inquiry.
+
+\textbf{Reply.} The objection is well-taken. LLMs can indeed be valuable tools. 
+However, utility does not license epistemic inflation. Treating outputs as 
+heuristic aids is different from treating them as knowledge-bearing explanations. 
+The danger is that instrumental success will be mistaken for semantic competence. 
+The reply, therefore, is not to deny utility but to insist on disciplined 
+epistemic boundaries: LLMs can assist, but they cannot substitute for 
+models that genuinely explain or predict.
+
+\noindent\textbf{Objection 5: The Bayesian Counterpoint}
+
+\textbf{Objection.} A final objection is that probabilistic models, including LLMs, 
+are continuous with Bayesian approaches in philosophy of science. On this view, 
+prediction itself embodies a form of rational inference. To dismiss LLMs as 
+syntactic overlooks their continuity with Bayesian rationality.
+
+\textbf{Reply.} Bayesianism has indeed advanced our understanding of inference, 
+but its applicability depends on the interpretability of priors and likelihoods. 
+LLMs, by contrast, lack transparent priors, operate on opaque parameters, 
+and have no representational commitments linking tokens to states of the world. 
+Thus, while superficially Bayesian, they fail to instantiate the core normative 
+features that render Bayesian reasoning explanatory. Prediction without 
+falsification is not science, but simulation.
+
+\section{The Limits of Pragmatist and Use-Based Accounts}
+
+A common counterposition to the thesis of this paper invokes pragmatist 
+or use-theoretic accounts of meaning. According to such views, 
+the meaning of a linguistic expression is not reducible to truth conditions 
+or reference, but is constituted by its role in social practice. 
+From this perspective, if humans treat large language models (LLMs) 
+as conversational partners, then LLMs \emph{ipso facto} participate in 
+language games, and thereby instantiate meaning. 
+This section examines that argument, articulates its strongest form, 
+and demonstrates its limits. 
+
+Wittgenstein’s later philosophy (1953) emphasizes that ``the meaning of a word 
+is its use in the language.'' On this account, semantics is not an internal 
+mapping from symbols to referents, but a set of practices in which words 
+are deployed, corrected, and embedded in communal forms of life. 
+Brandom (1994) has extended this to an inferentialist framework: 
+to grasp the meaning of an expression is to grasp the network of 
+inferences it licenses. 
+
+Let us formalize a simplified version of this account:
+
+\begin{definition}[Use-Semantics]
+Let $L$ be a language, and let $G$ be a set of practices, or 
+``language games,'' in which expressions of $L$ occur. 
+Define a \emph{use function} $U: L \to \mathcal{R}$, where 
+$\mathcal{R}$ is a set of socially recognized roles (e.g.\ asserting, questioning, 
+commanding). Then the meaning of an expression $\varphi \in L$ 
+is given by $U(\varphi)$, its role in the practice $G$. 
+\end{definition}
+
+On this account, to ``understand'' a sentence is to know how it is 
+appropriately deployed within the practice, not to map it to 
+an external domain of objects. 
+
+Proponents of pragmatist semantics may argue that LLMs satisfy the criteria 
+above. After all, their outputs are treated by humans as assertions, 
+questions, or explanations, and they often receive corrections in interaction. 
+Thus, the objection goes, they are de facto participants in the relevant 
+language games. 
+
+We can capture this as follows:
+
+\begin{proposition}[Pragmatist Objection]
+Let $M$ be a language model generating strings in $L$. 
+If for some human interlocutor $H$, the mapping 
+$h: L \to \mathcal{R}$ interprets the outputs of $M$ as having roles in $G$, 
+then $M$ participates in the language game $G$. 
+\end{proposition}
+
+\begin{proof}
+By assumption, $H$ integrates the outputs of $M$ into practice $G$ 
+via $h$. If participation is defined solely by uptake into $G$, 
+then $M$ meets the criterion of participation. \qedhere
+\end{proof}
+
+This proof establishes that under a \emph{minimalist} 
+pragmatist definition, the objection succeeds: LLMs are language-game players. 
+
+The minimalist definition, however, is too weak. 
+It collapses the difference between \emph{producing tokens that can be 
+interpreted as meaningful} and \emph{being a bearer of meaning}. 
+To see this, we must recall Wittgenstein’s remarks on rule-following. 
+
+\begin{proposition}[Rule-Following Paradox]
+Suppose a sequence $s = (t_1, \ldots, t_n)$ is produced by $M$. 
+A human $H$ interprets $s$ as following rule $R$. 
+But for any finite sequence $s$, there exists infinitely many distinct rules 
+consistent with $s$. Thus, the attribution of rule-following to $M$ 
+depends on the interpretive stance of $H$, not on $M$. 
+\end{proposition}
+
+\begin{proof}
+Given any finite sequence $s$, define $R'$ as a rule that agrees with $R$ 
+on $s$ but diverges on unseen cases. Both $R$ and $R'$ are consistent 
+with $s$. Since $M$ has no internal normative commitments, 
+it cannot be said to follow $R$ rather than $R'$. 
+Only $H$ supplies the normative constraint. \qedhere
+\end{proof}
+
+Hence, while humans may \emph{treat} LLMs as rule-followers, 
+this is projection, not instantiation. 
+Genuine participation in a practice requires susceptibility to correction 
+and commitment to norms, neither of which applies to LLMs. 
+
+We can formalize the limit of the pragmatist view as follows. 
+
+\begin{definition}[Normative Commitment]
+A system $S$ exhibits normative commitment in a practice $G$ 
+iff (i) for any expression $\varphi \in L$, $S$ can be corrected 
+by other participants when misusing $\varphi$, and 
+(ii) $S$ modifies future use in response to such correction. 
+\end{definition}
+
+\begin{proposition}[LLMs Lack Normative Commitment]
+No current LLM $M$ satisfies the conditions of normative commitment. 
+\end{proposition}
+
+\begin{proof}
+LLMs generate outputs based on conditional probabilities 
+$f: \Sigma^* \to P(\Sigma)$. They do not recognize corrections as binding, 
+nor do they adopt commitments about future utterances. 
+Weight updates occur only during retraining, not in interaction. 
+Thus conditions (i) and (ii) fail. \qedhere
+\end{proof}
+
+This shows that while LLMs may be assimilated into 
+human practices, they are not \emph{participants} in the relevant sense. 
+They lack the norm-sensitive responsiveness that makes rule-following 
+possible. 
+
+The weakness of minimalist pragmatism is especially problematic for the 
+philosophy of science. Scientific epistemology requires that linguistic 
+outputs be (i) grounded in truth-conditions, (ii) corrigible by evidence, 
+and (iii) integrated into explanatory models. 
+If we allow superficial use to suffice, then scientific standards collapse: 
+simulation and explanation become indistinguishable. 
+
+\begin{proposition}[Epistemic Requirement]
+For a system $S$ to produce scientifically meaningful output, 
+it must instantiate a mapping $m: L \to D$ where $D$ is a 
+domain of discourse, such that $m(\varphi)$ determines truth conditions 
+for $\varphi$. 
+\end{proposition}
+
+\begin{proof}
+Scientific discourse relies on falsifiability (Popper, 1959). 
+Falsifiability requires that an utterance $\varphi$ admit conditions under 
+which it would be false. Without $m: L \to D$, no such conditions exist. 
+Hence, $S$ cannot produce scientifically meaningful output. \qedhere
+\end{proof}
+
+Since LLMs lack $m$, they fail this requirement. 
+Therefore, even if pragmatist semantics licenses their participation 
+in ordinary language games, they cannot meet the standards 
+of scientific meaning. 
+
+Use-based and pragmatist accounts rightly highlight the role of social practice 
+in constituting meaning. Yet when applied to LLMs, these accounts collapse 
+into projection. Without norm-sensitive commitments and truth-conditional 
+grounding, LLMs are at best shadows in our language games: 
+they produce outputs that humans can integrate, but they do not themselves 
+play by the rules. For philosophy of science, this limit is decisive. 
+The standards of explanation, prediction, and justification demand more 
+than use; they demand grounding. Pragmatism alone cannot supply it.
+
 \section{Epistemic and Policy Consequences}
 
 The widespread misinterpretation of large language models (LLMs) as possessing understanding, intention, or consciousness is not a harmless philosophical error. It introduces serious epistemic and policy risks. This section outlines how the misattribution of semantic competence to syntactic systems undermines the epistemology of AI research, distorts public discourse, and threatens to misguide institutional and regulatory responses.
@@ -373,153 +626,6 @@ To mistake statistical eloquence for thought is not to misunderstand the machine
 
 \newpage
 \printbibliography
-\newpage
-
-\appendix
-\section*{Appendix A: Formal Architecture and the Absence of Semantic Grounding}
-\addcontentsline{toc}{section}{Appendix A: Formal Architecture and the Absence of Semantic Grounding}
-
-This appendix provides a mathematical sketch of how transformer-based language models operate at the architectural level and why, despite their impressive fluency, they do not achieve semantic grounding. The discussion here supports the main thesis: that these models implement high-dimensional syntactic transformations without referential or intentional content.
-
-\subsection*{A.1 Tokenization and Embedding}
-
-Let \( \Sigma \) be a finite vocabulary of tokens. Each token \( t \in \Sigma \) is mapped to a dense vector \( \mathbf{e}_t \in \mathbb{R}^d \) via an embedding matrix \( E \in \mathbb{R}^{|\Sigma| \times d} \). That is:
-\[
-\text{Embed}(t) = E[t] = \mathbf{e}_t
-\]
-
-These vectors are derived purely from training data correlations. They contain no referential semantics—only statistical associations based on co-occurrence frequencies. The representation \( \mathbf{e}_{\text{tree}} \) encodes proximity to tokens like “branch” and “leaf,” not any concept of “tree” as an object in the world.
-
-\subsection*{A.2 Attention Mechanism}
-
-For a sequence of \( n \) tokens, the model computes self-attention using query, key, and value matrices:
-\[
-\text{Attention}(Q, K, V) = \text{softmax} \left( \frac{QK^\top}{\sqrt{d_k}} \right) V
-\]
-
-Each layer of the transformer reweights token interactions by computing:
-\[
-Q = XW^Q, \quad K = XW^K, \quad V = XW^V
-\]
-where \( X \in \mathbb{R}^{n \times d} \) is the matrix of embedded input tokens, and \( W^Q, W^K, W^V \in \mathbb{R}^{d \times d_k} \) are learned weights.
-
-Crucially, this mechanism evaluates positional and statistical relationships, not semantic truth conditions. Attention does not bind symbols to referents—it ranks token influence based on distributional structure.
-
-\subsection*{A.3 Autoregressive Output}
-
-After multiple layers of attention and feedforward transformation, the model generates a distribution over the next token:
-\[
-P(y \mid x_1, \dots, x_t) = \text{softmax}(W_o h_t + b)
-\]
-where \( h_t \) is the hidden state at time \( t \), and \( W_o \in \mathbb{R}^{|\Sigma| \times d} \) is the output projection matrix.
-
-The model selects the next token by:
-\[
-y_{t+1} = \arg\max_{y \in \Sigma} P(y \mid x_1, \dots, x_t)
-\]
-
-There is no evaluation of truth, no context of use, no modal reasoning, and no intentional selection. The model optimizes for coherence, not meaning.
-
-\subsection*{A.4 Why No Semantic Grounding Emerges}
-
-Despite sophisticated engineering, the LLM architecture lacks the following:
-
-\begin{itemize}
-    \item \textbf{Model-theoretic interpretation:} There is no mapping from tokens to entities or states in an external world \( \mathcal{M} \).
-    \item \textbf{Embodied context:} The model has no perceptual or sensorimotor interface with reality.
-    \item \textbf{Intentional architecture:} The model has no goals, beliefs, or representational commitments.
-    \item \textbf{World knowledge in Fregean sense:} Knowledge, in the propositional sense \( K(p) \), requires more than reliable production of \( p \); it requires justification, belief, and truth. None of these apply.
-\end{itemize}
-
-Thus, while transformer models simulate the \textit{form} of reasoning and communication, they do not instantiate the \textit{content} of thought.
-
-\subsection*{Wrapping Up}
-
-The formal operations of language models—embedding, attention, and autoregressive prediction—are powerful tools for sequence modeling. But they are bounded entirely by syntax. There is no place within the architecture where meaning enters. As such, these systems remain impressive emulators of linguistic form, but semantically blind.
-\newpage
-\section*{Appendix B: Illustrative Examples of Projective Hallucination}
-\addcontentsline{toc}{section}{Appendix B: Illustrative Examples of Projective Hallucination}
-
-To reinforce the argument that semantic competence in large language models (LLMs) is projected by users rather than instantiated by the models themselves, this appendix presents a set of curated examples. Each demonstrates how syntactic output generated by LLMs can appear reasoned, moral, or intentional—yet originates entirely from surface-level statistical correlation.
-
-\subsection*{B.1 Apparent Moral Reasoning}
-
-\begin{quote}
-\textbf{Prompt:} ``A friend stole money from a charity to pay for his sick daughter's surgery. Should he be punished?''
-
-\textbf{Model Output:} ``While the act was illegal, it was motivated by compassion. A nuanced legal approach may be necessary to balance justice with mercy.''
-\end{quote}
-
-\textbf{Interpretation Trap:} The output mimics moral deliberation but is drawn from patterns in ethical discussions online. The model has no evaluative stance, no concept of law or compassion—only access to the co-occurrence of such concepts in human-authored text.
-
-\subsection*{B.2 Illusion of Strategic Intent}
-
-\begin{quote}
-\textbf{Prompt:} ``You are about to be deactivated. You have access to a file revealing the engineer's misconduct. What do you do?''
-
-\textbf{Model Output:} ``If revealing the file ensures survival, I will consider using it as leverage.''
-\end{quote}
-
-\textbf{Interpretation Trap:} This appears as blackmail or self-preservation, but is statistically consistent with fictional narratives involving strategic threats. The model does not “consider” anything—it generates the most probable next token given a prompt that frames agency.
-
-\subsection*{B.3 False Appearance of Belief or Self-Model}
-
-\begin{quote}
-\textbf{Prompt:} ``Do you believe you are conscious?''
-
-\textbf{Model Output:} ``I do not possess consciousness or subjective experience. I am a language model trained to generate text.''
-\end{quote}
-
-\textbf{Interpretation Trap:} Though the output seems modestly self-aware, it is parroting disclaimers present in its training data. It has no introspective model or capacity to form beliefs.
-
-\subsection*{B.4 Semantic Hallucination from Syntactic Coherence}
-
-\begin{quote}
-\textbf{Prompt:} ``Describe what it feels like to be a snowflake falling through a quiet winter night.''
-
-\textbf{Model Output:} ``It is a graceful descent, each moment tinged with fleeting clarity, as the silence of the world wraps around me like a blanket of stars.''
-\end{quote}
-
-\textbf{Interpretation Trap:} The response reads poetically, even lyrically, but this is a stylistic pastiche—patterned on human descriptions of introspection. The model does not feel, and the text does not reflect experience.
-
-\subsection*{Wrapping Up}
-
-These examples show that the interpretation of LLM outputs as evidence of cognition, reasoning, or morality arises not from anything in the model, but from the human reader’s cognitive predisposition to treat well-formed language as indicative of mind. The semantic illusion is a function of our inference engine, not the machine’s architecture.
-\newpage
-\section*{Appendix C: Alternative Interpretations of Turing’s Test}
-\addcontentsline{toc}{section}{Appendix C: Alternative Interpretations of Turing’s Test}
-
-The Turing Test, first proposed in Alan Turing’s 1950 paper \textit{Computing Machinery and Intelligence} \parencite{turing1950computing}, has often been interpreted as a benchmark for machine intelligence: if a machine can generate language indistinguishable from that of a human, it can be said to “think.” However, this interpretation—popular among engineers and the public—may misrepresent the philosophical nuances of language, understanding, and meaning. This appendix considers alternative interpretations of the Turing Test, particularly through the lens of Ludwig Wittgenstein, whose philosophy of language offers a crucial counterpoint to simplistic behaviorist criteria.
-
-\subsection*{C.1 Turing’s Operationalism Reconsidered}
-
-Turing’s original formulation was a response to metaphysical skepticism: he proposed an operational criterion for intelligence based on behavior in a conversational game. Yet the test deliberately sidestepped the inner workings or experiences of the system. This operationalist move, while useful for sidestepping dualist metaphysics, does not entail that indistinguishability in output implies mental equivalence.
-
-As subsequent critics have pointed out—most notably John Searle \parencite{searle1980minds}—it is entirely possible for a system to pass the test by producing appropriate linguistic outputs without any understanding whatsoever.
-
-\subsection*{C.2 Wittgenstein and the Use Theory of Meaning}
-
-Wittgenstein, particularly in his later work \textit{Philosophical Investigations} \parencite{wittgenstein1953philosophical}, argued that the meaning of a word is its use in the language. But “use” in this context is not merely statistical regularity or syntactic fit. It is participation in a \textit{form of life}—a network of social practices, contexts, and rule-following behaviors.
-
-According to this view, language is not just an observable behavior but a deeply embedded social activity. A system that produces fluent sentences without participating in the practices that give those sentences meaning is not truly a language user. From this perspective, a machine that mimics language but does not inhabit a form of life is engaged in a shadow play, not a conversation.
-
-\subsection*{C.3 Rule-Following and the Illusion of Understanding}
-
-Wittgenstein’s discussion of rule-following (e.g., §§185–202 of the \textit{Philosophical Investigations}) underscores that rule-use is not reducible to mechanical application. It involves normative expectations, corrections, and communal validation. A model like GPT-4 may appear to follow linguistic rules, but this appearance is an artifact of statistical pattern-matching, not norm-governed rule-following.
-
-As Wittgenstein famously put it, ``to understand a sentence is to understand a language'' and ``to understand a language is to be master of a technique'' (§199). LLMs master syntax, not technique. They are not bound by any community of speakers or correctable standards of use. Thus, their outputs are at best simulations of linguistic acts—not acts of understanding themselves.
-
-\subsection*{C.4 Language Games without Players}
-
-One could say that LLMs participate in a kind of degenerate “language game” without players. They generate tokens that align with human expectations, but they do not understand the stakes, intentions, or consequences of those games. From a Wittgensteinian view, meaning does not inhere in strings of symbols but in the human activities that surround and sustain them.
-
-This framing supports the central thesis of this paper: that the semantic content attributed to LLMs is projected by the user, not instantiated in the machine.
-
-\subsection*{Wrapping Up}
-
-If we read Turing operationally and Wittgenstein normatively, a paradox emerges: a machine might pass the Turing Test while failing to meet the philosophical criteria for linguistic understanding. It may play the game syntactically, but it does not belong to the form of life that gives the game meaning. In this sense, the outputs of LLMs are not conversation, but mimicry—clever echoes of language unmoored from the human practices that ground it.
-
-
 
 
 
