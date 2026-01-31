@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  24 JAN 2026 17:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  31 JAN 2026 08:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -711,8 +711,16 @@ Chapter 4.
 [12]
 
 [13]
+Chapter 5.
+
 
 [14
+
+]
+
+[15]
+
+[16
 
 ] (./The_Invisible_Limits_of_Public_Reason.aux)
  ***********
@@ -721,29 +729,29 @@ L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `The_Invisible_Limits_of_Public_Reason.out' h
 as not changed.
-(rerunfilecheck)             Checksum: 84F993E1BD8E2D9652DA63CE7D9F7B17;4280.
+(rerunfilecheck)             Checksum: 9FC35D62520330DF0D54C1EB3FC6AB57;4604.
 Package logreq Info: Writing requests to 'The_Invisible_Limits_of_Public_Reason
 .run.xml'.
 \openout1 = `The_Invisible_Limits_of_Public_Reason.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18077 strings out of 473190
- 322237 string characters out of 5715801
+ 18083 strings out of 473190
+ 322293 string characters out of 5715801
  1175448 words of memory out of 5000000
- 40985 multiletter control sequences out of 15000+600000
- 616871 words of font info for 138 fonts, out of 8000000 for 9000
+ 40986 multiletter control sequences out of 15000+600000
+ 616962 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,81p,1526b,1531s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,81p,1567b,1531s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/lo
 cal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive
 /2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2025/texmf
 -dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on The_Invisible_Limits_of_Public_Reason.pdf (16 pages, 143952 b
+Output written on The_Invisible_Limits_of_Public_Reason.pdf (18 pages, 149024 b
 ytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
- 30841 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 30849 words of extra memory for PDF output out of 35830 (max. 10000000)
 
