@@ -10,6 +10,7 @@
 \usepackage{microtype}
 \usepackage{hyperref}
 \usepackage{parskip}
+\usepackage{amsmath}
 
 % --------------------
 % Bibliography
@@ -170,6 +171,117 @@ What matters for my purposes is what these critiques do \emph{not} yet claim. Th
 
 
 % \chapter{Cognitive Constraints}
+
+% \chapter{Cognitive Constraints}
+
+\chapter{Cognitive Constraints on the Justice Test via Reflective Coherence}
+\label{ch:cognitive-constraints-jtc}
+
+\section{From Rawlsian Stability to a Justice Test}
+\label{sec:rawls-to-jtc}
+
+Rawls's mature political project aims to reconcile two claims that sit uneasily together: (i) modern constitutional democracies are marked by reasonable pluralism, and (ii) the exercise of coercive political power must be publicly justifiable in a way compatible with citizens' freedom and equality \parencite{rawls1993political}. Rawls's answer is the familiar architecture of public reason, overlapping consensus, and stability for the right reasons \parencite{rawls1987overlapping,rawls1997public}.
+
+In this chapter I introduce what I will call the \emph{Justice Test via Reflective Coherence} (\textbf{JTC}). JTC is not a phrase Rawls uses, but it names a Rawlsian requirement that becomes visible once one takes stability-through-reasons seriously. A political conception of justice does not count as justified merely because it can be stated or even defended by officials. It must be \emph{available} for endorsement by citizens who regard one another as free and equal, despite deep doctrinal disagreement \parencite[see also][]{rawls1993political,rawls2001justice}. The test is ``reflective'' because it depends on the alignment of reasons over time, not on episodic assent; and it is ``coherence-based'' because the justificatory work is to bring a political conception into mutually supporting relation with a citizen's considered judgments and political values.
+
+JTC, as I understand it, therefore asks: \emph{Could a cognitively ordinary citizen, situated in a pluralist society, sustain a stable and revisable map of public reasons sufficient to treat the society's coercive rules as legitimate?} The question is not about sincerity. It is about cognitive capacity under load.
+
+\section{What JTC Demands of Ordinary Cognition}
+\label{sec:jtc-demands}
+
+Rawls's framework invites an idealized picture of citizens as capable of recognizing public reasons, distinguishing them from sectarian reasons, and revising their views as they encounter disagreement \parencite{rawls1993political,rawls1985justice}. Neo-Rawlsian defenses often keep this picture while refining the mechanics, for example by emphasizing accessibility or completeness constraints on public justification \parencite{quong2011liberalism,freeman2007rawls,lister2013public,schwartzman2011completeness}. However, even the most modest version of JTC assigns nontrivial cognitive tasks to ordinary citizens.
+
+One demand is \emph{representational}. A citizen must maintain a repertoire of justificatory items: political principles, empirical beliefs relevant to those principles, and a working sense of how those elements support or constrain one another. A second demand is \emph{filtering and translation}. Public justification requires that citizens can identify which reasons count as admissible in public reason, at least in the domains Rawls treats as central (constitutional essentials and matters of basic justice) \parencite{rawls1997public,quong2011liberalism}. A third demand is \emph{temporal}. Coherence is not a snapshot. To the extent that legitimacy is tied to stability for the right reasons, the justificatory structure must remain sufficiently continuous across time and shifting contexts to guide political judgment rather than merely rationalize it \parencite{rawls1993political}.
+
+These demands interact. Filtering is harder when the representational set is large; temporal stability is harder when filtering is performed under stress, polarization, and novelty. JTC therefore scales poorly with social size and heterogeneity, even before one introduces systematic cognitive biases.
+
+\section{Predictive, Compressive Minds and the Limits of High-Fidelity Tracking}
+\label{sec:predictive-processing}
+
+A central lesson of contemporary cognitive science is that cognition is not well modeled as a transparent, resource-unbounded reason-tracker. Predictive-processing frameworks model perception and cognition as hierarchical inference under resource constraints, where the mind continually compresses information to reduce error and maintain workable expectations \parencite{clark2016surfing,clark2013whatever,hohwy2013predictive,friston2005theory,friston2009free}. Related work on sparse and distributed representation emphasizes that efficient cognition relies on lossy encodings that preserve only what is needed for action \parencite{ahmad2016neurons,hawkins2004intelligence,ganguli2012compressed}.
+
+For political justification, the upshot is not that citizens cannot reason. It is that reasoning is expensive, selective, and often recruited for functions other than impartial coherence-maximization. Dual-process and bounded-rationality traditions emphasize predictable limits in deliberative attention, working memory, and error correction \parencite{kahneman2011thinking,stanovich2009intelligence}. Work on the social and argumentative function of reasoning suggests that many real-world reasoning episodes are optimized for persuasion, alliance management, and self-justification rather than for neutral belief revision \parencite{mercier2017enigma}. Evidence on political judgment likewise shows that even expert forecasting is systematically unreliable in complex, high-noise environments \parencite{tetlock2005expert}.
+
+These frameworks predict failure modes that directly target JTC. Compression blurs fine-grained normative distinctions. Path-dependent updating makes revisions sticky and uneven across contexts. Under threat, motivated cognition tends to protect priors, reducing the probability of genuine justificatory convergence. None of this refutes Rawls's moral ideals. It does, however, undermine the assumption that legitimacy can rest on citizens performing high-fidelity, temporally coherent justificatory tracking at scale.
+
+\section{A Toy Model of JTC's Cognitive Burden}
+\label{sec:toy-model}
+
+Because JTC is a coherence test, its cognitive cost is driven not only by the number of reasons a citizen must grasp but also by the number of relations among those reasons that must be monitored over time. I introduce a deliberately simple model meant to provide a lower-bound stress test. It is not a psychological measurement.
+
+\subsection{Notation and assumptions}
+
+Let $N$ be the population size. Let $V(N)$ be the effective number of viewpoint-types in the society that a citizen must be able to recognize as ``reasonable'' interlocutors for public justification. Let $s_0$ be the number of justificatory items an individual maintains for her own political reasoning (principles, judgments, and relevant empirical beliefs). Let $r$ be the number of additional items required to avoid caricaturing each viewpoint-type when formulating and assessing public reasons.
+
+Define the citizen's justificatory working set as
+\begin{equation}
+s(N) = s_0 + r \cdot V(N).
+\end{equation}
+
+Reflective coherence requires assessing how items in $s(N)$ support, conflict with, or constrain one another. A simple upper-bound on the number of pairwise relations is
+\begin{equation}
+E(N) = \binom{s(N)}{2} = \frac{s(N)(s(N)-1)}{2}.
+\end{equation}
+
+Political environments generate recurrent updates. Let $f$ be the number of salient ``update cycles'' per year (e.g.\ monthly agenda shocks, elections, crises). The annual number of coherence checks is then
+\begin{equation}
+A(N) = f \cdot E(N).
+\end{equation}
+
+Finally, let $\tau$ be the time cost of one coherence check. Then the annual time requirement implied by the model is
+\begin{equation}
+T(N) = \tau \cdot A(N).
+\end{equation}
+
+\subsection{Scaling of viewpoint-types}
+
+The key driver is how $V(N)$ grows with $N$. If $V(N)$ were linear in $N$, JTC would be hopeless almost immediately. If $V(N)$ were constant, JTC would be artificially easy. A plausible modeling choice is sublinear growth:
+\begin{equation}
+V(N) = N^{\alpha}, \;\;\;\; 0 < \alpha < 1.
+\end{equation}
+For illustration I use $\alpha=\tfrac{1}{2}$ (square-root diversity). This captures the idea that larger societies generate more stable subpublics and moral clusters, but with repetition and aggregation rather than uniqueness.
+
+\section{Three Scale Illustrations: Town, County, State}
+\label{sec:scale-illustrations}
+
+I now instantiate the model with conservative parameters: $s_0=200$, $r=2$, and $f=12$. The point is not that these are correct, but that even low settings generate explosive coherence burdens as $N$ increases.
+
+To represent the requested social scales, I use stylized population anchors:
+\[
+N_{\text{town}} = 5\times 10^4, \;\;\;
+N_{\text{county}} = 3.3\times 10^6, \;\;\;
+N_{\text{state}} = 3.9\times 10^7.
+\]
+These are round numbers intended to stand in for an average-sized California town, a county on the scale of San Diego County, and California as a whole.
+
+Under $\alpha=\tfrac{1}{2}$, the computed burdens are:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrrrr}
+\hline
+Society & $N$ & $V(N)$ & $s(N)$ & $A(N)$ (checks/year) \\
+\hline
+Small town & $5\times10^4$ & $2.24\times10^2$ & $6.47\times10^2$ & $2.51\times10^6$ \\
+County-scale & $3.3\times10^6$ & $1.82\times10^3$ & $3.83\times10^3$ & $8.81\times10^7$ \\
+State-scale & $3.9\times10^7$ & $6.25\times10^3$ & $1.27\times10^4$ & $9.66\times10^8$ \\
+\hline
+\end{tabular}
+\caption{Stylized JTC coherence workload with $V(N)=N^{1/2}$, $s_0=200$, $r=2$, and $f=12$.}
+\label{tab:jtc-load}
+\end{table}
+
+To make the magnitude intuitive, set $\tau = 1$ second per coherence check. Then $T(N)$ is about 29 days per year for the small-town case, about 2.8 years per year for the county-scale case, and about 31 years per year for the state-scale case. The absurdity is the result. JTC cannot plausibly be a citizen-performed algorithm once social scale and pluralism are taken seriously.
+
+The model should not be read as a proof that Rawlsian public reason is impossible. It establishes something weaker but still damaging: the Rawlsian picture of legitimacy as stability-through-reasons quietly assumes that citizens can do a kind of temporally stable coherence maintenance that becomes computationally unrealistic under even mild diversity-growth assumptions. When predictive and compressive cognition is added, the gap widens: the expected response to overload is not finer coherence checking but reliance on heuristics, coalitional cues, and simplified narratives \parencite{kahneman2011thinking,mercier2017enigma}.
+
+\section{Implications for Rawlsian Legitimacy}
+\label{sec:implications}
+
+A Rawlsian can concede the cognitive diagnosis without conceding defeat. The most natural move is to reinterpret JTC as a \emph{division-of-labor} requirement rather than an individual duty performed at full resolution by every citizen. Rawls already treats institutions and political culture as essential to stability \parencite{rawls1993political,rawls2001justice}. The cognitive critique presses for taking that reliance seriously: if legitimacy depends on justificatory tracking, then legitimacy must be supported by institutions that reduce, structure, and externalize the tracking burden.
+
+This suggestion has two faces. One is diagnostic: when citizens cannot sustain high-fidelity justificatory maps, political justification will tend to be mediated by parties, courts, media systems, and informal elites, with predictable distortions in what counts as ``public.'' The other is constructive: legitimacy may require designing institutions that function as cognitive scaffolds, lowering the cognitive cost of public justification while preserving pluralism rather than demanding convergence \parencite{ostrom1990governing,scott1998seeing}. Whether that institutional path is compatible with Rawls's aspiration to avoid domination is a further question. What should not be assumed is that citizens in large, diverse societies can meet JTC unaided.
+
 % \chapter{Complexity and Dynamic Pluralism}
 % \chapter{Institutions as Cognitive Prosthetics}
 

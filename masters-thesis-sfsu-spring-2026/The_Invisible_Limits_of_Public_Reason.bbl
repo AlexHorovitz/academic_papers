@@ -19,6 +19,104 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{ahmad2016neurons}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a01da48611238f2d1508928a8b87f5bf}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Subutai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae942e35d736eab568a4727899116694}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{fullhash}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{fullhashraw}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{bibnamehash}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{authorbibnamehash}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{authornamehash}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{authorfullhash}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \strng{authorfullhashraw}{c73643fa180d5d4c10d1e8a24552ffb4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{arXiv:1601.00720}
+      \field{title}{How Do Neurons Operate on Sparse Distributed Representations?}
+      \field{year}{2016}
+    \endentry
+    \entry{clark2013whatever}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f9dc85571871980f95346c5af4ceb5b3}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{fullhash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{fullhashraw}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{bibnamehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authorbibnamehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authornamehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authorfullhash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authorfullhashraw}{f9dc85571871980f95346c5af4ceb5b3}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Behavioral and Brain Sciences}
+      \field{number}{3}
+      \field{title}{Whatever Next? Predictive Brains, Situated Agents, and the Future of Cognitive Science}
+      \field{volume}{36}
+      \field{year}{2013}
+      \field{pages}{181\bibrangedash 204}
+      \range{pages}{24}
+    \endentry
+    \entry{clark2016surfing}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f9dc85571871980f95346c5af4ceb5b3}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{fullhash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{fullhashraw}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{bibnamehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authorbibnamehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authornamehash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authorfullhash}{f9dc85571871980f95346c5af4ceb5b3}
+      \strng{authorfullhashraw}{f9dc85571871980f95346c5af4ceb5b3}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Surfing Uncertainty: Prediction, Action, and the Embodied Mind}
+      \field{year}{2016}
+    \endentry
     \entry{cohen2008rescuing}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1d42f47d2aba5e0b2307ce2e5e28e0fe}{%
@@ -115,6 +213,105 @@
       \field{title}{Rawls}
       \field{year}{2007}
     \endentry
+    \entry{friston2005theory}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f452a84796a900973333b32a5f8bc61}{%
+           family={Friston},
+           familyi={F\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{fullhash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{fullhashraw}{9f452a84796a900973333b32a5f8bc61}
+      \strng{bibnamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorbibnamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authornamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorfullhash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorfullhashraw}{9f452a84796a900973333b32a5f8bc61}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society B}
+      \field{title}{A Theory of Cortical Responses}
+      \field{volume}{360}
+      \field{year}{2005}
+      \field{pages}{815\bibrangedash 836}
+      \range{pages}{22}
+    \endentry
+    \entry{friston2009free}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f452a84796a900973333b32a5f8bc61}{%
+           family={Friston},
+           familyi={F\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{fullhash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{fullhashraw}{9f452a84796a900973333b32a5f8bc61}
+      \strng{bibnamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorbibnamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authornamehash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorfullhash}{9f452a84796a900973333b32a5f8bc61}
+      \strng{authorfullhashraw}{9f452a84796a900973333b32a5f8bc61}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends in Cognitive Sciences}
+      \field{number}{7}
+      \field{title}{The Free-Energy Principle}
+      \field{volume}{13}
+      \field{year}{2009}
+      \field{pages}{293\bibrangedash 301}
+      \range{pages}{9}
+    \endentry
+    \entry{ganguli2012compressed}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=05b3e391388084df874ede60f2210c12}{%
+           family={Ganguli},
+           familyi={G\bibinitperiod},
+           given={Surya},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed8f7756b26934dfcef286998c88ac0a}{%
+           family={Sompolinsky},
+           familyi={S\bibinitperiod},
+           given={Haim},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{fullhash}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{fullhashraw}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{bibnamehash}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{authorbibnamehash}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{authornamehash}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{authorfullhash}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \strng{authorfullhashraw}{51cd999e3a8ab616d7721d4a353d2dd8}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Neuroscience}
+      \field{title}{Compressed Sensing, Sparsity, and Dimensionality in Neuronal Information Processing}
+      \field{volume}{35}
+      \field{year}{2012}
+      \field{pages}{485\bibrangedash 508}
+      \range{pages}{24}
+    \endentry
     \entry{gaus2011order}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3d5a481a9e7131728395184132692c47}{%
@@ -145,6 +342,109 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Order of Public Reason}
+      \field{year}{2011}
+    \endentry
+    \entry{hawkins2004intelligence}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ae942e35d736eab568a4727899116694}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a39756851683c7cf7465caf41abb0d0f}{%
+           family={Blakeslee},
+           familyi={B\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Times Books}%
+      }
+      \strng{namehash}{7544d6588e0b24400764573852866700}
+      \strng{fullhash}{7544d6588e0b24400764573852866700}
+      \strng{fullhashraw}{7544d6588e0b24400764573852866700}
+      \strng{bibnamehash}{7544d6588e0b24400764573852866700}
+      \strng{authorbibnamehash}{7544d6588e0b24400764573852866700}
+      \strng{authornamehash}{7544d6588e0b24400764573852866700}
+      \strng{authorfullhash}{7544d6588e0b24400764573852866700}
+      \strng{authorfullhashraw}{7544d6588e0b24400764573852866700}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On Intelligence}
+      \field{year}{2004}
+    \endentry
+    \entry{hohwy2013predictive}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=601958a9399ca202911f59204dc0fd45}{%
+           family={Hohwy},
+           familyi={H\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{601958a9399ca202911f59204dc0fd45}
+      \strng{fullhash}{601958a9399ca202911f59204dc0fd45}
+      \strng{fullhashraw}{601958a9399ca202911f59204dc0fd45}
+      \strng{bibnamehash}{601958a9399ca202911f59204dc0fd45}
+      \strng{authorbibnamehash}{601958a9399ca202911f59204dc0fd45}
+      \strng{authornamehash}{601958a9399ca202911f59204dc0fd45}
+      \strng{authorfullhash}{601958a9399ca202911f59204dc0fd45}
+      \strng{authorfullhashraw}{601958a9399ca202911f59204dc0fd45}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Predictive Mind}
+      \field{year}{2013}
+    \endentry
+    \entry{kahneman2011thinking}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{2}{%
+        {Farrar, Straus}%
+        {Giroux}%
+      }
+      \strng{namehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{fullhash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{fullhashraw}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{bibnamehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authorbibnamehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authornamehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authorfullhash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authorfullhashraw}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thinking, Fast and Slow}
       \field{year}{2011}
     \endentry
     \entry{lister2013public}{book}{}{}
@@ -178,6 +478,76 @@
       \field{labeltitlesource}{title}
       \field{title}{Public Reason and Political Community}
       \field{year}{2013}
+    \endentry
+    \entry{mercier2017enigma}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f70379da697a3b48dab3e96d2c59fddc}{%
+           family={Mercier},
+           familyi={M\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=668bce40d496b0ee9fba07b4b1040e79}{%
+           family={Sperber},
+           familyi={S\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {Harvard University Press}%
+      }
+      \strng{namehash}{4d7845c1ba0225393dfd087c14bb5c80}
+      \strng{fullhash}{4d7845c1ba0225393dfd087c14bb5c80}
+      \strng{fullhashraw}{4d7845c1ba0225393dfd087c14bb5c80}
+      \strng{bibnamehash}{4d7845c1ba0225393dfd087c14bb5c80}
+      \strng{authorbibnamehash}{4d7845c1ba0225393dfd087c14bb5c80}
+      \strng{authornamehash}{4d7845c1ba0225393dfd087c14bb5c80}
+      \strng{authorfullhash}{4d7845c1ba0225393dfd087c14bb5c80}
+      \strng{authorfullhashraw}{4d7845c1ba0225393dfd087c14bb5c80}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Enigma of Reason}
+      \field{year}{2017}
+    \endentry
+    \entry{ostrom1990governing}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=83bfc750a74aff11efa4bbcd04d4af05}{%
+           family={Ostrom},
+           familyi={O\bibinitperiod},
+           given={Elinor},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{fullhash}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{fullhashraw}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{bibnamehash}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{authorbibnamehash}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{authornamehash}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{authorfullhash}{83bfc750a74aff11efa4bbcd04d4af05}
+      \strng{authorfullhashraw}{83bfc750a74aff11efa4bbcd04d4af05}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Governing the Commons}
+      \field{year}{1990}
     \endentry
     \entry{quong2011liberalism}{book}{}{}
       \name{author}{1}{}{%
@@ -244,7 +614,7 @@
       \field{title}{A Theory of Justice}
       \field{year}{1971}
     \endentry
-    \entry{rawls1987overlapping}{article}{}{}
+    \entry{rawls1985justice}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=789e307f6a6f6a453ff0ca10f85cea17}{%
            family={Rawls},
@@ -262,6 +632,38 @@
       \strng{authorfullhash}{789e307f6a6f6a453ff0ca10f85cea17}
       \strng{authorfullhashraw}{789e307f6a6f6a453ff0ca10f85cea17}
       \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophy \& Public Affairs}
+      \field{number}{3}
+      \field{title}{Justice as Fairness: Political Not Metaphysical}
+      \field{volume}{14}
+      \field{year}{1985}
+      \field{pages}{223\bibrangedash 251}
+      \range{pages}{29}
+    \endentry
+    \entry{rawls1987overlapping}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=789e307f6a6f6a453ff0ca10f85cea17}{%
+           family={Rawls},
+           familyi={R\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{789e307f6a6f6a453ff0ca10f85cea17}
+      \strng{fullhash}{789e307f6a6f6a453ff0ca10f85cea17}
+      \strng{fullhashraw}{789e307f6a6f6a453ff0ca10f85cea17}
+      \strng{bibnamehash}{789e307f6a6f6a453ff0ca10f85cea17}
+      \strng{authorbibnamehash}{789e307f6a6f6a453ff0ca10f85cea17}
+      \strng{authornamehash}{789e307f6a6f6a453ff0ca10f85cea17}
+      \strng{authorfullhash}{789e307f6a6f6a453ff0ca10f85cea17}
+      \strng{authorfullhashraw}{789e307f6a6f6a453ff0ca10f85cea17}
+      \field{extraname}{3}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -299,7 +701,7 @@
       \strng{authornamehash}{789e307f6a6f6a453ff0ca10f85cea17}
       \strng{authorfullhash}{789e307f6a6f6a453ff0ca10f85cea17}
       \strng{authorfullhashraw}{789e307f6a6f6a453ff0ca10f85cea17}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -326,7 +728,7 @@
       \strng{authornamehash}{789e307f6a6f6a453ff0ca10f85cea17}
       \strng{authorfullhash}{789e307f6a6f6a453ff0ca10f85cea17}
       \strng{authorfullhashraw}{789e307f6a6f6a453ff0ca10f85cea17}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -364,7 +766,7 @@
       \strng{authornamehash}{789e307f6a6f6a453ff0ca10f85cea17}
       \strng{authorfullhash}{789e307f6a6f6a453ff0ca10f85cea17}
       \strng{authorfullhashraw}{789e307f6a6f6a453ff0ca10f85cea17}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -397,7 +799,7 @@
       \strng{authornamehash}{789e307f6a6f6a453ff0ca10f85cea17}
       \strng{authorfullhash}{789e307f6a6f6a453ff0ca10f85cea17}
       \strng{authorfullhashraw}{789e307f6a6f6a453ff0ca10f85cea17}
-      \field{extraname}{6}
+      \field{extraname}{7}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -437,6 +839,102 @@
       \field{year}{2011}
       \field{pages}{375\bibrangedash 398}
       \range{pages}{24}
+    \endentry
+    \entry{scott1998seeing}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=29338f2b8892d678ed0d73c644afae4f}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={James\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New Haven}%
+      }
+      \list{publisher}{1}{%
+        {Yale University Press}%
+      }
+      \strng{namehash}{29338f2b8892d678ed0d73c644afae4f}
+      \strng{fullhash}{29338f2b8892d678ed0d73c644afae4f}
+      \strng{fullhashraw}{29338f2b8892d678ed0d73c644afae4f}
+      \strng{bibnamehash}{29338f2b8892d678ed0d73c644afae4f}
+      \strng{authorbibnamehash}{29338f2b8892d678ed0d73c644afae4f}
+      \strng{authornamehash}{29338f2b8892d678ed0d73c644afae4f}
+      \strng{authorfullhash}{29338f2b8892d678ed0d73c644afae4f}
+      \strng{authorfullhashraw}{29338f2b8892d678ed0d73c644afae4f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Seeing Like a State}
+      \field{year}{1998}
+    \endentry
+    \entry{stanovich2009intelligence}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4f9f67533b8b1ae31bf512d691789549}{%
+           family={Stanovich},
+           familyi={S\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New Haven}%
+      }
+      \list{publisher}{1}{%
+        {Yale University Press}%
+      }
+      \strng{namehash}{4f9f67533b8b1ae31bf512d691789549}
+      \strng{fullhash}{4f9f67533b8b1ae31bf512d691789549}
+      \strng{fullhashraw}{4f9f67533b8b1ae31bf512d691789549}
+      \strng{bibnamehash}{4f9f67533b8b1ae31bf512d691789549}
+      \strng{authorbibnamehash}{4f9f67533b8b1ae31bf512d691789549}
+      \strng{authornamehash}{4f9f67533b8b1ae31bf512d691789549}
+      \strng{authorfullhash}{4f9f67533b8b1ae31bf512d691789549}
+      \strng{authorfullhashraw}{4f9f67533b8b1ae31bf512d691789549}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What Intelligence Tests Miss}
+      \field{year}{2009}
+    \endentry
+    \entry{tetlock2005expert}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=171757d6c70112a01f26f21004587e09}{%
+           family={Tetlock},
+           familyi={T\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Princeton}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{171757d6c70112a01f26f21004587e09}
+      \strng{fullhash}{171757d6c70112a01f26f21004587e09}
+      \strng{fullhashraw}{171757d6c70112a01f26f21004587e09}
+      \strng{bibnamehash}{171757d6c70112a01f26f21004587e09}
+      \strng{authorbibnamehash}{171757d6c70112a01f26f21004587e09}
+      \strng{authornamehash}{171757d6c70112a01f26f21004587e09}
+      \strng{authorfullhash}{171757d6c70112a01f26f21004587e09}
+      \strng{authorfullhashraw}{171757d6c70112a01f26f21004587e09}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Expert Political Judgment}
+      \field{year}{2005}
     \endentry
     \entry{vallier2014liberal}{book}{}{}
       \name{author}{1}{}{%

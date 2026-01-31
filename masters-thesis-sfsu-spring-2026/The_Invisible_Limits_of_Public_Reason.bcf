@@ -2419,6 +2419,38 @@
     <bcf:citekey order="24" intorder="2">gaus2011order</bcf:citekey>
     <bcf:citekey order="25" intorder="1">rawls1993political</bcf:citekey>
     <bcf:citekey order="25" intorder="2">lister2013public</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">rawls1993political</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">rawls1987overlapping</bcf:citekey>
+    <bcf:citekey order="27" intorder="2">rawls1997public</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">rawls1993political</bcf:citekey>
+    <bcf:citekey order="28" intorder="2">rawls2001justice</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">rawls1993political</bcf:citekey>
+    <bcf:citekey order="29" intorder="2">rawls1985justice</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">quong2011liberalism</bcf:citekey>
+    <bcf:citekey order="30" intorder="2">freeman2007rawls</bcf:citekey>
+    <bcf:citekey order="30" intorder="3">lister2013public</bcf:citekey>
+    <bcf:citekey order="30" intorder="4">schwartzman2011completeness</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">rawls1997public</bcf:citekey>
+    <bcf:citekey order="31" intorder="2">quong2011liberalism</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">rawls1993political</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">clark2016surfing</bcf:citekey>
+    <bcf:citekey order="33" intorder="2">clark2013whatever</bcf:citekey>
+    <bcf:citekey order="33" intorder="3">hohwy2013predictive</bcf:citekey>
+    <bcf:citekey order="33" intorder="4">friston2005theory</bcf:citekey>
+    <bcf:citekey order="33" intorder="5">friston2009free</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">ahmad2016neurons</bcf:citekey>
+    <bcf:citekey order="34" intorder="2">hawkins2004intelligence</bcf:citekey>
+    <bcf:citekey order="34" intorder="3">ganguli2012compressed</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">kahneman2011thinking</bcf:citekey>
+    <bcf:citekey order="35" intorder="2">stanovich2009intelligence</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">mercier2017enigma</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">tetlock2005expert</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">kahneman2011thinking</bcf:citekey>
+    <bcf:citekey order="38" intorder="2">mercier2017enigma</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">rawls1993political</bcf:citekey>
+    <bcf:citekey order="39" intorder="2">rawls2001justice</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">ostrom1990governing</bcf:citekey>
+    <bcf:citekey order="40" intorder="2">scott1998seeing</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

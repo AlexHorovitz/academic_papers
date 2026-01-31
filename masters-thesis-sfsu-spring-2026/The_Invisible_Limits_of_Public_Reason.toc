@@ -14,3 +14,12 @@
 \contentsline {section}{\numberline {4.2}Convergence liberalism and justificatory plurality}{12}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Where the burden reappears}{13}{section.4.3}%
 \contentsline {chapter}{\numberline {5}Existing feasibility critiques (social/institutional)}{14}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Cognitive Constraints on the Justice Test via Reflective Coherence}{16}{chapter.6}%
+\contentsline {section}{\numberline {6.1}From Rawlsian Stability to a Justice Test}{16}{section.6.1}%
+\contentsline {section}{\numberline {6.2}What JTC Demands of Ordinary Cognition}{17}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Predictive, Compressive Minds and the Limits of High-Fidelity Tracking}{17}{section.6.3}%
+\contentsline {section}{\numberline {6.4}A Toy Model of JTC's Cognitive Burden}{18}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Notation and assumptions}{18}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Scaling of viewpoint-types}{19}{subsection.6.4.2}%
+\contentsline {section}{\numberline {6.5}Three Scale Illustrations: Town, County, State}{20}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Implications for Rawlsian Legitimacy}{20}{section.6.6}%
