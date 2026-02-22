@@ -52,6 +52,38 @@
       \field{title}{How Do Neurons Operate on Sparse Distributed Representations?}
       \field{year}{2016}
     \endentry
+    \entry{beer1979heart}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bd1fd36e7960e25622cccc0e9ced8e95}{%
+           family={Beer},
+           familyi={B\bibinitperiod},
+           given={Stafford},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{fullhash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{fullhashraw}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{bibnamehash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{authorbibnamehash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{authornamehash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{authorfullhash}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \strng{authorfullhashraw}{bd1fd36e7960e25622cccc0e9ced8e95}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Heart of Enterprise}
+      \field{year}{1979}
+    \endentry
     \entry{clark2013whatever}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f9dc85571871980f95346c5af4ceb5b3}{%
@@ -335,6 +367,7 @@
       \strng{authornamehash}{3d5a481a9e7131728395184132692c47}
       \strng{authorfullhash}{3d5a481a9e7131728395184132692c47}
       \strng{authorfullhashraw}{3d5a481a9e7131728395184132692c47}
+      \field{extraname}{1}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -343,6 +376,72 @@
       \field{labeltitlesource}{title}
       \field{title}{The Order of Public Reason}
       \field{year}{2011}
+    \endentry
+    \entry{gaus2021open}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3d5a481a9e7131728395184132692c47}{%
+           family={Gaus},
+           familyi={G\bibinitperiod},
+           given={Gerald},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{3d5a481a9e7131728395184132692c47}
+      \strng{fullhash}{3d5a481a9e7131728395184132692c47}
+      \strng{fullhashraw}{3d5a481a9e7131728395184132692c47}
+      \strng{bibnamehash}{3d5a481a9e7131728395184132692c47}
+      \strng{authorbibnamehash}{3d5a481a9e7131728395184132692c47}
+      \strng{authornamehash}{3d5a481a9e7131728395184132692c47}
+      \strng{authorfullhash}{3d5a481a9e7131728395184132692c47}
+      \strng{authorfullhashraw}{3d5a481a9e7131728395184132692c47}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Open Society and Its Complexities}
+      \field{year}{2021}
+    \endentry
+    \entry{hart1961concept}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fce034a950434027049f505b8a8a97b9}{%
+           family={Hart},
+           familyi={H\bibinitperiod},
+           given={H.\bibnamedelimi L.\bibnamedelimi A.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{fce034a950434027049f505b8a8a97b9}
+      \strng{fullhash}{fce034a950434027049f505b8a8a97b9}
+      \strng{fullhashraw}{fce034a950434027049f505b8a8a97b9}
+      \strng{bibnamehash}{fce034a950434027049f505b8a8a97b9}
+      \strng{authorbibnamehash}{fce034a950434027049f505b8a8a97b9}
+      \strng{authornamehash}{fce034a950434027049f505b8a8a97b9}
+      \strng{authorfullhash}{fce034a950434027049f505b8a8a97b9}
+      \strng{authorfullhashraw}{fce034a950434027049f505b8a8a97b9}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{2nd ed. 1994}
+      \field{title}{The Concept of Law}
+      \field{year}{1961}
     \endentry
     \entry{hawkins2004intelligence}{book}{}{}
       \name{author}{2}{}{%
@@ -382,6 +481,37 @@
       \field{title}{On Intelligence}
       \field{year}{2004}
     \endentry
+    \entry{hayek1945knowledge}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fe996ea9954d6b9a63c4eeb90092e6d1}{%
+           family={Hayek},
+           familyi={H\bibinitperiod},
+           given={F.\bibnamedelimi A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fe996ea9954d6b9a63c4eeb90092e6d1}
+      \strng{fullhash}{fe996ea9954d6b9a63c4eeb90092e6d1}
+      \strng{fullhashraw}{fe996ea9954d6b9a63c4eeb90092e6d1}
+      \strng{bibnamehash}{fe996ea9954d6b9a63c4eeb90092e6d1}
+      \strng{authorbibnamehash}{fe996ea9954d6b9a63c4eeb90092e6d1}
+      \strng{authornamehash}{fe996ea9954d6b9a63c4eeb90092e6d1}
+      \strng{authorfullhash}{fe996ea9954d6b9a63c4eeb90092e6d1}
+      \strng{authorfullhashraw}{fe996ea9954d6b9a63c4eeb90092e6d1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{4}
+      \field{title}{The Use of Knowledge in Society}
+      \field{volume}{35}
+      \field{year}{1945}
+      \field{pages}{519\bibrangedash 530}
+      \range{pages}{12}
+    \endentry
     \entry{hohwy2013predictive}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=601958a9399ca202911f59204dc0fd45}{%
@@ -413,6 +543,38 @@
       \field{labeltitlesource}{title}
       \field{title}{The Predictive Mind}
       \field{year}{2013}
+    \endentry
+    \entry{holland2012signals}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b79534c935b12a1be8505373667beef1}{%
+           family={Holland},
+           familyi={H\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{b79534c935b12a1be8505373667beef1}
+      \strng{fullhash}{b79534c935b12a1be8505373667beef1}
+      \strng{fullhashraw}{b79534c935b12a1be8505373667beef1}
+      \strng{bibnamehash}{b79534c935b12a1be8505373667beef1}
+      \strng{authorbibnamehash}{b79534c935b12a1be8505373667beef1}
+      \strng{authornamehash}{b79534c935b12a1be8505373667beef1}
+      \strng{authorfullhash}{b79534c935b12a1be8505373667beef1}
+      \strng{authorfullhashraw}{b79534c935b12a1be8505373667beef1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Signals and Boundaries}
+      \field{year}{2012}
     \endentry
     \entry{kahneman2011thinking}{book}{}{}
       \name{author}{1}{}{%
@@ -447,6 +609,70 @@
       \field{title}{Thinking, Fast and Slow}
       \field{year}{2011}
     \endentry
+    \entry{kauffman1993origins}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=92969e9fd71fe821f1e25561028ca907}{%
+           family={Kauffman},
+           familyi={K\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{92969e9fd71fe821f1e25561028ca907}
+      \strng{fullhash}{92969e9fd71fe821f1e25561028ca907}
+      \strng{fullhashraw}{92969e9fd71fe821f1e25561028ca907}
+      \strng{bibnamehash}{92969e9fd71fe821f1e25561028ca907}
+      \strng{authorbibnamehash}{92969e9fd71fe821f1e25561028ca907}
+      \strng{authornamehash}{92969e9fd71fe821f1e25561028ca907}
+      \strng{authorfullhash}{92969e9fd71fe821f1e25561028ca907}
+      \strng{authorfullhashraw}{92969e9fd71fe821f1e25561028ca907}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Origins of Order}
+      \field{year}{1993}
+    \endentry
+    \entry{landemore2013democratic}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9268f43053b48cbcbfd3d459e61335c5}{%
+           family={Landemore},
+           familyi={L\bibinitperiod},
+           given={Hélène},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Princeton}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{9268f43053b48cbcbfd3d459e61335c5}
+      \strng{fullhash}{9268f43053b48cbcbfd3d459e61335c5}
+      \strng{fullhashraw}{9268f43053b48cbcbfd3d459e61335c5}
+      \strng{bibnamehash}{9268f43053b48cbcbfd3d459e61335c5}
+      \strng{authorbibnamehash}{9268f43053b48cbcbfd3d459e61335c5}
+      \strng{authornamehash}{9268f43053b48cbcbfd3d459e61335c5}
+      \strng{authorfullhash}{9268f43053b48cbcbfd3d459e61335c5}
+      \strng{authorfullhashraw}{9268f43053b48cbcbfd3d459e61335c5}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Democratic Reason}
+      \field{year}{2013}
+    \endentry
     \entry{lister2013public}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f77a422b01ba250f42f8c815057f495f}{%
@@ -478,6 +704,44 @@
       \field{labeltitlesource}{title}
       \field{title}{Public Reason and Political Community}
       \field{year}{2013}
+    \endentry
+    \entry{lupia1998democratic}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e03aa2fc8940a5244467fe21586f178b}{%
+           family={Lupia},
+           familyi={L\bibinitperiod},
+           given={Arthur},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=181176cdb0aecf8ee9e6c99b3ce2b777}{%
+           family={McCubbins},
+           familyi={M\bibinitperiod},
+           given={Mathew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{5e09d61c916971425cdc1c0c034b993e}
+      \strng{fullhash}{5e09d61c916971425cdc1c0c034b993e}
+      \strng{fullhashraw}{5e09d61c916971425cdc1c0c034b993e}
+      \strng{bibnamehash}{5e09d61c916971425cdc1c0c034b993e}
+      \strng{authorbibnamehash}{5e09d61c916971425cdc1c0c034b993e}
+      \strng{authornamehash}{5e09d61c916971425cdc1c0c034b993e}
+      \strng{authorfullhash}{5e09d61c916971425cdc1c0c034b993e}
+      \strng{authorfullhashraw}{5e09d61c916971425cdc1c0c034b993e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Democratic Dilemma}
+      \field{year}{1998}
     \endentry
     \entry{mercier2017enigma}{book}{}{}
       \name{author}{2}{}{%
@@ -548,6 +812,72 @@
       \field{labeltitlesource}{title}
       \field{title}{Governing the Commons}
       \field{year}{1990}
+    \endentry
+    \entry{page2007difference}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9be30916c37af0c86aa82aff91242e9b}{%
+           family={Page},
+           familyi={P\bibinitperiod},
+           given={Scott\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Princeton}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{9be30916c37af0c86aa82aff91242e9b}
+      \strng{fullhash}{9be30916c37af0c86aa82aff91242e9b}
+      \strng{fullhashraw}{9be30916c37af0c86aa82aff91242e9b}
+      \strng{bibnamehash}{9be30916c37af0c86aa82aff91242e9b}
+      \strng{authorbibnamehash}{9be30916c37af0c86aa82aff91242e9b}
+      \strng{authornamehash}{9be30916c37af0c86aa82aff91242e9b}
+      \strng{authorfullhash}{9be30916c37af0c86aa82aff91242e9b}
+      \strng{authorfullhashraw}{9be30916c37af0c86aa82aff91242e9b}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Difference}
+      \field{year}{2007}
+    \endentry
+    \entry{page2011diversity}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9be30916c37af0c86aa82aff91242e9b}{%
+           family={Page},
+           familyi={P\bibinitperiod},
+           given={Scott\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Princeton}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{9be30916c37af0c86aa82aff91242e9b}
+      \strng{fullhash}{9be30916c37af0c86aa82aff91242e9b}
+      \strng{fullhashraw}{9be30916c37af0c86aa82aff91242e9b}
+      \strng{bibnamehash}{9be30916c37af0c86aa82aff91242e9b}
+      \strng{authorbibnamehash}{9be30916c37af0c86aa82aff91242e9b}
+      \strng{authornamehash}{9be30916c37af0c86aa82aff91242e9b}
+      \strng{authorfullhash}{9be30916c37af0c86aa82aff91242e9b}
+      \strng{authorfullhashraw}{9be30916c37af0c86aa82aff91242e9b}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Diversity and Complexity}
+      \field{year}{2011}
     \endentry
     \entry{quong2011liberalism}{book}{}{}
       \name{author}{1}{}{%
@@ -872,6 +1202,70 @@
       \field{title}{Seeing Like a State}
       \field{year}{1998}
     \endentry
+    \entry{simon1982bounded}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=09c462602325128c408aa39c70c6ae62}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={Herbert\bibnamedelima A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{09c462602325128c408aa39c70c6ae62}
+      \strng{fullhash}{09c462602325128c408aa39c70c6ae62}
+      \strng{fullhashraw}{09c462602325128c408aa39c70c6ae62}
+      \strng{bibnamehash}{09c462602325128c408aa39c70c6ae62}
+      \strng{authorbibnamehash}{09c462602325128c408aa39c70c6ae62}
+      \strng{authornamehash}{09c462602325128c408aa39c70c6ae62}
+      \strng{authorfullhash}{09c462602325128c408aa39c70c6ae62}
+      \strng{authorfullhashraw}{09c462602325128c408aa39c70c6ae62}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Models of Bounded Rationality}
+      \field{year}{1982}
+    \endentry
+    \entry{somin2013democracy}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=627158d6a9ad1fb229436a707403fa08}{%
+           family={Somin},
+           familyi={S\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Stanford}%
+      }
+      \list{publisher}{1}{%
+        {Stanford University Press}%
+      }
+      \strng{namehash}{627158d6a9ad1fb229436a707403fa08}
+      \strng{fullhash}{627158d6a9ad1fb229436a707403fa08}
+      \strng{fullhashraw}{627158d6a9ad1fb229436a707403fa08}
+      \strng{bibnamehash}{627158d6a9ad1fb229436a707403fa08}
+      \strng{authorbibnamehash}{627158d6a9ad1fb229436a707403fa08}
+      \strng{authornamehash}{627158d6a9ad1fb229436a707403fa08}
+      \strng{authorfullhash}{627158d6a9ad1fb229436a707403fa08}
+      \strng{authorfullhashraw}{627158d6a9ad1fb229436a707403fa08}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Democracy and Political Ignorance}
+      \field{year}{2013}
+    \endentry
     \entry{stanovich2009intelligence}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4f9f67533b8b1ae31bf512d691789549}{%
@@ -902,6 +1296,39 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{What Intelligence Tests Miss}
+      \field{year}{2009}
+    \endentry
+    \entry{sunstein2009rumors}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6bd89bb7332f4a59189052e7c6bb5e9a}{%
+           family={Sunstein},
+           familyi={S\bibinitperiod},
+           given={Cass},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{2}{%
+        {Farrar, Straus}%
+        {Giroux}%
+      }
+      \strng{namehash}{6bd89bb7332f4a59189052e7c6bb5e9a}
+      \strng{fullhash}{6bd89bb7332f4a59189052e7c6bb5e9a}
+      \strng{fullhashraw}{6bd89bb7332f4a59189052e7c6bb5e9a}
+      \strng{bibnamehash}{6bd89bb7332f4a59189052e7c6bb5e9a}
+      \strng{authorbibnamehash}{6bd89bb7332f4a59189052e7c6bb5e9a}
+      \strng{authornamehash}{6bd89bb7332f4a59189052e7c6bb5e9a}
+      \strng{authorfullhash}{6bd89bb7332f4a59189052e7c6bb5e9a}
+      \strng{authorfullhashraw}{6bd89bb7332f4a59189052e7c6bb5e9a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On Rumors}
       \field{year}{2009}
     \endentry
     \entry{tetlock2005expert}{book}{}{}
@@ -936,6 +1363,81 @@
       \field{title}{Expert Political Judgment}
       \field{year}{2005}
     \endentry
+    \entry{thrasher2015fragility}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fdb0fc99298f09fe1ea52b0fd3ec0f11}{%
+           family={Thrasher},
+           familyi={T\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bbafa3771240d2e5397ab66655adb75d}{%
+           family={Vallier},
+           familyi={V\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f5b365dd1ba695ef019f0f25064989ca}
+      \strng{fullhash}{f5b365dd1ba695ef019f0f25064989ca}
+      \strng{fullhashraw}{f5b365dd1ba695ef019f0f25064989ca}
+      \strng{bibnamehash}{f5b365dd1ba695ef019f0f25064989ca}
+      \strng{authorbibnamehash}{f5b365dd1ba695ef019f0f25064989ca}
+      \strng{authornamehash}{f5b365dd1ba695ef019f0f25064989ca}
+      \strng{authorfullhash}{f5b365dd1ba695ef019f0f25064989ca}
+      \strng{authorfullhashraw}{f5b365dd1ba695ef019f0f25064989ca}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Philosophy}
+      \field{number}{4}
+      \field{title}{The Fragility of Consensus: Public Reason, Diversity and Stability}
+      \field{volume}{23}
+      \field{year}{2015}
+      \field{pages}{933\bibrangedash 954}
+      \range{pages}{22}
+    \endentry
+    \entry{buchanan1962calculus}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b484f7645a3be16134873c955a0f4052}{%
+           family={Tullock},
+           familyi={T\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ab88849575b79796fbdf1af0b54951b}{%
+           family={Buchanan},
+           familyi={B\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Ann Arbor}%
+      }
+      \list{publisher}{1}{%
+        {University of Michigan Press}%
+      }
+      \strng{namehash}{94f0780214bab2602aa9c65ffb1757d8}
+      \strng{fullhash}{94f0780214bab2602aa9c65ffb1757d8}
+      \strng{fullhashraw}{94f0780214bab2602aa9c65ffb1757d8}
+      \strng{bibnamehash}{94f0780214bab2602aa9c65ffb1757d8}
+      \strng{authorbibnamehash}{94f0780214bab2602aa9c65ffb1757d8}
+      \strng{authornamehash}{94f0780214bab2602aa9c65ffb1757d8}
+      \strng{authorfullhash}{94f0780214bab2602aa9c65ffb1757d8}
+      \strng{authorfullhashraw}{94f0780214bab2602aa9c65ffb1757d8}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Calculus of Consent}
+      \field{year}{1962}
+    \endentry
     \entry{vallier2014liberal}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=bbafa3771240d2e5397ab66655adb75d}{%
@@ -959,6 +1461,7 @@
       \strng{authornamehash}{bbafa3771240d2e5397ab66655adb75d}
       \strng{authorfullhash}{bbafa3771240d2e5397ab66655adb75d}
       \strng{authorfullhashraw}{bbafa3771240d2e5397ab66655adb75d}
+      \field{extraname}{1}
       \field{sortinit}{V}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{extradatescope}{labelyear}
@@ -968,7 +1471,42 @@
       \field{title}{Liberal Politics and Public Faith}
       \field{year}{2014}
     \endentry
+    \entry{vallier2020trust}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bbafa3771240d2e5397ab66655adb75d}{%
+           family={Vallier},
+           familyi={V\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{bbafa3771240d2e5397ab66655adb75d}
+      \strng{fullhash}{bbafa3771240d2e5397ab66655adb75d}
+      \strng{fullhashraw}{bbafa3771240d2e5397ab66655adb75d}
+      \strng{bibnamehash}{bbafa3771240d2e5397ab66655adb75d}
+      \strng{authorbibnamehash}{bbafa3771240d2e5397ab66655adb75d}
+      \strng{authornamehash}{bbafa3771240d2e5397ab66655adb75d}
+      \strng{authorfullhash}{bbafa3771240d2e5397ab66655adb75d}
+      \strng{authorfullhashraw}{bbafa3771240d2e5397ab66655adb75d}
+      \field{extraname}{2}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Trust in a Polarized Age}
+      \field{year}{2020}
+    \endentry
   \enddatalist
+  \missing{simon1984bounded}
+  \missing{thrasher2013fragility}
 \endrefsection
 \endinput
 

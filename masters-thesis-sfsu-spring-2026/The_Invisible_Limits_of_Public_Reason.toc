@@ -23,3 +23,22 @@
 \contentsline {subsection}{\numberline {6.4.2}Scaling of viewpoint-types}{19}{subsection.6.4.2}%
 \contentsline {section}{\numberline {6.5}Three Scale Illustrations: Town, County, State}{20}{section.6.5}%
 \contentsline {section}{\numberline {6.6}Implications for Rawlsian Legitimacy}{20}{section.6.6}%
+\contentsline {chapter}{\numberline {7}Complexity Theory, Dancing Landscapes, and Dynamic Pluralism}{22}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Complex adaptive orders and the nonstationarity of politics}{23}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Dancing landscapes}{24}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Dynamic pluralism: drift in doctrines, identities, and justificatory repertoires}{25}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Legibility, simplification, and drift}{26}{section.7.4}%
+\contentsline {section}{\numberline {7.5}What complexity does to Rawlsian stability}{27}{section.7.5}%
+\contentsline {chapter}{\numberline {8}Synthesis: The Feasibility Failure of Rawlsian Stability}{28}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Tracking in a dancing landscape}{28}{section.8.1}%
+\contentsline {section}{\numberline {8.2}What follows (and what does not)}{30}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Objections and replies}{30}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}``Ideal theory need not be feasible''}{30}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}``Public reason is for officials''}{30}{subsection.8.3.2}%
+\contentsline {subsection}{\numberline {8.3.3}``Institutions can offload the tracking''}{31}{subsection.8.3.3}%
+\contentsline {subsection}{\numberline {8.3.4}``The empirical premises are too uncertain''}{31}{subsection.8.3.4}%
+\contentsline {subsection}{\numberline {8.3.5}``Convergence liberalism escapes the shared-reasons demand''}{31}{subsection.8.3.5}%
+\contentsline {chapter}{\numberline {9}Institutions as Cognitive Prosthetics: A Constructive Alternative}{33}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Scaffolded legitimacy under drift}{33}{section.9.1}%
+\contentsline {section}{\numberline {9.2}A toy model: institutional filtering as cognitive offloading}{35}{section.9.2}%
+\contentsline {chapter}{\numberline {10}Conclusion}{36}{chapter.10}%
