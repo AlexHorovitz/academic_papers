@@ -1,0 +1,493 @@
+\documentclass[12pt]{report}
+
+% --------------------
+% Basic packages
+% --------------------
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{amsmath}
+
+% -------------------
+% Draft Watermark
+% -------------------
+
+\usepackage{xcolor}
+\usepackage[text=DRAFT, color=red!10, scale=0.45, angle=45]{draftwatermark}
+
+% --------------------
+% Bibliography
+% --------------------
+
+\usepackage[
+  backend=biber,
+  style=authoryear,
+  citestyle=authoryear
+]{biblatex}
+
+\addbibresource{thesis_bibliography.bib}
+
+% --------------------
+% Page layout
+% --------------------
+\geometry{
+  margin=1in
+}
+\onehalfspacing
+\setlength{\parskip}{1\baselineskip}
+
+% --------------------
+% Metadata
+% --------------------
+\title{The Invisible Limits of Public Reason\\
+\large Cognition, Complexity, and the Failure of Rawlsian Stability}
+\author{Alex Horovitz}
+\date{\today}
+
+% --------------------
+% Document
+% --------------------
+\begin{document}
+\pagenumbering{roman} 
+
+\maketitle
+
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+
+% ====================
+% Introduction
+% ====================
+
+\chapter{Introduction}
+
+Liberal democracies often present themselves as regimes of justification rather than regimes of command. When coercive law reaches into contested domains (religion, family, education, speech, property, the terms of political participation), it is supposed to do so on grounds that free and equal citizens can acknowledge without surrendering their deepest commitments. Yet politics rarely supplies a stable backdrop for that aspiration. Disagreement persists among reasonable people, and the problems that law addresses shift as societies adapt. A justification that works today can lose its grip tomorrow, not because anyone has become unreasonable, but because the world that made the reason salient has moved.
+
+Rawls's project of public reason is the canonical attempt to make legitimacy under reasonable pluralism intelligible. In \emph{Political Liberalism} and related work (\cite{rawls1993political, rawls1997public}), Rawls argues that legitimacy requires more than compliance bought by threats, incentives, or prudential compromise. A liberal regime must be stable ``for the right reasons'': citizens should be able to support constitutional essentials and the basic structure from within their own comprehensive doctrines, yielding an overlapping consensus rather than a mere modus vivendi (\cite{rawls1987overlapping}). Public reason is meant to supply the shared justificatory currency that makes that stability possible.
+
+That promise depends on what citizens can do with reasons over time. Stability is not a snapshot alignment of judgments; it is a durable pattern of endorsement and compliance across changing circumstances. For public justification to generate such stability, citizens must be able to identify which considerations count as admissible public reasons, retain those reasons as grounds for political support, and revise their justificatory outlook when circumstances change without treating every shift as a wholesale reset. I call this capacity the \emph{tracking requirement}. Rawls does not always name it, but stability through public reason presupposes it.
+
+The tracking requirement is fragile for cognitive reasons. Human agents are not transparent reason-trackers. Cognitive systems economize: they compress information, rely on heuristics, conserve prior commitments, and update selectively under uncertainty. Political judgment is often made under time pressure, relying on cues supplied by parties, media, and social networks. Even sincere citizens therefore tend to hold reasons in coarse form, and the mapping from shared political values to concrete policy conclusions is costly to maintain and easy to distort.
+
+It is also fragile for systemic reasons. Modern political orders are complex adaptive systems. Rules shape behavior, behavior reshapes the environment, and the environment reshapes the meaning and salience of the reasons citizens appeal to. In such settings the justificatory landscape ``dances'': new technologies, demographic change, and strategic adaptation continually reorganize what counts as a problem and what counts as a solution. Even perfect reason-tracking would not guarantee convergence on a stable target.
+
+The thesis defended in this project is that Rawlsian stability through public reason depends on the tracking requirement and on an associated \emph{landscape stability} assumption: the assumption that the political environment supplies a stable enough set of shared values and reasons for convergence to be more than episodic. Predictive, sparsifying cognition makes the tracking requirement unreliable at scale, and dynamically pluralist environments undermine the stability of the justificatory landscape itself. The upshot is that Rawlsian stability is not a feasible basis for legitimacy; legitimacy must instead be sought in institutions that can absorb pluralism and drift without demanding justificatory convergence from citizens. This conclusion is limited. I do not claim that deliberation is pointless or that Rawls's moral ideals lack value. I claim that the justificatory expectations built into stability-through-public-reason exceed what cognitively limited agents can reliably do in large-scale societies.
+
+Because the argument turns on feasibility, it can be dismissed as an external empirical complaint against ideal theory. That response is misplaced. Rawls does not treat stability as decorative; it is part of what makes a political conception suitable for a society of free and equal citizens. When stability is doing justificatory work, constraints on what citizens can reliably do with reasons are internal to the theory. A defender can resist my conclusion only by offering a plausible account of citizen reasoning and institutional mediation that meets the tracking requirement under dynamic pluralism.
+
+The chapters that follow develop this case in stages. I first reconstruct Rawlsian public reason and its link to stability in a form that makes the tracking requirement explicit. I then examine contemporary refinements, including neo-Rawlsian accessibility strategies and convergence liberalism, to argue that they preserve the same dependence on temporally coherent tracking. After a methodological chapter on feasibility and idealization, I develop the cognitive and complexity constraints and integrate them in a synthesis that addresses the strongest objections. The final chapter turns constructive: legitimacy should be sought in institutions that function as \emph{cognitive prosthetics}, distributed and feedback-sensitive arrangements that preserve pluralism while reducing justificatory burdens.
+
+% ====================
+% Main chapters
+% ====================
+
+\chapter{Rawlsian Public Reason and the Architecture of Stability}
+\label{sec:rawls-public-reason-stability}
+
+Rawlsian public reason is usually presented as a constraint on political justification: when citizens exercise coercive power over one another, the reasons offered in support of that power should be reasons that other reasonable citizens can accept \parencite{rawls1993political,rawls1997public}. Rawls treats this constraint as part of a stability project: a liberal order must remain legitimate over time even though citizens disagree about ultimate religious and moral questions. Public reason links legitimacy to a stability compatible with reasonable pluralism, not to stability purchased by domination or mere strategic compromise.
+
+\section{Reasonable pluralism and the burdens of judgment}
+
+Rawls begins from the ``fact of reasonable pluralism'': under the historical conditions of modern constitutional democracy, free institutions predictably produce a diversity of incompatible comprehensive doctrines, and that diversity is not a temporary defect that enlightenment will cure \parencite{rawls1993political}. The ``burdens of judgment'' explain why. Evidence is complex and often contested. It is rarely clear how much weight to assign to competing considerations. Moral and political concepts are indeterminate and admit multiple interpretations. Different life experiences shape what agents find salient. Given those burdens, persistent disagreement among conscientious and competent reasoners is not a scandal. It is a predictable feature of free public life.
+
+This diagnosis, however, does not imply that coercion is therefore unjustifiable. Rawls's central contrast is between the \emph{rational} and the \emph{reasonable}. Rational agents pursue their ends efficiently; reasonable agents also accept the idea of fair terms of cooperation and are willing to propose and honor such terms provided others do the same \parencite{rawls1993political,rawls2001justice}. Reasonableness thus includes a readiness to treat disagreement as compatible with good faith and civic equality. If citizens can adopt that stance, the question shifts. The issue is no longer how to eliminate disagreement, but how to justify a coercive basic structure to persons who disagree reasonably.
+
+\section{Public reason as a justificatory constraint}
+
+Public reason specifies what reciprocity requires in political justification. A justification counts as public when it appeals to political values that citizens can endorse \emph{as citizens}, without having to accept any particular comprehensive doctrine \parencite{rawls1993political,rawls1997public}. Rawls insists that the political conception of justice be ``freestanding'': it does not resolve metaphysical or theological disputes, and it does not demand that citizens abandon their comprehensive views. Instead it asks citizens, when they engage one another on the most basic exercises of political power, to rely on reasons that can be shared across reasonable comprehensive disagreement.
+
+Rawls also limits the domain in which public reason has its strictest force. It is centered on constitutional essentials and matters of basic justice, the background rules that define basic rights, liberties, and opportunities \parencite{rawls1993political,rawls2001justice}. Within that domain Rawls introduces the duty of civility: citizens and officials should be prepared to offer one another public reasons for the exercise of coercive power. The scope of this duty and the role of comprehensive reasons in public justification are contested in the literature \parencite{lister2013public,quong2011liberalism,schwartzman2011completeness}. Still, even on an official-centered construal, public reason is citizen-facing: officials must offer reasons that citizens can recognize as their own in their public capacity.
+
+\section{Stability for the right reasons and overlapping consensus}
+
+Rawls insists that an acceptable political conception must be stable \parencite{rawls1993political,rawls2001justice}. The insistence is not merely instrumental. A regime that endures only because citizens comply out of fear, habit, or strategic calculation has not shown that its coercion is justifiable to those it governs. Rawls captures the relevant contrast through the idea of stability ``for the right reasons'' as opposed to a mere \emph{modus vivendi}. The ambition is not simply that citizens obey, but that they can endorse the political conception in a way that fits their self-understanding as cooperating on fair terms.
+
+The mechanism meant to secure that endorsement is the idea of an \emph{overlapping consensus}. Citizens who affirm different comprehensive doctrines can nonetheless endorse the same political conception, each from within their own doctrine \parencite{rawls1993political}. What overlaps is the shared political conception; what differs is the deeper ground on which each citizen affirms it. This is not a sociological prediction that agreement will emerge automatically. It is a normative picture of how citizens can sustain allegiance without requiring convergence on ultimate foundations. Rawls also treats stability as partly psychological. In a well-ordered society, citizens develop a sense of justice that supports just institutions over time \parencite{rawls1971theory,rawls1993political}. That psychological support matters because it differentiates a merely durable equilibrium from a liberal order that citizens can regard as legitimate.
+
+\section{Idealizations and what remains}
+
+Rawls's presentation relies on idealizations: the model of a well-ordered society, favorable background conditions, and (in \emph{A Theory of Justice}) the simplifying assumption of a closed society \parencite{rawls1971theory,rawls1993political}. Yet these idealizations do not dissolve the justificatory burden. Stability is built into what qualifies a political conception as suitable for a democratic society in the first place \parencite{rawls1993political}. Even within the idealized picture, legitimacy depends on citizens being able to take up and sustain the standpoint that public reason describes.
+
+\section{Two implicit assumptions: tracking and landscape stability}
+
+Reconstructing Rawls's stability architecture makes two presuppositions visible. One concerns what citizens must be able to do with reasons through time. Public reason is not a one-off justificatory ceremony. It is a practice that must persist through electoral cycles, constitutional controversies, and the emergence of new issues that earlier formulations did not anticipate. Call this the \emph{tracking requirement}: citizens must be able to identify candidate public reasons, retain them with enough coherence to guide political judgment, and revise their justificatory commitments without losing the thread of the political conception itself. Nothing here demands philosophical virtuosity. The demand is practical and civic. Citizens must be able to recognize what counts as an admissible political reason in a given context, and to see when their own preferred reasons fail the reciprocity test.
+
+The second presupposition concerns the stability of the justificatory environment. Public reason assumes a public political culture in which liberal political values and interpretive habits remain durable enough for appeals to public reasons to be intelligible and action-guiding \parencite{rawls1993political}. Call this the \emph{landscape stability assumption}: the shared political values that constitute the public basis of justification do not drift so rapidly, or fragment so severely, that the space of admissible reasons dissolves. Without this assumption, the target of convergence becomes unstable. Public reason risks collapsing into empty formalism, because there is no stable public content to do justificatory work, or it risks reverting to renewed sectarian struggle over whose reasons set the political agenda.
+
+Later chapters argue that both presuppositions are fragile under modern conditions of cognitive limitation and social complexity. For present purposes the point is interpretive: Rawls's stability story depends on citizens sustaining the practice of public justification within a political culture stable enough for public reasons to remain intelligible and action-guiding.
+
+\chapter{Feasibility Standards and Idealization}
+\label{sec:feasibility-idealization}
+
+Public reason invites a methodological objection. Even if Rawls is right about what citizens \emph{ought} to do in a fully justified polity, why should failure to realize that practice count against the theory? If public reason were only an aspirational civic ethic, infeasibility would be disappointing, not decisive. Rawls instead makes public reason part of a legitimacy story. Coercive law is legitimate only if it can be justified to citizens by reasons they can accept as free and equal, and that justificatory availability is supposed to sustain stability for the right reasons \parencite{rawls1993political,rawls1997public}.
+
+\section{Feasibility as an internal constraint on stability-based legitimacy}
+
+Rawls's contrast between stability ``for the right reasons'' and a modus vivendi makes the dependency on feasibility explicit. A modus vivendi may persist because it tracks interests or because power is unevenly distributed. Rawls wants citizens to affirm a political conception because they see it as justified on fair terms that do not presuppose agreement about comprehensive doctrine \parencite{rawls1993political,rawls2001justice}. Once that justificatory practice is doing explanatory work, the theory inherits a feasibility dependence. Citizens must be able to recognize which reasons count as public, to retain them across time, and to revise them when circumstances change, at least well enough for public justification to remain intelligible and action-guiding. Otherwise the account collapses into an empty conditional.
+
+Rawls does not present this as a demand for moral sainthood. Political liberalism is framed as a ``realistic utopia'' for modern constitutional democracies \parencite{rawls1993political,rawls1999peoples}. That framing leaves room for ideals that outrun current politics, and it is a mistake to let ``impracticality'' veto normative thought too early \parencite{estlund2019utopophobia}. Still, the narrower point stands: when stability-through-justification is a condition of legitimacy, feasibility questions are unavoidable. If citizens in the relevant kinds of societies cannot sustain the justificatory practice, Rawls's route from public justification to legitimate coercion breaks.
+
+\section{Idealization and what is being tested}
+
+Rawls's ideal-theoretic assumptions narrow what counts as a defeater. His method abstracts from many non-ideal distortions and assumes (roughly) strict compliance and favorable conditions \parencite{rawls1971theory,rawls2001justice}. The critique developed later does not rely on selfishness, bad faith, or propaganda. It grants the moral psychology Rawls wants. In the terms of the previous section, the question is whether the tracking requirement and the landscape stability assumption are jointly satisfiable under Rawls's own idealizations. The target is architectural: whether the tracking and updating tasks required by public reason are compatible with ordinary cognition, and whether the surrounding political culture can supply a stable enough public basis of justification. Granting strict compliance does not grant unlimited attentional bandwidth, perfect memory for justificatory commitments, or an environment whose evaluative salience never shifts.
+
+One might still argue that feasibility is irrelevant to justice itself. Cohen insists that fundamental principles of justice are not hostage to motivational or institutional facts; such facts constrain rules of regulation, not the content of justice \parencite{cohen2008rescuing}. I do not dispute that distinction. The present argument concerns legitimacy and stability, not ultimate justice. Rawls makes legitimacy depend on citizens' ability to sustain a justificatory practice, and he uses the prospect of such stability to distinguish a well-ordered regime from a merely strategic compromise. If that practice is infeasible, then the stability condition fails, and with it Rawls's claim that public reason can ground legitimacy under pluralism, even if the principles themselves remain normatively attractive.
+
+\section{A modest feasibility test}
+
+The feasibility standard used in what follows is modest but not toothless. Public reason is feasible only if ordinary citizens, under favorable but not miraculous conditions, can participate competently without needing epistemic capacities far beyond normal human cognition; and the shared political values that structure public justification remain sufficiently stable under predictable social change for the practice to guide political life. These criteria set the benchmark for assessing both Rawlsian public reason and the most sophisticated efforts to lower its burdens. The remainder of the thesis argues that the benchmark is not met once cognitive limitation and dynamical pluralism are treated as central features of the justificatory environment.
+
+
+% ====================
+% Contemporary Defenses and Extensions
+% ====================
+
+\chapter{Contemporary Defenses and Extensions of Public Reason}
+\label{sec:contemporary-defenses}
+
+A predictable reply to the argument so far is that it targets an outdated Rawls. Contemporary public reason liberalism has diversified: some defenses emphasize \emph{accessibility} and translation, while convergence liberals explicitly reject any requirement of shared public reasons. These revisions alter the machinery of public justification, and they are meant to lower the justificatory burden placed on citizens \parencite{quong2011liberalism,lister2013public,vallier2014liberal}. My claim in this section is that the leading updates \emph{re-implement} public reason without removing the two presuppositions that make Rawlsian stability fragile: citizens still need to satisfy the \emph{tracking requirement}, and public justification still depends on a \emph{landscape stability assumption} strong enough to keep admissible reasons intelligible across time.
+
+\section{Accessibility and translation in neo-Rawlsian public reason}
+
+One influential neo-Rawlsian move recasts public reason as an \emph{accessibility} constraint. Political justification must proceed in terms that other reasonable citizens can recognize as eligible for political justification, even when they reject the speaker's comprehensive doctrine \parencite{quong2011liberalism,lister2013public,freeman2007rawls}. Related proposals focus on translation or ``completion'': comprehensive reasons may be voiced in public debate so long as sufficiently public reasons are also available to justify coercive laws \parencite{rawls1993political,schwartzman2011completeness}. These moves soften the ideal of convergence on a single justificatory vocabulary, but they do not dissolve the practical burden. Accessibility is not self-applying. Citizens must be able to identify which considerations count as appropriately political in a given context, to recognize when their preferred arguments fail that test, and to revise their public political judgments accordingly. When the boundary between admissible and inadmissible reasons is itself contested, the demand shifts from sharing reasons to tracking a moving criterion of eligibility. That is a version of the tracking requirement. It also presupposes a stable public political culture in which the relevant concepts and standards do not drift so quickly that ``accessible'' reasons cease to be a common object of recognition.
+
+\section{Convergence liberalism and justificatory plurality}
+
+Convergence liberalism appears to offer a deeper escape because it denies that legitimacy requires shared reasons. Roughly, a law is publicly justified when each citizen has adequate reasons, drawn from her own evaluative standpoint, to endorse the rule or accept it as authoritative \parencite{vallier2014liberal,gaus2011order}. In that sense convergence accommodates reasonable pluralism at the level of justificatory grounds. Still, convergence does not eliminate the burden; it relocates it. For convergence to ground stability, citizens must maintain relatively stable mappings between their reasons and political rules across time. A citizen must be able to tell when her reasons continue to support a rule, when new information defeats them, and when defeat is serious enough to undermine her standing commitment to comply. Public justification becomes an ongoing task of revision rather than a one-time test of admissibility, and that task presupposes the same kind of temporally coherent justificatory tracking.
+
+This is why the objection that convergence ``avoids shared reasons'' does not block the present critique. Convergence avoids shared first-order grounds, but it still needs a stable justificatory structure in which heterogeneous reasons coordinate on common rules. Citizens must share some understanding of what counts as relevant evidence, what kinds of considerations can defeat a political rule, and which institutional signals should be treated as triggering reassessment. These are coordination demands, and they reintroduce a landscape stability assumption at the level of meta-justificatory standards. If the environment shifts rapidly enough that defeaters proliferate, salience patterns fragment, or institutional signals lose credibility, the convergence criterion offers no stable stopping point short of permanent justificatory turbulence.
+
+\section{Where the burden reappears}
+
+Defenders of both approaches often appeal to institutional mediation. Public reason is not a solitary cognitive task; courts, legislatures, parties, and public media can stabilize concepts, filter arguments, and discipline lawmaking by constitutional constraints \parencite{rawls1993political,lister2013public}. Institutional offloading is real, and later chapters exploit it constructively. Still, mediation does not dissolve the dependence of legitimacy on citizens' practical capacities. Citizens must be able to interpret institutional outputs as justificatory signals, to distinguish public justification from partisan rhetoric, and to update their own judgments when those signals shift. If citizens cannot track justificatory status with enough coherence, institutional mediation becomes mere epistemic delegation, and delegation cannot secure stability \emph{for the right reasons}. The methodological question therefore returns with force: are the tracking and stability assumptions permissible idealizations, or do they impose feasibility requirements that a public reason account must face directly?
+
+\chapter{Existing feasibility critiques (social/institutional)}
+
+Before bringing cognitive architecture into the picture, a substantial critical literature already doubts that public reason can do the legitimating work Rawls assigns it under ordinary democratic conditions. The common thought is not that public justification is a bad ideal, but that its practical success presupposes background conditions that modern mass democracies rarely satisfy: relatively equal political influence, fair access to the public forum, and institutional channels that translate disagreement into stable, publicly acceptable rules. When those conditions fail, the worry goes, the Rawlsian picture stops looking like a pathway to stability ``for the right reasons'' and starts looking like a fragile aspiration vulnerable to familiar pathologies of power, inequality, and strategic behavior.
+
+One line of critique targets the social structure of deliberation itself. Deliberative democrats and their critics have long emphasized that the public sphere is not a neutral space in which reasons compete on their merits. It is organized by unequal resources, professionalized agenda-setting, and norms of discourse that systematically advantage some speakers over others. Mansbridge’s early work on adversarial democracy is often read as a warning that even formally equal citizens will predictably default to bargaining postures and strategic framing in the absence of robust egalitarian conditions. Later deliberative theorists sharpen this point in different registers. Lafont’s complaint about ``shortcuts,'' for example, is not merely that citizens fail to deliberate well, but that many institutional proposals meant to improve democratic performance risk bypassing citizens’ capacities for reflective endorsement, thereby weakening the very kind of legitimacy public reason is supposed to secure. Krause, in a complementary way, stresses that democratic judgment is affect-laden; moral emotions can support democratic agency, but they also heighten vulnerability to manipulation and polarizing rhetoric. The upshot of these critiques is a feasibility argument grounded in institutions and social power: even if public reason is conceptually coherent, the conditions under which it could stabilize a pluralistic society are demanding, and actual democracies fall short in predictable ways.
+
+A second line of critique emphasizes epistemic limits at the level of voters and mass publics, especially political ignorance. Somin’s argument is that ignorance is not an accidental defect but a rational response to incentives in large electorates: when an individual vote is unlikely to be pivotal, the expected payoff from becoming well-informed is low. The result is a systematic competence problem that affects not only policy knowledge but also the ability to assess competing justifications. Work in democratic cognition makes a related point more gently: citizens often rely on informational shortcuts and cues because the environment makes full-information reasoning too costly. That reliance can sometimes be epistemically defensible, but it also complicates any political theory that expects citizens to track, evaluate, and update justificatory reasons in a sustained way across controversies, institutions, and time.
+
+What matters for my purposes is what these critiques do \emph{not} yet claim. They typically treat feasibility as primarily a function of social conditions: equal voice, fair procedures, and well-designed forums. Their implicit diagnosis is that if institutions were sufficiently reformed, the Rawlsian justificatory ideal would become realizable. That is a powerful challenge, but it leaves open a deeper question about the burdens public reason imposes even under improved conditions. Even a public sphere that is procedurally fair and informationally rich can still demand that citizens perform a temporally extended justificatory task: identifying which reasons count as public, retaining them, and revising them coherently as circumstances change. The next section argues that this further demand is not merely difficult under current institutions but fragile given how human cognition actually manages complexity and updating.
+
+
+% \chapter{Cognitive Constraints}
+
+\chapter{Cognitive Constraints on the Justice Test via Reflective Coherence}
+\label{ch:cognitive-constraints-jtc}
+
+\section{From Rawlsian Stability to a Justice Test}
+\label{sec:rawls-to-jtc}
+
+Rawls's mature political project aims to reconcile two claims that sit uneasily together: (i) modern constitutional democracies are marked by reasonable pluralism, and (ii) the exercise of coercive political power must be publicly justifiable in a way compatible with citizens' freedom and equality \parencite{rawls1993political}. Rawls's answer is the familiar architecture of public reason, overlapping consensus, and stability for the right reasons \parencite{rawls1987overlapping,rawls1997public}.
+
+In this chapter I introduce what I will call the \emph{Justice Test via Reflective Coherence} (\textbf{JTC}). JTC is not a phrase Rawls uses, but it names a Rawlsian requirement that becomes visible once one takes stability-through-reasons seriously. A political conception of justice does not count as justified merely because it can be stated or even defended by officials. It must be \emph{available} for endorsement by citizens who regard one another as free and equal, despite deep doctrinal disagreement \parencite[see also][]{rawls1993political,rawls2001justice}. The test is ``reflective'' because it depends on the alignment of reasons over time, not on episodic assent; and it is ``coherence-based'' because the justificatory work is to bring a political conception into mutually supporting relation with a citizen's considered judgments and political values.
+
+JTC, as I understand it, therefore asks: \emph{Could a cognitively ordinary citizen, situated in a pluralist society, sustain a stable and revisable map of public reasons sufficient to treat the society's coercive rules as legitimate?} The question is not about sincerity. It is about cognitive capacity under load.
+
+\section{What JTC Demands of Ordinary Cognition}
+\label{sec:jtc-demands}
+
+Rawls's framework invites an idealized picture of citizens as capable of recognizing public reasons, distinguishing them from sectarian reasons, and revising their views as they encounter disagreement \parencite{rawls1993political,rawls1985justice}. Neo-Rawlsian defenses often keep this picture while refining the mechanics, for example by emphasizing accessibility or completeness constraints on public justification \parencite{quong2011liberalism,freeman2007rawls,lister2013public,schwartzman2011completeness}. However, even the most modest version of JTC assigns nontrivial cognitive tasks to ordinary citizens.
+
+One demand is \emph{representational}. A citizen must maintain a repertoire of justificatory items: political principles, empirical beliefs relevant to those principles, and a working sense of how those elements support or constrain one another. A second demand is \emph{filtering and translation}. Public justification requires that citizens can identify which reasons count as admissible in public reason, at least in the domains Rawls treats as central (constitutional essentials and matters of basic justice) \parencite{rawls1997public,quong2011liberalism}. A third demand is \emph{temporal}. Coherence is not a snapshot. To the extent that legitimacy is tied to stability for the right reasons, the justificatory structure must remain sufficiently continuous across time and shifting contexts to guide political judgment rather than merely rationalize it \parencite{rawls1993political}.
+
+These demands interact. Filtering is harder when the representational set is large; temporal stability is harder when filtering is performed under stress, polarization, and novelty. JTC therefore scales poorly with social size and heterogeneity, even before one introduces systematic cognitive biases.
+
+\section{Predictive, Compressive Minds and the Limits of High-Fidelity Tracking}
+\label{sec:predictive-processing}
+
+A central lesson of contemporary cognitive science is that cognition is not well modeled as a transparent, resource-unbounded reason-tracker. Predictive-processing frameworks model perception and cognition as hierarchical inference under resource constraints, where the mind continually compresses information to reduce error and maintain workable expectations \parencite{clark2016surfing,clark2013whatever,hohwy2013predictive,friston2005theory,friston2009free}. Related work on sparse and distributed representation emphasizes that efficient cognition relies on lossy encodings that preserve only what is needed for action \parencite{ahmad2016neurons,hawkins2004intelligence,ganguli2012compressed}.
+
+For political justification, the upshot is not that citizens cannot reason. It is that reasoning is expensive, selective, and often recruited for functions other than impartial coherence-maximization. Dual-process and bounded-rationality traditions emphasize predictable limits in deliberative attention, working memory, and error correction \parencite{kahneman2011thinking,stanovich2009intelligence}. Work on the social and argumentative function of reasoning suggests that many real-world reasoning episodes are optimized for persuasion, alliance management, and self-justification rather than for neutral belief revision \parencite{mercier2017enigma}. Evidence on political judgment likewise shows that even expert forecasting is systematically unreliable in complex, high-noise environments \parencite{tetlock2005expert}.
+
+These frameworks predict failure modes that directly target JTC. Compression blurs fine-grained normative distinctions. Path-dependent updating makes revisions sticky and uneven across contexts. Under threat, motivated cognition tends to protect priors, reducing the probability of genuine justificatory convergence. None of this refutes Rawls's moral ideals. It does, however, undermine the assumption that legitimacy can rest on citizens performing high-fidelity, temporally coherent justificatory tracking at scale.
+
+\section{A Toy Model of JTC's Cognitive Burden}
+\label{sec:toy-model}
+
+Because JTC is a coherence test, its cognitive cost is driven not only by the number of reasons a citizen must grasp but also by the number of relations among those reasons that must be monitored over time. I introduce a deliberately simple model meant to provide a lower-bound stress test. It is not a psychological measurement.
+
+\subsection{Notation and assumptions}
+
+Let $N$ be the population size. Let $V(N)$ be the effective number of viewpoint-types in the society that a citizen must be able to recognize as ``reasonable'' interlocutors for public justification. Let $s_0$ be the number of justificatory items an individual maintains for her own political reasoning (principles, judgments, and relevant empirical beliefs). Let $r$ be the number of additional items required to avoid caricaturing each viewpoint-type when formulating and assessing public reasons.
+
+Define the citizen's justificatory working set as
+\begin{equation}
+s(N) = s_0 + r \cdot V(N).
+\end{equation}
+
+Reflective coherence requires assessing how items in $s(N)$ support, conflict with, or constrain one another. A simple upper-bound on the number of pairwise relations is
+\begin{equation}
+E(N) = \binom{s(N)}{2} = \frac{s(N)(s(N)-1)}{2}.
+\end{equation}
+
+Political environments generate recurrent updates. Let $f$ be the number of salient ``update cycles'' per year (e.g.\ monthly agenda shocks, elections, crises). The annual number of coherence checks is then
+\begin{equation}
+A(N) = f \cdot E(N).
+\end{equation}
+
+Finally, let $\tau$ be the time cost of one coherence check. Then the annual time requirement implied by the model is
+\begin{equation}
+T(N) = \tau \cdot A(N).
+\end{equation}
+
+\subsection{Scaling of viewpoint-types}
+
+The key driver is how $V(N)$ grows with $N$. If $V(N)$ were linear in $N$, JTC would be hopeless almost immediately. If $V(N)$ were constant, JTC would be artificially easy. A plausible modeling choice is sublinear growth:
+\begin{equation}
+V(N) = N^{\alpha}, \;\;\;\; 0 < \alpha < 1.
+\end{equation}
+For illustration I use $\alpha=\tfrac{1}{2}$ (square-root diversity). This captures the idea that larger societies generate more stable subpublics and moral clusters, but with repetition and aggregation rather than uniqueness.
+
+\section{Three Scale Illustrations: Town, County, State}
+\label{sec:scale-illustrations}
+
+I now instantiate the model with conservative parameters: $s_0=200$, $r=2$, and $f=12$. The point is not that these are correct, but that even low settings generate explosive coherence burdens as $N$ increases.
+
+To represent the requested social scales, I use stylized population anchors:
+\[
+N_{\text{town}} = 5\times 10^4, \;\;\;
+N_{\text{county}} = 3.3\times 10^6, \;\;\;
+N_{\text{state}} = 3.9\times 10^7.
+\]
+These are round numbers intended to stand in for an average-sized California town, a county on the scale of San Diego County, and California as a whole.
+
+Under $\alpha=\tfrac{1}{2}$, the computed burdens are:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrrrr}
+\hline
+Society & $N$ & $V(N)$ & $s(N)$ & $A(N)$ (checks/year) \\
+\hline
+Small town & $5\times10^4$ & $2.24\times10^2$ & $6.47\times10^2$ & $2.51\times10^6$ \\
+County-scale & $3.3\times10^6$ & $1.82\times10^3$ & $3.83\times10^3$ & $8.81\times10^7$ \\
+State-scale & $3.9\times10^7$ & $6.25\times10^3$ & $1.27\times10^4$ & $9.66\times10^8$ \\
+\hline
+\end{tabular}
+\caption{Stylized JTC coherence workload with $V(N)=N^{1/2}$, $s_0=200$, $r=2$, and $f=12$.}
+\label{tab:jtc-load}
+\end{table}
+
+To make the magnitude intuitive, set $\tau = 1$ second per coherence check. Then $T(N)$ is about 29 days per year for the small-town case, about 2.8 years per year for the county-scale case, and about 31 years per year for the state-scale case. The absurdity is the result. JTC cannot plausibly be a citizen-performed algorithm once social scale and pluralism are taken seriously.
+
+The model should not be read as a proof that Rawlsian public reason is impossible. It establishes something weaker but still damaging: the Rawlsian picture of legitimacy as stability-through-reasons quietly assumes that citizens can do a kind of temporally stable coherence maintenance that becomes computationally unrealistic under even mild diversity-growth assumptions. When predictive and compressive cognition is added, the gap widens: the expected response to overload is not finer coherence checking but reliance on heuristics, coalitional cues, and simplified narratives \parencite{kahneman2011thinking,mercier2017enigma}.
+
+\section{Implications for Rawlsian Legitimacy}
+\label{sec:implications}
+
+A Rawlsian can concede the cognitive diagnosis without conceding defeat. The most natural move is to reinterpret JTC as a \emph{division-of-labor} requirement rather than an individual duty performed at full resolution by every citizen. Rawls already treats institutions and political culture as essential to stability \parencite{rawls1993political,rawls2001justice}. The cognitive critique presses for taking that reliance seriously: if legitimacy depends on justificatory tracking, then legitimacy must be supported by institutions that reduce, structure, and externalize the tracking burden.
+
+This suggestion has two faces. One is diagnostic: when citizens cannot sustain high-fidelity justificatory maps, political justification will tend to be mediated by parties, courts, media systems, and informal elites, with predictable distortions in what counts as ``public.'' The other is constructive: legitimacy may require designing institutions that function as cognitive scaffolds, lowering the cognitive cost of public justification while preserving pluralism rather than demanding convergence \parencite{ostrom1990governing,scott1998seeing}. Whether that institutional path is compatible with Rawls's aspiration to avoid domination is a further question. What should not be assumed is that citizens in large, diverse societies can meet JTC unaided.
+
+% \chapter{Complexity Theory, Dancing Landscapes, and Dynamic Pluralism}
+\chapter{Complexity Theory, Dancing Landscapes, and Dynamic Pluralism}
+\label{ch:complexity-dancing-landscapes}
+
+The previous chapter argued that Rawlsian stability-through-public-reason presupposes a demanding cognitive capacity: citizens must be able to identify, retain, and update justificatory reasons with enough temporal coherence to sustain political support. That is the \emph{tracking requirement}. The argument would be incomplete if it stopped there. Even if citizens were substantially better trackers than the cognitive picture suggests, the object they are meant to track is not fixed. Large-scale political life is not a stable set of problems to which citizens can apply a stable justificatory test. It is an adaptive environment that shifts partly \emph{because} agents deliberate, coordinate, innovate, and strategize within it. Complexity theory makes this familiar point precise enough to matter for public reason.
+
+Rawls’s project assumes what I will call the \emph{landscape stability assumption}: the justificatory landscape is stable enough, over time, for citizens’ convergence on shared reasons (or on stable justificatory mappings) to be more than episodic \parencite{rawls1993political,rawls1997public}. This chapter challenges that assumption. In a complex adaptive order, the space of feasible policies, their consequences, and their moral salience drift endogenously. The result is not that agreement is impossible, but that the kind of durable convergence Rawls needs is pursuing a moving target.
+
+\section{Complex adaptive orders and the nonstationarity of politics}
+
+Complexity theory is not a synonym for ``things are complicated.'' It is a family of tools and metaphors for systems with many interacting parts, decentralized information, feedback loops, and emergent macro-patterns that are not straightforwardly deducible from local intentions. Scott Page emphasizes that diversity of perspectives and heuristics is not merely a sociological fact; it is a driver of how complex systems search problem spaces and adapt \parencite{page2011diversity}. When political disagreement is embedded in such a system, pluralism is not an unfortunate noise term to be filtered out. It is one of the mechanisms by which the society explores and revises its own institutional possibilities.
+
+Three features are especially relevant to Rawlsian stability.
+
+First, \emph{feedback} is ubiquitous. Policies change incentives; incentives alter behavior; behavior changes the empirical background against which policy is evaluated. Second, \emph{interaction effects} are common. Small institutional tweaks can be inert in isolation but destabilizing in combination with other rules, technologies, or cultural shifts. Third, \emph{path dependence} matters. Once a society adopts a particular regulatory frame or administrative category, it often becomes the basis for later reforms and disputes, even if it was initially a contingent choice. These dynamics generate what, for present purposes, matters most: nonstationarity. The mapping from rule to outcome changes over time.
+
+A simple formal sketch helps. Let $p$ be a policy or rule, and let $o_t$ be the outcome-relevant state of affairs at time $t$. In a stationary environment, one might treat $o_t$ as produced by a fixed mapping $o_t = F(p)$ plus noise. In an adaptive environment, $F$ itself evolves as agents respond:
+
+\[
+o_t = F_t(p), \qquad F_{t+1} = \Phi(F_t, p, a_t),
+\]
+
+where $a_t$ represents patterned responses (economic adaptation, strategic behavior, technological innovation, political mobilization). The point is not the notation. The point is that justificatory assessment is temporally indexed. What counted as a compelling reason for $p$ at $t$ can be undermined at $t+1$ by predictable adaptation, even when citizens and officials are sincere.
+
+The classical liberal diagnosis of dispersed knowledge already pushes in this direction. Hayek’s argument is that the relevant information for social coordination is widely distributed and often tacit; no central perspective can reliably aggregate it in real time \parencite{hayek1945knowledge}. Complexity theory generalizes the challenge. Even if knowledge were better aggregated, the target shifts because the system is learning and the agents are responding.
+
+\section{Dancing landscapes}
+
+The metaphor of a \emph{landscape} comes from models in which a system is represented as navigating a high-dimensional space of possible configurations, with ``peaks'' corresponding to better performance by some metric. Kauffman uses this imagery to explain how adaptive search can get trapped on local optima in rugged spaces \parencite{kauffman1993origins}. What matters here is not the biology but the structure: when the landscape is rugged, small changes can have disproportionately large effects, and incremental search can be myopic.
+
+Political life resembles this structure. Institutional options are not laid out on a single linear scale from worse to better. They form a space with trade-offs, complementarities, and thresholds. Page’s emphasis on diversity and search suggests why pluralism persists even when agents are competent: different heuristics and perspectives explore different regions of the space \parencite{page2011diversity,page2007difference}. A political order that tries to eliminate that diversity in the name of convergence risks losing adaptive capacity.
+
+The ``dancing landscape'' idea adds a further twist. The landscape does not merely contain peaks and valleys. It moves as the population moves. Holland’s work on signals and boundaries highlights how complex adaptive systems coevolve their internal models with the environment, continually revising the partitions and cues that guide behavior \parencite{holland2012signals}. Translated into political terms: new technologies, new modes of coordination, and new forms of social identity do not just add more data to an existing justificatory framework. They reshape the categories in which citizens and officials recognize problems, identify affected parties, and evaluate costs and benefits.
+
+Two consequences follow for public reason.
+
+One concerns \emph{policy consequences}. A justificatory argument for a rule often depends on empirical regularities: expectations about compliance, incentives, or economic spillovers. Yet those regularities are precisely what adaptive behavior disrupts. Regulatory arbitrage, strategic polarization, and innovation can all transform the practical meaning of a policy while leaving its formal description unchanged. When the environment is dancing, public justification must be constantly reissued in a way that tracks these shifts. That increases the burden on citizens’ justificatory tracking even before we consider cognitive limits.
+
+The other concerns \emph{moral salience}. In a stable environment, political values can function as relatively steady reference points. In a shifting environment, new issues re-weight old values. Privacy, speech, and equality look different under different technological regimes. Security and liberty trade off differently under different threat structures. The space of reasons changes because the space of social possibilities changes.
+
+Gaus’s recent work explicitly treats the open society as a complex order in which moral and political coordination must be understood under conditions of ongoing change, persistent disagreement, and institutional evolution \parencite{gaus2021open,gaus2011order}. That perspective is not identical to my target, but it reinforces the basic diagnosis: liberal legitimacy cannot assume a static background against which citizens converge once and for all.
+
+\section{Dynamic pluralism: drift in doctrines, identities, and justificatory repertoires}
+
+Rawls’s account of stability is designed for a society marked by reasonable pluralism. The familiar picture treats pluralism as a stable plurality of comprehensive doctrines, each with its own internal coherence. Political stability is then modeled as a durable overlap: citizens can endorse a common political conception from within their diverse views \parencite{rawls1993political}. The complexity lens suggests a different empirical and sociological picture. Pluralism is \emph{dynamic}. It is shaped by institutional incentives, media ecologies, economic structure, and generational change. Even the boundaries of ``doctrines'' can be fluid.
+
+This matters because the justificatory work of public reason relies on more than the existence of multiple moral views. It relies on some continuity in citizens’ justificatory repertoires. If citizens’ political identities and normative packages are themselves subject to drift, then the overlapping consensus is not simply hard to reach. It is hard to keep. Stability requires a kind of diachronic alignment between citizens’ evolving reasons and an evolving institutional order.
+
+Vallier and Thrasher describe consensus under conditions of diversity as fragile, and they emphasize that stability is sensitive to shifts in the distribution of reasons and trust \parencite{thrasher2015fragility,vallier2020trust}. Their diagnosis is compatible with the complexity claim: as environments shift and pluralism reconfigures, even well-intentioned public justification encounters a coordination problem. Citizens are not merely disagreeing; they are updating in different directions, at different speeds, with different informational filters.
+
+\section{Legibility, simplification, and drift}
+
+Complexity does not only generate drift; it also generates pressure for simplification. Large-scale governance requires categories that are administratively tractable. Public justification requires reasons that are communicable. These pressures converge. James Scott’s analysis of ``legibility'' shows how states simplify social reality into standardized schemes that can be monitored and controlled, often at the cost of local knowledge and adaptive fit \parencite{scott1998seeing}. The relevance to public reason is not that justification is mere propaganda. It is that justification, like administration, must compress. The public reasons that can circulate at scale tend to be those that fit legible categories and stable proxies.
+
+That compression becomes a second engine of landscape drift. Once a society organizes policy around legible proxies, agents adapt to the proxies. Incentives shift toward what the categories measure. The environment becomes shaped by the very simplifications used to govern it. Public justification is then required to track not only the initial policy rationale but also the downstream effects of proxy-driven adaptation. This is a moving target twice over: the system adapts, and the tools used to coordinate it reconfigure what counts as success.
+
+Ostrom’s work provides a constructive contrast. Polycentric governance and locally grounded rule systems can mitigate some complexity pressures by distributing problem-solving across multiple centers, enabling experimentation, and preserving local knowledge \parencite{ostrom1990governing}. The point is not that polycentricity solves legitimacy on its own. It is that institutional forms can be more or less compatible with adaptive environments. A theory of legitimacy that presupposes stable convergence on shared justificatory structures is least plausible where the environment most demands adaptive, distributed forms of governance.
+
+\section{What complexity does to Rawlsian stability}
+
+Rawlsian stability-through-public-reason is not defeated merely by the observation that societies change. The deeper issue is that change is endogenous and systematic in the kinds of large-scale pluralist societies Rawls is trying to address. Under those conditions, convergence is not a one-time achievement. It is a repeated coordination problem under drift.
+
+The landscape stability assumption is therefore a substantive empirical idealization. It treats the justificatory environment as sufficiently stationary that citizens can (i) converge on admissible reasons and (ii) retain those reasons as stable grounds for political support. Complexity theory suggests that both conditions fail in ordinary cases. Political environments restructure the consequences of rules, and the moral salience of reasons evolves with the space of social possibilities. Public reasons become temporally fragile, not because citizens are insincere, but because the environment makes stability costly.
+
+This completes the environmental half of the feasibility case. The prior chapter argued that citizens are cognitively ill-suited to high-fidelity justificatory tracking. The present chapter argues that the world they would have to track is nonstationary. The next step is to integrate these constraints and ask what becomes of Rawlsian stability when bounded agents try to maintain justificatory coherence in a dancing landscape.
+
+% \chapter{Synthesis: The Feasibility Failure of Rawlsian Stability}
+\chapter{Synthesis: The Feasibility Failure of Rawlsian Stability}
+\label{ch:synthesis}
+
+Rawlsian public reason promises a distinctive kind of legitimacy. Coercive laws can be justified to citizens, despite deep disagreement, when they rest on reasons citizens can share \parencite{rawls1993political,rawls1997public}. That promise is inseparable from Rawls's emphasis on \emph{stability for the right reasons}. The relevant stability is not a truce or a contingent alignment of interests. It is the durable willingness of citizens to endorse and comply with the basic structure because they see it as justified.
+
+The preceding chapters argued that this ambition rests on two assumptions that Rawls rarely isolates. The first is a \emph{tracking requirement}. Citizens must be able to identify which considerations count as admissible public reasons, retain those reasons as grounds for political support, and revise them in response to changing circumstances without collapsing into justificatory discontinuity. The second is a \emph{landscape stability assumption}. The social environment must present a relatively stable space of political problems, options, and shared evaluative reference points so that convergence has a stationary target.
+
+\section{Tracking in a dancing landscape}
+
+Once these assumptions are explicit, the diagnosis can be stated in a short chain.
+
+\begin{enumerate}
+  \item Rawls links legitimacy to stability through public justification rather than to a mere modus vivendi \parencite{rawls1993political,rawls1987overlapping,rawls1997public}.
+  \item Stability through reasons implies a citizen-facing coherence test: citizens must be able to sustain and update admissible justificatory grounds over time (the tracking requirement) \parencite{rawls2001justice,freeman2007rawls}.
+  \item Ordinary cognition is resource-bounded and compressive. It relies on heuristics and cues, updates path-dependently, and often deploys reasoning for social and defensive functions rather than for neutral coherence-maintenance \parencite{simon1982bounded,kahneman2011thinking,mercier2017enigma,clark2016surfing}.
+  \item Modern pluralist societies are complex adaptive orders in which institutions, strategies, and technologies coevolve, so the consequences of rules and the salience of political values drift endogenously \parencite{page2011diversity,kauffman1993origins,holland2012signals,hayek1945knowledge}.
+  \item Therefore, except under unusually simplified social conditions, Rawlsian stability through public reason is not a feasible basis for legitimacy: what citizens must track is both cognitively costly and environmentally nonstationary \parencite{gaus2011order,thrasher2015fragility}.
+\end{enumerate}
+
+Neither strand alone is decisive. Cognitive limits in a stationary environment might still permit convergence if the target is stable and the justificatory burden is modest. Complexity in a society of ideal reasoners might still permit stable endorsement if citizens could track fine-grained reasons across shifting contexts. The hard case is the modern one: bounded agents operating in a dancing landscape. Endogenous change forces frequent justificatory updating, while compressive cognition makes updates selective, cue-driven, and uneven across contexts. Under those conditions, the overlap Rawls needs is not simply hard to reach once. It is hard to keep.
+
+This explains why ``institutional mediation'' is not a peripheral complication but the default condition. Citizens inevitably rely on parties, courts, media systems, and informal elites to supply cues and packaged reasons. Yet mediation is precisely what undermines the Rawlsian hope that stability is grounded in citizens' own reflective coherence. The gap between public justification as offered and public justification as actually tracked becomes a structural feature of large-scale pluralist politics.
+
+\section{What follows (and what does not)}
+
+The conclusion is feasibility-sensitive, not a claim of conceptual incoherence. Public reason can function as a regulative ideal and as a constraint on official justification even when it fails as a mechanism for generating stability \parencite{rawls1997public,quong2011liberalism}. Nor does the argument imply that citizens are irrational, or that deliberation is pointless. It claims, instead, that Rawlsian stability, treated as a basis for legitimacy, requires cognitive capacities and environmental stationarity that modern political life strains.
+
+The argument also leaves distributive justice largely untouched. A society might be stable without being just, and it might be substantively just by some standard while lacking the distinctive Rawlsian form of stability-through-reasons. The target is narrower: the legitimacy strategy that grounds coercion in a citizen-facing practice of public justification.
+
+\section{Objections and replies}
+
+\subsection{``Ideal theory need not be feasible''}
+
+A familiar reply is that feasibility is irrelevant to normative truth: justice can demand what citizens cannot realize \parencite{cohen2008rescuing,estlund2019utopophobia}. I grant that ideals can exceed current capacities. The present critique, however, concerns legitimacy in Rawls's sense. Rawls builds stability into the justificatory architecture of a well-ordered society; stability is part of what makes coercion compatible with citizens' freedom and equality \parencite{rawls1993political}. If stability is not plausibly attainable through public justification, then the theory may still express a moral aspiration, but it cannot do the work Rawls assigns it: reconciling citizens to coercive rule by showing that the basic structure can be endorsed for reasons they can stably track.
+
+\subsection{``Public reason is for officials''}
+
+Another reply interprets public reason primarily as a duty of judges, legislators, and candidates \parencite{rawls1997public}. This reduces the cognitive burden on citizens, but it does not deliver stability for the right reasons. Officials can offer public reasons, yet an overlapping consensus is a pattern of citizen endorsement \parencite{rawls1987overlapping}. If citizens cannot recognize and sustain the justificatory grounds, stability becomes a matter of deference, habit, or strategic compliance. Those mechanisms may secure order, but they do not secure Rawlsian legitimacy.
+
+\subsection{``Institutions can offload the tracking''}
+
+A more promising response appeals to civic education and information shortcuts. Citizens can rely on trusted cues and on epistemic institutions that help them navigate complexity \parencite{lupia1998democratic,landemore2013democratic}. I agree that offloading is unavoidable. The point is that it changes the legitimacy story. Once justificatory work is performed by intermediaries, legitimacy depends on the design and accountability of those intermediaries. It becomes vulnerable to the pathologies of political ignorance, misinformation, and agenda control \parencite{somin2013democracy,sunstein2009rumors}. Rawlsian stability is not restored; it is transformed into a different model in which institutions, not citizens' reflective coherence, bear the justificatory load.
+
+\subsection{``The empirical premises are too uncertain''}
+
+Predictive processing is not the only route to the cognitive conclusion, and complexity is not merely a metaphor. Multiple independent traditions support the claim that high-fidelity justificatory tracking is fragile under load: bounded rationality, dual-process limits, and the social function of reasoning all point in the same direction \parencite{simon1982bounded,kahneman2011thinking,mercier2017enigma}. Likewise, the claim that political environments are nonstationary is supported both by formal work on complex adaptive systems and by institutional analysis of how rule systems evolve under pressure and feedback \parencite{page2011diversity,ostrom1990governing,scott1998seeing}. The chapter's conclusion is calibrated to that evidential situation: it is about unreliability and fragility under modern conditions, not about strict impossibility.
+
+\subsection{``Convergence liberalism escapes the shared-reasons demand''}
+
+Finally, convergence accounts allow citizens to endorse the same laws for different reasons, lowering the shared-reasons requirement \parencite{vallier2014liberal,gaus2011order}. This is a genuine improvement over Rawls's stricter model. Yet it does not eliminate the tracking problem. Convergence still requires temporally stable mappings from each citizen's reasons to political rules, and it still faces landscape drift. In fact, loosening shared reasons can increase the informational burden, since citizens must navigate a wider justificatory ecology and a higher variance of interpretive frames \parencite{thrasher2015fragility,vallier2020trust}. Convergence shifts where the pressure falls, but it does not make stability-through-reasons feasible at scale in a dynamically changing environment.
+
+The upshot is conditional. If legitimacy is tied to stability through public justification, then legitimacy must be made feasible by institutional forms that can process pluralism and drift without demanding justificatory convergence from bounded agents. That is the constructive task that follows.
+
+
+% \chapter{Institutions as Cognitive Prosthetics}
+\chapter{Institutions as Cognitive Prosthetics: A Constructive Alternative}
+\label{ch:prosthetics}
+
+The feasibility critique culminates in a design problem. If Rawlsian stability is unattainable because citizens cannot reliably track admissible reasons across time, and because the justificatory landscape drifts, then legitimacy cannot depend on the expectation that ordinary citizens will reaffirm a stable public justification for the basic structure. The alternative is not to abandon justification for mere order. It is to shift epistemic labor from individuals to institutional structures.
+
+I call such structures \emph{cognitive prosthetics}. When agents face complex tasks, competent action depends on external scaffolds (roles, routines, and feedback loops) rather than on rich internal representations \parencite{simon1982bounded,clark2016surfing}. Political life already works this way: citizens use cues, trust intermediaries, and economize on attention \parencite{lupia1998democratic,somin2013democracy}. The question is whether those shortcuts can be made reliable.
+
+\section{Scaffolded legitimacy under drift}
+
+The normative ambition remains Rawlsian in spirit: coercion should be justifiable to citizens as free and equal, not merely imposed upon them \parencite{rawls1993political,rawls1997public}. The revision concerns the unit of assessment. Instead of grounding legitimacy in citizens' stable convergence on shared public reasons, a prosthetic account evaluates legitimacy in terms of \emph{publicly inspectable institutional outputs and procedures}. Citizens need not track the full justificatory structure of each rule if they can track (and contest) the procedures that generate rules, the diagnostics that monitor their effects, and the avenues through which rules can be revised.
+
+Hart's distinction between primary and secondary rules clarifies the point. Secondary rules publicly specify how the system identifies valid rules and how it changes them \parencite{hart1961concept}. This matters when environments drift: legitimacy depends less on a once-and-for-all justificatory settlement and more on whether the polity has rule-governed capacities for correction. Constitutional political economy makes a complementary move. Citizens can rationally endorse ex ante constraints on political power and decision procedures because later conditions will be informationally costly and strategically distorted \parencite{buchanan1962calculus}. The relevant respect is not the demand that citizens re-justify everything continuously; it is the provision of standing and control within the system's mechanisms of revision.
+
+Two design commitments follow. Polycentric and modular arrangements reduce epistemic bottlenecks and allow localized experimentation. Ostrom's account of polycentric governance shows how overlapping jurisdictions and rule systems can support learning and adaptation without requiring comprehensive knowledge anywhere in the system \parencite{ostrom1990governing}. Page's defense of diversity generalizes the point: heterogeneity can improve collective search in complex spaces, so legitimacy-friendly design will often preserve variety rather than force convergence \parencite{page2011diversity}. Second, prosthetic institutions must be feedback-sensitive and self-correcting. Beer treats viable organization as continuous monitoring and correction under changing conditions \parencite{beer1979heart}. The political analogue is transparent diagnostics, independent review, and contestable benchmarks. Scott's analysis of legibility explains why proxy-based governance becomes dangerous when simplified metrics harden into governing logics \parencite{scott1998seeing}; a prosthetic design therefore builds in channels for challenging the proxies and surfacing local knowledge. Finally, because mediation is a permanent feature of mass politics, the prosthetic must treat epistemic pathologies, including rumor cascades and informational capture, as design constraints rather than as moral failures of citizens \parencite{sunstein2009rumors}.
+
+\section{A toy model: institutional filtering as cognitive offloading}
+
+A minimal model isolates the benefit. Let $q_t$ represent the ``fit'' of a policy at time $t$, drifting as
+\[
+q_{t+1}=q_t+\epsilon_t.
+\]
+Each citizen $i$ observes a noisy local signal $s_{i,t}=q_t+\eta_{i,t}$ and, due to limited attention, maintains only a running estimate
+\[
+a_{i,t+1}=(1-\alpha)a_{i,t}+\alpha s_{i,t},
+\]
+where $\alpha$ is a learning rate. If citizens update only on their own $s_{i,t}$, support will swing with local noise $\eta_{i,t}$, producing apparent instability even when the underlying drift $\epsilon_t$ is modest.
+
+Introduce a prosthetic institution that aggregates signals and publishes a public diagnostic:
+\[
+\bar{s}_t=\frac{1}{N}\sum_{i=1}^N s_{i,t}, \qquad d_t=(1-\beta)d_{t-1}+\beta \bar{s}_t.
+\]
+Citizens update on $d_t$ rather than on $s_{i,t}$. If idiosyncratic noise is not perfectly correlated across citizens, averaging reduces variance relative to a typical $s_{i,t}$, so the institution removes some ``false drift'' created by local shocks. The smoothing parameter $\beta$ makes a responsiveness--stability tradeoff explicit: higher $\beta$ tracks genuine change faster, lower $\beta$ damps transient noise. The institution functions as a filter whose outputs can be criticized and revised without requiring each citizen to solve the filtering problem privately.
+
+The toy model does not vindicate any particular institutional blueprint. It illustrates what ``cognitive prosthetic'' is meant to capture: legitimacy compatible with bounded agency in a dancing landscape, because the system is designed to translate pluralism and drift into accountable adaptation rather than to demand justificatory convergence.
+
+
+% ====================
+% Conclusion
+% ====================
+
+% \chapter{Conclusion}
+\chapter{Conclusion}
+\label{ch:conclusion}
+
+Rawls’s project begins from a moral demand that still has force: a liberal regime should not rule by command even when it must coerce. It should be able to justify its basic structure to citizens understood as free and equal, despite deep and persistent disagreement about religion, morality, and the good \parencite{rawls1993political,rawls1997public}. Public reason is Rawls’s answer to that demand. It is meant to supply a shared justificatory currency that makes stability compatible with respect, yielding an overlapping consensus rather than a mere modus vivendi \parencite{rawls1987overlapping}.
+
+This thesis has argued that the promise cannot be delivered under modern conditions, not because Rawls’s moral aspiration is confused, but because the stability story depends on feasibility assumptions that are rarely made explicit. Once those assumptions are named, the vulnerability comes into focus.
+
+The first is the tracking requirement. Stability through public reason is not a one-time achievement. It presupposes that citizens can identify which reasons count as public, retain those reasons as stable grounds of political support, and revise them without collapsing into justificatory discontinuity as problems, technologies, and social conflict evolve. The second is the landscape stability assumption. Even if citizens were capable trackers, public reason requires an environment in which the space of political problems, interpretive frames, and shared evaluative reference points is sufficiently stationary that convergence has a stable target.
+
+Both assumptions fail in the world Rawls’s theory is supposed to address. Human cognition is predictive and compressive. It economizes on attention, represents political reality in sparse and cue-sensitive form, and updates in ways that are path-dependent and socially conditioned \parencite{clark2016surfing,hohwy2013predictive,friston2009free,simon1982bounded,kahneman2011thinking,mercier2017enigma}. That architecture is not an incidental nuisance. It is the mechanism that makes large-scale agency possible under uncertainty. But it makes high-fidelity justificatory tracking fragile. When political life is mediated by parties, media, and networks, citizens can often track only coarse-grained justificatory packages. The result is not that citizens never deliberate, but that deliberation rarely has the temporal resolution Rawlsian stability demands.
+
+At the same time, modern political environments are complex adaptive systems. Policies change incentives; incentives change behavior; behavior changes the environment in which the policy is evaluated. The justificatory landscape dances: the consequences of rules shift endogenously, and the moral salience of political values is repeatedly reweighted by technological change and strategic adaptation \parencite{hayek1945knowledge,page2011diversity,kauffman1993origins,holland2012signals,gaus2021open}. Under drift, public justification becomes a repeated coordination problem, not a settled equilibrium. Citizens can converge episodically, but what Rawls needs is durable endorsement that is stable for the right reasons.
+
+The negative conclusion therefore has a precise scope. It is not that public reason is conceptually incoherent, or that it should be abandoned as a civic ideal. Public reason can still function as a constraint on official justification and as a regulative standard for political argument \parencite{rawls1997public,quong2011liberalism}. What fails is a stronger role: public reason cannot plausibly serve as the basis of legitimacy by underwriting stability through citizens’ temporally coherent justificatory tracking in large-scale, dynamically pluralist societies. Refinements that weaken Rawls’s shared-reasons requirements---including convergence accounts---reduce the burden, but they do not remove the structural dependence on stable mappings between reasons and rules under drift \parencite{vallier2014liberal,thrasher2015fragility,vallier2020trust}.
+
+If that diagnosis is right, the central philosophical payoff is constructive rather than merely debunking. The right response is not to replace justification with functional survival, or to retreat into technocracy. It is to treat legitimacy as a design problem under constraint. Stability must be achieved through institutions that reduce justificatory burdens while preserving the standing of citizens to contest, revise, and control the rules under which they live.
+
+This is the point of the ``cognitive prosthetics'' proposal developed in the previous chapter. Institutions can scaffold bounded agents by aggregating dispersed information, stabilizing expectations, and embedding feedback loops that detect failure and enable correction \parencite{ostrom1990governing,beer1979heart}. They can also make the mechanisms of correction public: secondary rules that specify how rules are identified, contested, and changed are part of what makes adaptation legitimate rather than ad hoc \parencite{hart1961concept}. Constitutional political economy captures a similar insight at a different level of abstraction: citizens can rationally endorse stable procedures and constraints ex ante because later moments will be informationally thin and strategically distorted \parencite{buchanan1962calculus}. The legitimacy question then shifts. It is less a question of whether citizens can continuously converge on the same justificatory reasons, and more a question of whether institutional systems are structured so that citizens can reasonably regard their power as constrained, corrigible, and responsive under conditions of pluralism and drift.
+
+None of this dissolves the classic dangers. Prosthetic institutions can be captured. They can harden into proxy-governance that mistakes legibility for control \parencite{scott1998seeing}. They can be undermined by ignorance, rumor, and informational manipulation \parencite{somin2013democracy,sunstein2009rumors}. These are not peripheral worries; they are the core design constraints of legitimacy in the modern environment. A feasibility-sensitive liberalism does not assume away mediation. It tries to discipline it.
+
+Two limitations remain. First, the empirical premises could be resisted. A defender of Rawls might argue that civic education, deliberative reforms, or institutional improvements can raise justificatory tracking capacities enough to support stability, at least for constitutional essentials. The argument of this thesis does not foreclose that possibility; it claims that the burden is heavier than Rawlsians typically acknowledge, and that it grows with scale, mediation, and drift. Second, the prosthetic alternative is not a full theory of justice. It is a proposal about legitimacy and institutional form, compatible with multiple distributive views, including but not limited to Rawls’s own.
+
+What would change my mind is correspondingly clear. If one could give a plausible model, supported by evidence, in which ordinary citizens reliably maintain temporally coherent justificatory standards for public reasons at scale, through shifting issue environments, without collapsing into deference to unaccountable intermediaries, then the feasibility case would be weakened. Alternatively, if one could show that the relevant political environment is much more stationary than complexity perspectives suggest, so that drift is limited and convergence targets are stable, then the landscape objection would lose force.
+
+Until then, Rawls’s aspiration should be preserved by relocating it. Respect for persons under conditions of disagreement is not secured by demanding more justificatory coherence than bounded agents can supply. It is secured by building a political order whose procedures, checks, and capacities for revision allow citizens to live with deep pluralism without domination. The liberal hope is not that disagreement will disappear. It is that disagreement can be made governable without asking citizens to do the impossible.
+
+
+
+
+% ====================
+% Bibliography
+% ====================
+
+\printbibliography
+
+% Or, if using a manual bibliography:
+% \begin{thebibliography}{99}
+% \end{thebibliography}
+
+\end{document}
