@@ -226,40 +226,6 @@
       \field{title}{Utopophobia: On the Limits (If Any) of Political Philosophy}
       \field{year}{2019}
     \endentry
-    \entry{freeman2007rawls}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d49fc5d972e584afcc74bb09cc220fad}{%
-           family={Freeman},
-           familyi={F\bibinitperiod},
-           given={Samuel},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {London}%
-      }
-      \list{publisher}{1}{%
-        {Routledge}%
-      }
-      \strng{namehash}{d49fc5d972e584afcc74bb09cc220fad}
-      \strng{fullhash}{d49fc5d972e584afcc74bb09cc220fad}
-      \strng{fullhashraw}{d49fc5d972e584afcc74bb09cc220fad}
-      \strng{bibnamehash}{d49fc5d972e584afcc74bb09cc220fad}
-      \strng{authorbibnamehash}{d49fc5d972e584afcc74bb09cc220fad}
-      \strng{authornamehash}{d49fc5d972e584afcc74bb09cc220fad}
-      \strng{authorfullhash}{d49fc5d972e584afcc74bb09cc220fad}
-      \strng{authorfullhashraw}{d49fc5d972e584afcc74bb09cc220fad}
-      \field{extraname}{1}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Rawls}
-      \field{year}{2007}
-    \endentry
     \entry{freeman2007burdens}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d49fc5d972e584afcc74bb09cc220fad}{%
@@ -277,10 +243,8 @@
       \strng{authornamehash}{d49fc5d972e584afcc74bb09cc220fad}
       \strng{authorfullhash}{d49fc5d972e584afcc74bb09cc220fad}
       \strng{authorfullhashraw}{d49fc5d972e584afcc74bb09cc220fad}
-      \field{extraname}{2}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -679,7 +643,7 @@
       \field{title}{Democratic Reason}
       \field{year}{2013}
     \endentry
-    \entry{levenduskyMalhotra2016polarization}{article}{}{}
+    \entry{levendusky2016media}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=1bb870cfa9352388068d13f4caf5f091}{%
            family={Levendusky},
@@ -721,7 +685,7 @@
       \verb 10.1080/10584609.2015.1038455
       \endverb
     \endentry
-    \entry{levendusky2016media}{article}{}{}
+    \entry{levenduskyMalhotra2016polarization}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=1bb870cfa9352388068d13f4caf5f091}{%
            family={Levendusky},
@@ -877,7 +841,6 @@
       \strng{authornamehash}{cded7a04d56ed6dc4540792cd7c6d992}
       \strng{authorfullhash}{cded7a04d56ed6dc4540792cd7c6d992}
       \strng{authorfullhashraw}{cded7a04d56ed6dc4540792cd7c6d992}
-      \field{extraname}{1}
       \field{sortinit}{Q}
       \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
       \field{extradatescope}{labelyear}
@@ -894,71 +857,6 @@
       \verb{doi}
       \verb 10.1111/j.1467-9329.2007.00368.x
       \endverb
-    \endentry
-    \entry{quong2011liberalism}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=cded7a04d56ed6dc4540792cd7c6d992}{%
-           family={Quong},
-           familyi={Q\bibinitperiod},
-           given={Jonathan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Oxford}%
-      }
-      \list{publisher}{1}{%
-        {Oxford University Press}%
-      }
-      \strng{namehash}{cded7a04d56ed6dc4540792cd7c6d992}
-      \strng{fullhash}{cded7a04d56ed6dc4540792cd7c6d992}
-      \strng{fullhashraw}{cded7a04d56ed6dc4540792cd7c6d992}
-      \strng{bibnamehash}{cded7a04d56ed6dc4540792cd7c6d992}
-      \strng{authorbibnamehash}{cded7a04d56ed6dc4540792cd7c6d992}
-      \strng{authornamehash}{cded7a04d56ed6dc4540792cd7c6d992}
-      \strng{authorfullhash}{cded7a04d56ed6dc4540792cd7c6d992}
-      \strng{authorfullhashraw}{cded7a04d56ed6dc4540792cd7c6d992}
-      \field{extraname}{2}
-      \field{sortinit}{Q}
-      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Liberalism Without Perfection}
-      \field{year}{2011}
-    \endentry
-    \entry{rawls1985justice}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=789e307f6a6f6a453ff0ca10f85cea17}{%
-           family={Rawls},
-           familyi={R\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{fullhash}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{fullhashraw}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{bibnamehash}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{authorbibnamehash}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{authornamehash}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{authorfullhash}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{authorfullhashraw}{789e307f6a6f6a453ff0ca10f85cea17}
-      \field{extraname}{1}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Philosophy \& Public Affairs}
-      \field{number}{3}
-      \field{title}{Justice as Fairness: Political Not Metaphysical}
-      \field{volume}{14}
-      \field{year}{1985}
-      \field{pages}{223\bibrangedash 251}
-      \range{pages}{29}
     \endentry
     \entry{rawls1987overlapping}{article}{}{}
       \name{author}{1}{}{%
@@ -977,7 +875,7 @@
       \strng{authornamehash}{789e307f6a6f6a453ff0ca10f85cea17}
       \strng{authorfullhash}{789e307f6a6f6a453ff0ca10f85cea17}
       \strng{authorfullhashraw}{789e307f6a6f6a453ff0ca10f85cea17}
-      \field{extraname}{2}
+      \field{extraname}{1}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -1009,7 +907,7 @@
       \strng{authornamehash}{789e307f6a6f6a453ff0ca10f85cea17}
       \strng{authorfullhash}{789e307f6a6f6a453ff0ca10f85cea17}
       \strng{authorfullhashraw}{789e307f6a6f6a453ff0ca10f85cea17}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -1041,7 +939,7 @@
       \strng{authornamehash}{789e307f6a6f6a453ff0ca10f85cea17}
       \strng{authorfullhash}{789e307f6a6f6a453ff0ca10f85cea17}
       \strng{authorfullhashraw}{789e307f6a6f6a453ff0ca10f85cea17}
-      \field{extraname}{4}
+      \field{extraname}{3}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -1055,74 +953,6 @@
       \field{year}{1997}
       \field{pages}{765\bibrangedash 807}
       \range{pages}{43}
-    \endentry
-    \entry{rawls1999theory}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=789e307f6a6f6a453ff0ca10f85cea17}{%
-           family={Rawls},
-           familyi={R\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Cambridge, MA}%
-      }
-      \list{publisher}{1}{%
-        {Harvard University Press}%
-      }
-      \strng{namehash}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{fullhash}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{fullhashraw}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{bibnamehash}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{authorbibnamehash}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{authornamehash}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{authorfullhash}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{authorfullhashraw}{789e307f6a6f6a453ff0ca10f85cea17}
-      \field{extraname}{5}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{A Theory of Justice}
-      \field{year}{1999}
-    \endentry
-    \entry{rawls1999peoples}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=789e307f6a6f6a453ff0ca10f85cea17}{%
-           family={Rawls},
-           familyi={R\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Cambridge, MA}%
-      }
-      \list{publisher}{1}{%
-        {Harvard University Press}%
-      }
-      \strng{namehash}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{fullhash}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{fullhashraw}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{bibnamehash}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{authorbibnamehash}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{authornamehash}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{authorfullhash}{789e307f6a6f6a453ff0ca10f85cea17}
-      \strng{authorfullhashraw}{789e307f6a6f6a453ff0ca10f85cea17}
-      \field{extraname}{6}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{The Law of Peoples}
-      \field{year}{1999}
     \endentry
     \entry{rawls2005political}{book}{}{}
       \name{author}{1}{}{%
@@ -1147,7 +977,7 @@
       \strng{authornamehash}{789e307f6a6f6a453ff0ca10f85cea17}
       \strng{authorfullhash}{789e307f6a6f6a453ff0ca10f85cea17}
       \strng{authorfullhashraw}{789e307f6a6f6a453ff0ca10f85cea17}
-      \field{extraname}{7}
+      \field{extraname}{4}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
